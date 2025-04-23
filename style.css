@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --font-1: "Urbanist", sans-serif;
+
+  --sp1: 0.25rem;
+  --sp2: 0.5rem;
+  --sp3: 0.75rem;
+  --sp4: 1rem;
+  --sp5: 1.25rem;
+  --sp6: 1.5rem;
+  --sp7: 1.75rem;
+  --sp8: 2rem;
+  --sp9: 2.5rem;
+
+  --vp-1: 2vw;
+  --vp-2: 4vw;
+
+  --bl-1: 5rem;
+  --bl-2: 10rem;
+  --bl-3: 15rem;
+
+  --f-unit-1: 0.5rem;
+  --f-unit-2: 0.8rem;
+  --f-unit-3: 1rem;
+  --f-unit-4: 1.2rem;
+  --f-unit-5: 2rem;
+
+  --f-v-1: max(1.5rem, 2vw);
+  --f-v-2: max(2rem, 4vw);
+  --f-v-3: max(4rem, 6vw);
+  --f-v-4: max(4rem, 8vw);
+
+  --bd: 1.5px solid;
+
+  --bd-radius-1: 1rem;
+  --bd-radius-2: 1.5rem;
+  --bd-radius-3: 2rem;
+  --bd-radius-4: 5rem;
+
+  --gap-1: 0.5rem;
+  --gap-2: 1rem;
+  --gap-3: 1.5rem;
+  --gap-4: 2rem;
+  /* --bg-white: #f2f7db; */
+  /* --bg-black: #000000; */
+  --txt-white: #ffffff;
+  --txt-black: #000000;
+  --txt-sec: #201e1e;
+  --txt-sec-2: #201e1e22;
+  --txt-highlight: #ffcc00;
+  --bg-primary: #f0f0f0;
+  --bg-secondary: #b0b0b0;
+  --bg-tertiary: #d0d0d0;
+
+  --section-spacing-1: var(--sp4) var(--vp-2);
+  --section-spacing-2: var(--sp2) var(--vp-2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-1);
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 80%;
+  line-height: 1.5;
+}
+body {
+  background-color: var(--bg-primary);
+  color: var(--txt-sec);
+  /* font-size: var(--f-v-1); */
+  font-weight: 400;
+  overflow-x: hidden;
+}
+button,
+a {
+  display: block;
+}
+.header-wrapper,
+header nav,
+header .btns,
+nav > form {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  padding: var(--sp2) var(--vp-2);
+  border-bottom: var(--bd) var(--bg-tertiary);
+}
+header h1 {
+  color: var(--txt-black);
+}
+nav {
+  align-items: center;
+  gap: var(--gap-2);
+}
+header nav > form,
+header .btns {
+  gap: var(--gap-1);
+}
+header button {
+  /* width: var(--sp9);
+  height: var(--sp9); */
+  padding: var(--sp4);
+  font-size: var(--f-unit-4);
+  border: var(--bd) var(--bg-tertiary);
+  border: none;
+  border-radius: var(--bd-radius-1);
+}
+header form {
+  width: max(12rem, 20vw);
+  /* max-width: 30rem; */
+  /* padding: var(--sp4); */
+  border: var(--bd) var(--bg-tertiary);
+  border-radius: var(--bd-radius-4);
+  padding-right: var(--sp2);
+}
+.btns button {
+  font-size: var(--f-unit-5);
+  padding: 0;
+  padding-inline: var(--sp2);
+}
+header input {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  padding: var(--sp2);
+  padding-inline: var(--sp4);
+  outline: none;
+  font-weight: 500;
+}
+header form button {
+  border: none;
+  background: none;
+}
+header form:has(input:focus) {
+  border: var(--bd);
+  color: var(--txt-sec);
+}
+header h1 {
+  font-size: var(--f-unit-5);
+}
+nav.cat-btns {
+  display: flex;
+  gap: 0;
+  /* border-bottom: var(--bd) var(--bg-tertiary); */
+  background-color: var(--bg-primary);
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+
+  padding: var(--sp2) var(--vp-2);
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; /* Firefox */
+  -webkit-overflow-scrolling: touch;
+}
+button[id^="cat-"] {
+  scroll-snap-align: start;
+  padding: var(--sp4) var(--sp4);
+  /* min-width: rem; */
+  min-width: 15rem;
+  border-radius: var(--bd-radius-4);
+  border: none;
+
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+button[id^="cat-"]:hover {
+  background-color: var(--bg-tertiary);
+}
+button[id^="cat-"]:active {
+  background-color: var(--bg-secondary);
+}
+.hero {
+  padding: var(--sp4) var(--vp-2);
+}
+.hero h2 {
+  font-size: var(--f-v-4);
+  font-weight: 500;
+  color: var(--txt-black);
+  line-height: 1.2;
+  /* text-align: center; */
+}
+.hero h2 + p {
+  color: var(--txt-sec);
+  margin-bottom: var(--sp4);
+  font-weight: 500;
+  font-size: var(--f-unit-4);
+}
+h2 b {
+  color: var(--txt-highlight);
+}
+h2 i {
+  color: var(--txt-sec-2);
+  font-style: normal;
+  font-weight: bold;
+}
