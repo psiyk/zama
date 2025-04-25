@@ -31,6 +31,7 @@
   --f-v-4: max(4rem, 8vw);
 
   --bd: 1.5px solid;
+  --bd2: 2px solid;
 
   --bd-radius-1: 1rem;
   --bd-radius-2: 1.5rem;
@@ -43,22 +44,49 @@
   --gap-4: 2rem;
   /* --bg-white: #f2f7db; */
   /* --bg-black: #000000; */
-  --txt-white: #ffffff;
-  --txt-black: #000000;
-  --txt-sec: #201e1e;
-  --txt-sec-2: #201e1e22;
-  --txt-highlight: #ffcc00;
-  --bg-primary: #f0f0f0;
-  --bg-secondary: #b0b0b0;
-  --bg-tertiary: #d0d0d0;
+  --txt-white: #ffffff; /* Keep white for text contrast */
+  --txt-black: #201e1e; /* Keep black for strong contrast */
+  --txt-sec: #402020; /* Slightly reddish tone for secondary text */
+  --txt-sec-2: #40202022; /* Transparent reddish tone */
+  --txt-highlight: #ff9900; /* Subtle orange for highlights */
+
+  --bg-primary: #f9f3f3; /* Very light red tint for primary background */
+  --bg-secondary: #f5e6e6; /* Light reddish tint for secondary background */
+  --bg-tertiary: #f0d6d6; /* Slightly darker reddish tint for tertiary background */
+
+  --bg-dark-primary: #201e1e; /* Keep dark primary as is */
+  --bg-dark-secondary: #201e1e22; /* Keep dark secondary as is */
+  --bg-dark-tertiary: #201e1e33; /* Keep dark tertiary as is */
+
+  --red-light: #ffcccc;
+  --red: #ff0000;
+  --red-dark: #cc0000;
+
+  --orange-light: #ffe5cc;
+  --orange: #ff9900;
+  --orange-dark: #cc6600;
+
+  --red-orange-gradient: linear-gradient(45deg, var(--red), var(--orange));
+  --red-highlight: #ff4d4d;
+  --orange-highlight: #ffb84d;
 
   --section-spacing-1: var(--sp4) var(--vp-2);
   --section-spacing-2: var(--sp2) var(--vp-2);
+  --section-spacing-3: var(--bl-1) var(--vp-2);
+
+  --gradient-red-orange: linear-gradient(
+    to bottom,
+    var(--red-highlight),
+    var(--orange-highlight)
+  );
+  --gradient-orange-yellow: linear-gradient(135deg, var(--orange), #ffd700);
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
+  text-decoration: none;
+  color: inherit;
   padding: 0;
   font-family: var(--font-1);
 }
@@ -77,6 +105,7 @@ body {
 button,
 a {
   display: block;
+  cursor: pointer;
 }
 .header-wrapper,
 header nav,
@@ -110,17 +139,25 @@ header button {
   border-radius: var(--bd-radius-1);
 }
 header form {
-  width: max(12rem, 20vw);
-  /* max-width: 30rem; */
-  /* padding: var(--sp4); */
-  border: var(--bd) var(--bg-tertiary);
+  min-width: 18rem;
+
+  border: var(--bd2) var(--bg-tertiary);
   border-radius: var(--bd-radius-4);
-  padding-right: var(--sp2);
+  gap: 0 !important;
 }
 .btns button {
+  display: block;
   font-size: var(--f-unit-5);
   padding: 0;
-  padding-inline: var(--sp2);
+  padding: var(--sp3) var(--sp5);
+  color: var(--txt-black);
+  background-image: var(--gradient-orange-yellow);
+  background-clip: text;
+  transition: color 0.3s ease-in-out;
+  padding-inline: var(--sp6);
+}
+.btns button:hover {
+  color: transparent;
 }
 header input {
   flex-grow: 1;
@@ -129,6 +166,7 @@ header input {
   padding: var(--sp2);
   padding-inline: var(--sp4);
   outline: none;
+  /* border: 1px solid #000; */
   font-weight: 500;
 }
 header form button {
@@ -136,7 +174,7 @@ header form button {
   background: none;
 }
 header form:has(input:focus) {
-  border: var(--bd);
+  border: var(--bd2) var(--red-highlight);
   color: var(--txt-sec);
 }
 header h1 {
@@ -144,7 +182,7 @@ header h1 {
 }
 nav.cat-btns {
   display: flex;
-  gap: 0;
+  gap: var(--sp2);
   /* border-bottom: var(--bd) var(--bg-tertiary); */
   background-color: var(--bg-primary);
   overflow-x: auto;
@@ -166,6 +204,11 @@ button[id^="cat-"] {
 
   font-weight: 500;
   transition: background-color 0.3s;
+  background-color: var(--bg-secondary);
+}
+
+button[id^="cat-"]:first-child {
+  margin-left: var(--vp-2);
 }
 button[id^="cat-"]:hover {
   background-color: var(--bg-tertiary);
@@ -173,27 +216,71 @@ button[id^="cat-"]:hover {
 button[id^="cat-"]:active {
   background-color: var(--bg-secondary);
 }
+section {
+  padding: var(--section-spacing-3);
+  padding-bottom: var(--sp9);
+}
 .hero {
-  padding: var(--sp4) var(--vp-2);
+  background-color: var(--bg-dark-primary);
+  color: var(--txt-white);
 }
 .hero h2 {
   font-size: var(--f-v-4);
   font-weight: 500;
   color: var(--txt-black);
-  line-height: 1.2;
+  line-height: 1;
   /* text-align: center; */
 }
 .hero h2 + p {
-  color: var(--txt-sec);
+  /* color: var(--txt-sec); */
   margin-bottom: var(--sp4);
   font-weight: 500;
   font-size: var(--f-unit-4);
 }
-h2 b {
-  color: var(--txt-highlight);
+h2 b,
+h1 {
+  color: transparent !important;
+  background-image: var(--red-orange-gradient);
+  background-clip: text;
 }
 h2 i {
-  color: var(--txt-sec-2);
+  color: var(--txt-white);
   font-style: normal;
   font-weight: bold;
+}
+.hero .cta-btns {
+  display: flex;
+  gap: var(--sp2);
+}
+.hero .cta-btns button,
+.hero .cta-btns a {
+  padding: var(--sp4) var(--sp9);
+  text-align: center;
+  width: min(50%, 15rem);
+  font-size: var(--f-unit-4);
+  font-weight: 500;
+  border-radius: var(--bd-radius-4);
+  border: none;
+  background-color: var(--bg-secondary);
+  color: var(--txt-black);
+  transition: ease-in-out 0.3s;
+
+  &:hover,
+  &:focus-within {
+    translate: 0 -0.25rem;
+    outline: none;
+  }
+}
+.hero .cta-btns a {
+  background-color: var(--red-highlight);
+  background-image: var(--gradient-red-orange);
+  /* box-shadow: ; */
+  box-shadow: inset 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -10px var(--red-highlight),
+    inset 0px -10px 15px -3px rgba(0, 0, 0, 0.1);
+  color: var(--txt-white);
+}
+section:not(.hero) h2 {
+  font-weight: 500;
+  font-size: var(--f-v-2);
 }
