@@ -1,3 +1,3 @@
-import data from "" assert { type: "json" };
+import data from "../json-files/emarket_products.json";
 
 console.log(data);
