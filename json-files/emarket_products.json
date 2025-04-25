@@ -1,0 +1,3102 @@
+[
+  {
+    "id": "98a3bada-4dbf-4126-9246-6c584e0632a6",
+    "name": "Bluetooth Speaker",
+    "category": "Electronics & Gadgets",
+    "price": 34.38,
+    "description": "Could be better. Amazing product! Not as expected. Would buy again. Exceeded expectations.",
+    "stock": 91,
+    "image": "https://placeimg.com/49/682/any",
+    "tags": ["beauty", "value", "kids"],
+    "ratings": 1.5,
+    "reviews": [
+      {
+        "userId": "011a9e99-baed-4a3a-b946-38ac3446c5f9",
+        "rating": 1,
+        "comment": "Exceeded expectations.",
+        "date": "2025-01-28"
+      },
+      {
+        "userId": "e27646d8-d35d-4803-9a78-8cb0a426571d",
+        "rating": 4,
+        "comment": "Quality could improve.",
+        "date": "2024-08-14"
+      },
+      {
+        "userId": "8c90ae58-dbdb-4718-a6b6-ab6319857620",
+        "rating": 2,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-04-27"
+      }
+    ]
+  },
+  {
+    "id": "f53e0b54-a0ed-443a-8229-1cf5781c089a",
+    "name": "Smartphone",
+    "category": "Electronics & Gadgets",
+    "price": 122.74,
+    "description": "Very satisfied. Exceeded expectations. Would buy again. Disappointed with this purchase. Could be better.",
+    "stock": 67,
+    "image": "https://placeimg.com/87/587/any",
+    "tags": ["auto", "health", "modern"],
+    "ratings": 1.7,
+    "reviews": [
+      {
+        "userId": "9635be7a-af3c-4c46-9857-ad35c8971f50",
+        "rating": 3,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-09-10"
+      },
+      {
+        "userId": "afca9d6d-6ce7-4a5b-9e4e-7a1f012d7fe7",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2024-04-04"
+      },
+      {
+        "userId": "78c0a78d-3101-48ea-8fc0-3e73c9d2b6bc",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2025-02-09"
+      }
+    ]
+  },
+  {
+    "id": "f732a5ba-7b72-4b15-a7ef-fb673e9eff86",
+    "name": "Wireless Earbuds",
+    "category": "Electronics & Gadgets",
+    "price": 42.75,
+    "description": "Exceeded expectations. Great value for the price. Could be better. Would buy again. Disappointed with this purchase.",
+    "stock": 191,
+    "image": "https://placeimg.com/99/601/any",
+    "tags": ["office", "tech", "stationery"],
+    "ratings": 1.7,
+    "reviews": [
+      {
+        "userId": "1a248f23-1c45-4666-a31f-1df264de91ae",
+        "rating": 5,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-11-22"
+      },
+      {
+        "userId": "a7e7768e-0d79-4a68-b207-2b9e333c04a7",
+        "rating": 2,
+        "comment": "Disappointed with this purchase.",
+        "date": "2025-01-02"
+      },
+      {
+        "userId": "f59115f7-0eff-49b0-b07b-4dd826d6da29",
+        "rating": 1,
+        "comment": "Exceeded expectations.",
+        "date": "2024-09-29"
+      }
+    ]
+  },
+  {
+    "id": "bfa54f0f-ce8f-434e-908a-a0b1a4508309",
+    "name": "Smartwatch",
+    "category": "Electronics & Gadgets",
+    "price": 101.37,
+    "description": "Great value for the price. Would buy again. Fast delivery and good quality. Very satisfied. Exceeded expectations.",
+    "stock": 144,
+    "image": "https://placeimg.com/96/367/any",
+    "tags": ["grocery", "stationery", "auto"],
+    "ratings": 2.2,
+    "reviews": [
+      {
+        "userId": "933ce058-acbc-4638-aff2-71130c8b2cd9",
+        "rating": 1,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-07-16"
+      },
+      {
+        "userId": "63b38749-b194-4c44-a0b4-64209ff7fb07",
+        "rating": 5,
+        "comment": "Disappointed with this purchase.",
+        "date": "2025-01-03"
+      },
+      {
+        "userId": "ab6812db-866d-4d7b-9946-eb7f20a281d5",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2024-01-29"
+      }
+    ]
+  },
+  {
+    "id": "5f1ece4e-4950-4971-a72a-cd744f8dae68",
+    "name": "Drone",
+    "category": "Electronics & Gadgets",
+    "price": 10.11,
+    "description": "Could be better. Fast delivery and good quality. Would buy again. Disappointed with this purchase. Exceeded expectations.",
+    "stock": 171,
+    "image": "https://placeimg.com/99/457/any",
+    "tags": ["kids", "new", "trendy"],
+    "ratings": 2.4,
+    "reviews": [
+      {
+        "userId": "898d7da9-2df1-40a5-acb5-2023a193d1f4",
+        "rating": 1,
+        "comment": "Exceeded expectations.",
+        "date": "2024-10-19"
+      },
+      {
+        "userId": "ac1b4f82-c12f-41c3-bb94-9b2420390b25",
+        "rating": 2,
+        "comment": "Exceeded expectations.",
+        "date": "2024-08-31"
+      },
+      {
+        "userId": "32c4526e-52dd-4931-8cb3-7ebf50fb6f9f",
+        "rating": 3,
+        "comment": "Very satisfied.",
+        "date": "2024-05-13"
+      }
+    ]
+  },
+  {
+    "id": "e6a14fa9-9fb5-4f92-91a0-dea325a29a14",
+    "name": "Gaming Console",
+    "category": "Electronics & Gadgets",
+    "price": 14.92,
+    "description": "Quality could improve. Disappointed with this purchase. Not as expected. Would buy again. Exceeded expectations.",
+    "stock": 60,
+    "image": "https://placeimg.com/63/377/any",
+    "tags": ["modern", "trendy", "grocery"],
+    "ratings": 2.5,
+    "reviews": [
+      {
+        "userId": "48ac6c75-321a-43ee-9ef5-47fb131dbffc",
+        "rating": 1,
+        "comment": "Not as expected.",
+        "date": "2024-12-31"
+      },
+      {
+        "userId": "7a3527c7-b7a2-4872-b329-a823eb59bdba",
+        "rating": 3,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-05-29"
+      },
+      {
+        "userId": "9bcabcfa-fcc9-444d-ae8a-81589c18c1e9",
+        "rating": 3,
+        "comment": "Great value for the price.",
+        "date": "2024-10-06"
+      }
+    ]
+  },
+  {
+    "id": "a4e0b99f-5692-4fac-88f0-a663521770a6",
+    "name": "Action Camera",
+    "category": "Electronics & Gadgets",
+    "price": 42.28,
+    "description": "Fast delivery and good quality. Would buy again. Exceeded expectations. Not as expected. Could be better.",
+    "stock": 180,
+    "image": "https://placeimg.com/63/665/any",
+    "tags": ["health", "fashion", "office"],
+    "ratings": 3.4,
+    "reviews": [
+      {
+        "userId": "bf51c1cc-a662-48e0-b9a1-fd91344373b8",
+        "rating": 3,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-01-15"
+      },
+      {
+        "userId": "b9df7486-16ba-4cba-b6c2-783094bddf7e",
+        "rating": 4,
+        "comment": "Amazing product!",
+        "date": "2024-01-16"
+      },
+      {
+        "userId": "6721cde2-0d37-45d2-83d2-c492961c2d23",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2024-09-26"
+      }
+    ]
+  },
+  {
+    "id": "87cd743e-83ae-4436-9bf3-21615afc425c",
+    "name": "Laptop",
+    "category": "Electronics & Gadgets",
+    "price": 145.57,
+    "description": "Disappointed with this purchase. Fast delivery and good quality. Quality could improve. Would buy again. Not as expected.",
+    "stock": 63,
+    "image": "https://placeimg.com/73/607/any",
+    "tags": ["grocery", "stationery", "health"],
+    "ratings": 3.1,
+    "reviews": [
+      {
+        "userId": "9deab5bb-b8f4-4e48-a36a-b2e740ca466e",
+        "rating": 2,
+        "comment": "Would buy again.",
+        "date": "2024-07-10"
+      },
+      {
+        "userId": "6ab486ab-5d15-42b0-9dfc-71f25d50a2c8",
+        "rating": 4,
+        "comment": "Could be better.",
+        "date": "2025-03-25"
+      },
+      {
+        "userId": "91bb9434-828e-49d2-8a3e-f39d2be3362b",
+        "rating": 4,
+        "comment": "Very satisfied.",
+        "date": "2024-05-24"
+      }
+    ]
+  },
+  {
+    "id": "553ba92c-2ab5-4d21-9b70-a480a539b892",
+    "name": "Tablet",
+    "category": "Electronics & Gadgets",
+    "price": 101.02,
+    "description": "Exceeded expectations. Great value for the price. Disappointed with this purchase. Quality could improve. Amazing product!",
+    "stock": 177,
+    "image": "https://placeimg.com/64/572/any",
+    "tags": ["office", "classic", "new"],
+    "ratings": 3.9,
+    "reviews": [
+      {
+        "userId": "85f8024f-47e2-4d3d-a318-f3ac55f810fa",
+        "rating": 4,
+        "comment": "Very satisfied.",
+        "date": "2024-01-25"
+      },
+      {
+        "userId": "a6d39aba-5f45-487c-ad84-01dd9fa50946",
+        "rating": 5,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-11-13"
+      },
+      {
+        "userId": "6c13a5b1-c433-473f-9824-3d455f142dbb",
+        "rating": 2,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-11-13"
+      }
+    ]
+  },
+  {
+    "id": "62326305-8140-4ef9-984e-6e8c4ff306ac",
+    "name": "Portable Charger",
+    "category": "Electronics & Gadgets",
+    "price": 5.24,
+    "description": "Very satisfied. Disappointed with this purchase. Could be better. Exceeded expectations. Quality could improve.",
+    "stock": 67,
+    "image": "https://placeimg.com/77/276/any",
+    "tags": ["tech", "grocery", "office"],
+    "ratings": 3.9,
+    "reviews": [
+      {
+        "userId": "1417c0bf-a55e-4db5-b482-9cc31214d076",
+        "rating": 1,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-01-26"
+      },
+      {
+        "userId": "e33979e7-ec26-4b58-94ab-e00d755e39ab",
+        "rating": 4,
+        "comment": "Exceeded expectations.",
+        "date": "2024-04-03"
+      },
+      {
+        "userId": "e45b1291-f207-4cc7-a3af-26f98cfd29c7",
+        "rating": 4,
+        "comment": "Would buy again.",
+        "date": "2024-12-17"
+      }
+    ]
+  },
+  {
+    "id": "1dcf0a4e-05d6-43cb-ac39-3150c7ab2ec0",
+    "name": "Men's T-Shirt",
+    "category": "Fashion & Apparel",
+    "price": 63.01,
+    "description": "Amazing product! Quality could improve. Fast delivery and good quality. Not as expected. Very satisfied.",
+    "stock": 133,
+    "image": "https://placeimg.com/90/562/any",
+    "tags": ["beauty", "fashion", "kids"],
+    "ratings": 3.6,
+    "reviews": [
+      {
+        "userId": "c09098f4-645b-4c10-a59f-f5be8feea638",
+        "rating": 4,
+        "comment": "Great value for the price.",
+        "date": "2024-07-16"
+      },
+      {
+        "userId": "bf1c9f78-8d57-49cf-b984-e4d69a5c75a0",
+        "rating": 3,
+        "comment": "Amazing product!",
+        "date": "2024-06-25"
+      },
+      {
+        "userId": "67b78e49-e7c9-4c2b-8941-8927502a45a1",
+        "rating": 2,
+        "comment": "Could be better.",
+        "date": "2025-03-21"
+      }
+    ]
+  },
+  {
+    "id": "e35f47a6-26a4-49ac-a429-beb93327397b",
+    "name": "Women's Dress",
+    "category": "Fashion & Apparel",
+    "price": 103.73,
+    "description": "Very satisfied. Exceeded expectations. Fast delivery and good quality. Quality could improve. Disappointed with this purchase.",
+    "stock": 134,
+    "image": "https://placeimg.com/63/259/any",
+    "tags": ["classic", "value", "auto"],
+    "ratings": 2.7,
+    "reviews": [
+      {
+        "userId": "0bd40708-848d-404b-9fe3-e4f988999ae8",
+        "rating": 3,
+        "comment": "Quality could improve.",
+        "date": "2024-06-13"
+      },
+      {
+        "userId": "e2e031eb-bb98-4333-863f-aa0b69b97b72",
+        "rating": 4,
+        "comment": "Could be better.",
+        "date": "2024-10-23"
+      },
+      {
+        "userId": "470637fe-b52b-46ad-b4c9-dda79d536bbe",
+        "rating": 5,
+        "comment": "Would buy again.",
+        "date": "2025-03-23"
+      }
+    ]
+  },
+  {
+    "id": "a4a9296b-a50b-465a-9f3d-7be0e0f219f7",
+    "name": "Sneakers",
+    "category": "Fashion & Apparel",
+    "price": 22.41,
+    "description": "Quality could improve. Amazing product! Exceeded expectations. Great value for the price. Fast delivery and good quality.",
+    "stock": 64,
+    "image": "https://placeimg.com/93/458/any",
+    "tags": ["office", "auto", "home"],
+    "ratings": 2.6,
+    "reviews": [
+      {
+        "userId": "db22dfd0-f353-436e-b506-3ecee1dfc58b",
+        "rating": 3,
+        "comment": "Quality could improve.",
+        "date": "2025-03-07"
+      },
+      {
+        "userId": "ed5555aa-07d1-4afc-b63c-e0573d92fd4c",
+        "rating": 5,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-01-17"
+      },
+      {
+        "userId": "a3e2dbf2-a55e-452e-b0c1-8a18dbba11bd",
+        "rating": 5,
+        "comment": "Would buy again.",
+        "date": "2024-07-09"
+      }
+    ]
+  },
+  {
+    "id": "88fff866-acf1-44b7-a2e4-6369b941726e",
+    "name": "Jeans",
+    "category": "Fashion & Apparel",
+    "price": 37.36,
+    "description": "Not as expected. Very satisfied. Disappointed with this purchase. Quality could improve. Amazing product!",
+    "stock": 116,
+    "image": "https://placeimg.com/94/366/any",
+    "tags": ["beauty", "modern", "kids"],
+    "ratings": 1.1,
+    "reviews": [
+      {
+        "userId": "1e9bc89e-68ed-43c3-854c-6b8d390fbafd",
+        "rating": 4,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-06-02"
+      },
+      {
+        "userId": "ee319e5c-3bba-4f89-b90a-ebfbc84a9d58",
+        "rating": 5,
+        "comment": "Very satisfied.",
+        "date": "2024-09-05"
+      },
+      {
+        "userId": "4075371e-deb8-4ee8-b5d5-b9242c018c3f",
+        "rating": 4,
+        "comment": "Amazing product!",
+        "date": "2025-02-18"
+      }
+    ]
+  },
+  {
+    "id": "d2bd3675-e298-4c4d-9849-a0afeaf4307e",
+    "name": "Leather Jacket",
+    "category": "Fashion & Apparel",
+    "price": 56.2,
+    "description": "Exceeded expectations. Great value for the price. Amazing product! Quality could improve. Fast delivery and good quality.",
+    "stock": 54,
+    "image": "https://placeimg.com/79/443/any",
+    "tags": ["grocery", "stationery", "auto"],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "userId": "9160bb47-ba59-4bbc-bf82-c12cb2a5be14",
+        "rating": 4,
+        "comment": "Exceeded expectations.",
+        "date": "2024-05-13"
+      },
+      {
+        "userId": "594ec878-cb3b-4724-9162-9c4b5a908cb9",
+        "rating": 3,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-08-07"
+      },
+      {
+        "userId": "a93323bd-1bd0-4185-9ba9-481ba472851f",
+        "rating": 4,
+        "comment": "Amazing product!",
+        "date": "2024-11-26"
+      }
+    ]
+  },
+  {
+    "id": "53052297-aa9a-4d8a-b9c7-0733330f1e61",
+    "name": "Sunglasses",
+    "category": "Fashion & Apparel",
+    "price": 113.88,
+    "description": "Very satisfied. Quality could improve. Amazing product! Disappointed with this purchase. Exceeded expectations.",
+    "stock": 189,
+    "image": "https://placeimg.com/73/215/any",
+    "tags": ["tech", "new", "fashion"],
+    "ratings": 1.7,
+    "reviews": [
+      {
+        "userId": "30014ff5-2f7c-4cf5-ab15-1d1a2807fae5",
+        "rating": 4,
+        "comment": "Great value for the price.",
+        "date": "2024-03-04"
+      },
+      {
+        "userId": "e5a67f48-caa3-4b8d-9e91-f706932cbacd",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2025-02-16"
+      },
+      {
+        "userId": "10371c60-c10d-4dbe-9333-4dd0c0818ed1",
+        "rating": 2,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-08-14"
+      }
+    ]
+  },
+  {
+    "id": "9e0c20ba-a5b5-4d35-9cbe-0ddac1789bb0",
+    "name": "Handbag",
+    "category": "Fashion & Apparel",
+    "price": 32.4,
+    "description": "Amazing product! Very satisfied. Exceeded expectations. Could be better. Disappointed with this purchase.",
+    "stock": 90,
+    "image": "https://placeimg.com/52/525/any",
+    "tags": ["stationery", "auto", "classic"],
+    "ratings": 1.4,
+    "reviews": [
+      {
+        "userId": "e91c9c44-4a42-4103-8208-25702ccb5d43",
+        "rating": 5,
+        "comment": "Very satisfied.",
+        "date": "2025-01-03"
+      },
+      {
+        "userId": "a4deb0f5-3363-47da-befa-43110214f6fa",
+        "rating": 5,
+        "comment": "Great value for the price.",
+        "date": "2024-07-08"
+      },
+      {
+        "userId": "f4a8585f-7e0a-4439-84cf-4282c3fe5ac5",
+        "rating": 5,
+        "comment": "Amazing product!",
+        "date": "2024-06-14"
+      }
+    ]
+  },
+  {
+    "id": "8bb8e26a-f3f5-4720-885e-fce218f148b9",
+    "name": "Wristwatch",
+    "category": "Fashion & Apparel",
+    "price": 135.14,
+    "description": "Not as expected. Amazing product! Great value for the price. Fast delivery and good quality. Very satisfied.",
+    "stock": 25,
+    "image": "https://placeimg.com/84/296/any",
+    "tags": ["kids", "modern", "auto"],
+    "ratings": 3.1,
+    "reviews": [
+      {
+        "userId": "9cdb81c5-6f54-4890-b981-e5a796f373ad",
+        "rating": 4,
+        "comment": "Exceeded expectations.",
+        "date": "2024-07-23"
+      },
+      {
+        "userId": "145e49d6-25ac-4dd8-9582-a6a98ae3fd7a",
+        "rating": 4,
+        "comment": "Could be better.",
+        "date": "2024-03-19"
+      },
+      {
+        "userId": "88fd5724-d310-43f9-a05a-cb21fe4a8532",
+        "rating": 1,
+        "comment": "Would buy again.",
+        "date": "2024-01-20"
+      }
+    ]
+  },
+  {
+    "id": "39cf3841-5f0f-4685-a0d4-9057ccde7465",
+    "name": "Cap",
+    "category": "Fashion & Apparel",
+    "price": 27.37,
+    "description": "Very satisfied. Disappointed with this purchase. Could be better. Quality could improve. Fast delivery and good quality.",
+    "stock": 37,
+    "image": "https://placeimg.com/61/553/any",
+    "tags": ["health", "kids", "tech"],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "userId": "80c62b8f-de62-45d0-b612-00110d6e841e",
+        "rating": 4,
+        "comment": "Fast delivery and good quality.",
+        "date": "2025-01-31"
+      },
+      {
+        "userId": "c9fb1c84-534c-455e-90c3-b62ee169971b",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2024-07-20"
+      },
+      {
+        "userId": "2f8b1a62-286d-480f-885f-031815b58a02",
+        "rating": 3,
+        "comment": "Very satisfied.",
+        "date": "2025-01-28"
+      }
+    ]
+  },
+  {
+    "id": "87ad2858-a27b-4e78-b295-fa4394973201",
+    "name": "Scarf",
+    "category": "Fashion & Apparel",
+    "price": 18.63,
+    "description": "Amazing product! Quality could improve. Would buy again. Not as expected. Very satisfied.",
+    "stock": 170,
+    "image": "https://placeimg.com/89/687/any",
+    "tags": ["beauty", "kids", "fashion"],
+    "ratings": 1.1,
+    "reviews": [
+      {
+        "userId": "71b7f668-4ecb-4d01-a8b1-bfcaac70d230",
+        "rating": 4,
+        "comment": "Great value for the price.",
+        "date": "2024-07-24"
+      },
+      {
+        "userId": "831fc5e2-ca00-476e-85fe-060a55a015fa",
+        "rating": 4,
+        "comment": "Exceeded expectations.",
+        "date": "2024-11-08"
+      },
+      {
+        "userId": "30bdd237-b875-450a-803f-d68d4b55520b",
+        "rating": 4,
+        "comment": "Fast delivery and good quality.",
+        "date": "2025-01-19"
+      }
+    ]
+  },
+  {
+    "id": "b232ad76-734f-47dd-a390-afc4c7b1c123",
+    "name": "Nonstick Pan",
+    "category": "Home & Kitchen",
+    "price": 58.39,
+    "description": "Fast delivery and good quality. Great value for the price. Could be better. Quality could improve. Amazing product!",
+    "stock": 197,
+    "image": "https://placeimg.com/40/523/any",
+    "tags": ["grocery", "trendy", "beauty"],
+    "ratings": 1.3,
+    "reviews": [
+      {
+        "userId": "492571f1-9ac6-401f-9257-da0c09d20a17",
+        "rating": 3,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-02-08"
+      },
+      {
+        "userId": "2966656c-97c2-4dbc-9d94-cc982bd07d47",
+        "rating": 4,
+        "comment": "Amazing product!",
+        "date": "2024-08-28"
+      },
+      {
+        "userId": "a2317781-767b-474f-8419-58e7c745a7c7",
+        "rating": 3,
+        "comment": "Not as expected.",
+        "date": "2024-05-26"
+      }
+    ]
+  },
+  {
+    "id": "f49d239f-f57f-4b78-84fb-29de09c9e220",
+    "name": "Blender",
+    "category": "Home & Kitchen",
+    "price": 111.13,
+    "description": "Disappointed with this purchase. Great value for the price. Not as expected. Would buy again. Very satisfied.",
+    "stock": 28,
+    "image": "https://placeimg.com/90/506/any",
+    "tags": ["home", "fashion", "value"],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "userId": "16bf7739-08b1-4ae0-bfee-1f4d81877777",
+        "rating": 2,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-10-20"
+      },
+      {
+        "userId": "4eaafcb7-21a0-4e32-bdf7-a0ba12af52e5",
+        "rating": 2,
+        "comment": "Would buy again.",
+        "date": "2024-09-20"
+      },
+      {
+        "userId": "cabba013-66f9-42d1-bd63-22f3af6fd47e",
+        "rating": 2,
+        "comment": "Amazing product!",
+        "date": "2025-03-22"
+      }
+    ]
+  },
+  {
+    "id": "d5102195-938d-4687-8fa4-adb446716f3f",
+    "name": "Microwave Oven",
+    "category": "Home & Kitchen",
+    "price": 106.17,
+    "description": "Exceeded expectations. Amazing product! Could be better. Quality could improve. Very satisfied.",
+    "stock": 100,
+    "image": "https://placeimg.com/66/626/any",
+    "tags": ["trendy", "fashion", "value"],
+    "ratings": 2.3,
+    "reviews": [
+      {
+        "userId": "95672b94-f5bc-499d-a7ba-af126c6e4fa1",
+        "rating": 5,
+        "comment": "Would buy again.",
+        "date": "2024-06-27"
+      },
+      {
+        "userId": "81ec880f-612f-42fb-881f-d69da47c6071",
+        "rating": 4,
+        "comment": "Not as expected.",
+        "date": "2024-06-03"
+      },
+      {
+        "userId": "f55d7e52-e960-4437-bbcc-6bb2bbcab67f",
+        "rating": 3,
+        "comment": "Could be better.",
+        "date": "2024-07-03"
+      }
+    ]
+  },
+  {
+    "id": "5e2caf4a-68aa-4ca0-b6c8-338e50948004",
+    "name": "Toaster",
+    "category": "Home & Kitchen",
+    "price": 76.82,
+    "description": "Amazing product! Very satisfied. Fast delivery and good quality. Disappointed with this purchase. Quality could improve.",
+    "stock": 79,
+    "image": "https://placeimg.com/55/684/any",
+    "tags": ["value", "office", "stationery"],
+    "ratings": 1.2,
+    "reviews": [
+      {
+        "userId": "d8a35667-af72-419e-ae0d-b5c4e3f9253e",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2024-07-04"
+      },
+      {
+        "userId": "edcffc91-6998-4a9c-8aff-76caacbc4841",
+        "rating": 3,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-06-12"
+      },
+      {
+        "userId": "b21073c9-9ed4-43be-ae79-c8465fe9ad76",
+        "rating": 5,
+        "comment": "Great value for the price.",
+        "date": "2024-04-15"
+      }
+    ]
+  },
+  {
+    "id": "dc53fb2e-596a-4825-a7da-464f9f6aa7a3",
+    "name": "Cookware Set",
+    "category": "Home & Kitchen",
+    "price": 18.18,
+    "description": "Fast delivery and good quality. Not as expected. Very satisfied. Quality could improve. Could be better.",
+    "stock": 195,
+    "image": "https://placeimg.com/47/610/any",
+    "tags": ["value", "fashion", "grocery"],
+    "ratings": 1.2,
+    "reviews": [
+      {
+        "userId": "0aec3bfb-b561-4f40-bca0-4cd5af48bd69",
+        "rating": 4,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-08-30"
+      },
+      {
+        "userId": "c1a38beb-e38d-4a3f-a3ba-7467d84fd5fa",
+        "rating": 3,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-02-24"
+      },
+      {
+        "userId": "8863427b-9126-4628-a5da-f8dcbc653435",
+        "rating": 2,
+        "comment": "Could be better.",
+        "date": "2024-01-08"
+      }
+    ]
+  },
+  {
+    "id": "127ea920-85cd-4f9c-b650-70201d49016e",
+    "name": "Electric Kettle",
+    "category": "Home & Kitchen",
+    "price": 148.4,
+    "description": "Amazing product! Exceeded expectations. Fast delivery and good quality. Great value for the price. Could be better.",
+    "stock": 21,
+    "image": "https://placeimg.com/88/679/any",
+    "tags": ["value", "fashion", "auto"],
+    "ratings": 2.6,
+    "reviews": [
+      {
+        "userId": "2c97583d-f7f5-4701-b463-af6d160257fc",
+        "rating": 4,
+        "comment": "Quality could improve.",
+        "date": "2025-03-08"
+      },
+      {
+        "userId": "41481bb9-dd14-457a-8b6e-f7faea3d12bc",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2024-03-18"
+      },
+      {
+        "userId": "6f8c8386-0bb0-4231-a993-81fe8d7229a8",
+        "rating": 1,
+        "comment": "Amazing product!",
+        "date": "2024-06-15"
+      }
+    ]
+  },
+  {
+    "id": "f0ef18c9-f87d-45e7-9fee-d98202d8f15c",
+    "name": "Vacuum Cleaner",
+    "category": "Home & Kitchen",
+    "price": 60.69,
+    "description": "Amazing product! Exceeded expectations. Disappointed with this purchase. Fast delivery and good quality. Would buy again.",
+    "stock": 15,
+    "image": "https://placeimg.com/65/491/any",
+    "tags": ["home", "trendy", "stationery"],
+    "ratings": 3.5,
+    "reviews": [
+      {
+        "userId": "3a49c2dc-5a27-4f12-8835-caed8ea5ed91",
+        "rating": 2,
+        "comment": "Could be better.",
+        "date": "2024-04-14"
+      },
+      {
+        "userId": "477f6113-98d8-45f1-a13b-ff494696a06e",
+        "rating": 4,
+        "comment": "Would buy again.",
+        "date": "2024-07-09"
+      },
+      {
+        "userId": "b3b87cf9-ca5c-4d20-a397-2ef26f43373d",
+        "rating": 3,
+        "comment": "Exceeded expectations.",
+        "date": "2025-03-09"
+      }
+    ]
+  },
+  {
+    "id": "f7e23f24-fdd9-47e0-8bff-1ef8ab8ad121",
+    "name": "Air Fryer",
+    "category": "Home & Kitchen",
+    "price": 121.19,
+    "description": "Very satisfied. Great value for the price. Could be better. Fast delivery and good quality. Would buy again.",
+    "stock": 30,
+    "image": "https://placeimg.com/78/378/any",
+    "tags": ["office", "auto", "tech"],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "userId": "5161a4d5-4a50-41a2-a2fa-d02f4d7bb103",
+        "rating": 5,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-05-25"
+      },
+      {
+        "userId": "6aa0de1d-a8de-4a7c-a54b-3c4362791f04",
+        "rating": 5,
+        "comment": "Exceeded expectations.",
+        "date": "2025-01-28"
+      },
+      {
+        "userId": "42568505-71f5-4c6d-8f6c-9f846fcd26e3",
+        "rating": 5,
+        "comment": "Very satisfied.",
+        "date": "2025-03-25"
+      }
+    ]
+  },
+  {
+    "id": "216718ad-14cf-4182-8c84-29c33847c3ff",
+    "name": "Rice Cooker",
+    "category": "Home & Kitchen",
+    "price": 102.84,
+    "description": "Fast delivery and good quality. Could be better. Disappointed with this purchase. Not as expected. Amazing product!",
+    "stock": 161,
+    "image": "https://placeimg.com/43/349/any",
+    "tags": ["kids", "trendy", "classic"],
+    "ratings": 4.2,
+    "reviews": [
+      {
+        "userId": "332c3af5-ed52-4cd3-b22a-ecc8598fdabf",
+        "rating": 5,
+        "comment": "Amazing product!",
+        "date": "2024-02-25"
+      },
+      {
+        "userId": "ecbb0de2-772b-4682-8399-fcef7bbdbb99",
+        "rating": 3,
+        "comment": "Would buy again.",
+        "date": "2024-04-28"
+      },
+      {
+        "userId": "25280b14-c1c6-4194-a5de-8f8ddecf0922",
+        "rating": 1,
+        "comment": "Fast delivery and good quality.",
+        "date": "2025-02-25"
+      }
+    ]
+  },
+  {
+    "id": "d40498ab-38b3-4134-ac89-4c954105ab65",
+    "name": "Dish Rack",
+    "category": "Home & Kitchen",
+    "price": 11.48,
+    "description": "Fast delivery and good quality. Amazing product! Great value for the price. Would buy again. Disappointed with this purchase.",
+    "stock": 140,
+    "image": "https://placeimg.com/63/385/any",
+    "tags": ["value", "health", "trendy"],
+    "ratings": 1.1,
+    "reviews": [
+      {
+        "userId": "49322189-4279-4588-9555-d365c340e52e",
+        "rating": 5,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-07-14"
+      },
+      {
+        "userId": "0bb6528d-e6b5-4cd8-a0d9-761000588e3d",
+        "rating": 1,
+        "comment": "Very satisfied.",
+        "date": "2024-03-19"
+      },
+      {
+        "userId": "237c1a59-553e-40cf-8b15-103a718c1fad",
+        "rating": 2,
+        "comment": "Great value for the price.",
+        "date": "2024-03-11"
+      }
+    ]
+  },
+  {
+    "id": "630d085c-cfeb-4241-af88-f94ca91f148e",
+    "name": "Face Wash",
+    "category": "Beauty & Personal Care",
+    "price": 71.72,
+    "description": "Would buy again. Very satisfied. Amazing product! Quality could improve. Fast delivery and good quality.",
+    "stock": 82,
+    "image": "https://placeimg.com/60/625/any",
+    "tags": ["classic", "value", "fashion"],
+    "ratings": 1.4,
+    "reviews": [
+      {
+        "userId": "6e849229-b634-47bf-82b7-20b7505d457b",
+        "rating": 4,
+        "comment": "Would buy again.",
+        "date": "2024-08-08"
+      },
+      {
+        "userId": "905ba79a-d8b3-4c4f-805d-2f25c7d2338b",
+        "rating": 1,
+        "comment": "Not as expected.",
+        "date": "2024-10-04"
+      },
+      {
+        "userId": "572c51cd-cc43-4be6-8019-be7aab5f18a7",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2025-03-05"
+      }
+    ]
+  },
+  {
+    "id": "87dc40fa-8cbb-491c-ae08-c2a55cba2fae",
+    "name": "Shampoo",
+    "category": "Beauty & Personal Care",
+    "price": 72.85,
+    "description": "Quality could improve. Would buy again. Disappointed with this purchase. Could be better. Not as expected.",
+    "stock": 20,
+    "image": "https://placeimg.com/62/436/any",
+    "tags": ["beauty", "tech", "fashion"],
+    "ratings": 2.1,
+    "reviews": [
+      {
+        "userId": "2247b44d-62a6-4389-ac9f-3dfdffbcf04c",
+        "rating": 4,
+        "comment": "Exceeded expectations.",
+        "date": "2024-05-29"
+      },
+      {
+        "userId": "784c68ee-5df1-4693-a2d8-ce23efaf79a9",
+        "rating": 1,
+        "comment": "Exceeded expectations.",
+        "date": "2024-04-09"
+      },
+      {
+        "userId": "d15db35e-0113-4f18-adcc-3c5ec23d0566",
+        "rating": 5,
+        "comment": "Very satisfied.",
+        "date": "2024-04-08"
+      }
+    ]
+  },
+  {
+    "id": "87b55cd0-103d-4da5-b2df-2621cdea43c5",
+    "name": "Conditioner",
+    "category": "Beauty & Personal Care",
+    "price": 75.41,
+    "description": "Disappointed with this purchase. Great value for the price. Quality could improve. Very satisfied. Amazing product!",
+    "stock": 71,
+    "image": "https://placeimg.com/69/548/any",
+    "tags": ["new", "classic", "office"],
+    "ratings": 4.4,
+    "reviews": [
+      {
+        "userId": "a4d9fef1-279b-4f9c-8624-db85b4ac7aa5",
+        "rating": 1,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-06-23"
+      },
+      {
+        "userId": "f5a3cbed-50a2-412d-b8cb-62c524e193ab",
+        "rating": 4,
+        "comment": "Disappointed with this purchase.",
+        "date": "2025-01-02"
+      },
+      {
+        "userId": "4d9257d6-b9cd-458e-8b17-e888194b20c1",
+        "rating": 5,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-11-11"
+      }
+    ]
+  },
+  {
+    "id": "7e96be43-a111-4b76-a130-7a8b0f7db401",
+    "name": "Lip Balm",
+    "category": "Beauty & Personal Care",
+    "price": 55.91,
+    "description": "Very satisfied. Could be better. Fast delivery and good quality. Disappointed with this purchase. Not as expected.",
+    "stock": 35,
+    "image": "https://placeimg.com/76/541/any",
+    "tags": ["trendy", "home", "kids"],
+    "ratings": 1.9,
+    "reviews": [
+      {
+        "userId": "c8e0a505-ad5f-40fb-8abd-9c820f8fc857",
+        "rating": 5,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-01-24"
+      },
+      {
+        "userId": "0e8e1b1a-a57b-46c1-bcb5-3368b20d0444",
+        "rating": 2,
+        "comment": "Not as expected.",
+        "date": "2025-02-04"
+      },
+      {
+        "userId": "b99486e4-d836-45c7-9c92-dcbd7100fbe3",
+        "rating": 3,
+        "comment": "Exceeded expectations.",
+        "date": "2024-09-02"
+      }
+    ]
+  },
+  {
+    "id": "9f27cd7b-f1a1-4838-9edd-61998375d90d",
+    "name": "Body Lotion",
+    "category": "Beauty & Personal Care",
+    "price": 75.55,
+    "description": "Fast delivery and good quality. Disappointed with this purchase. Amazing product! Quality could improve. Exceeded expectations.",
+    "stock": 164,
+    "image": "https://placeimg.com/90/559/any",
+    "tags": ["new", "fashion", "kids"],
+    "ratings": 2.6,
+    "reviews": [
+      {
+        "userId": "3cf73f6d-b16e-41e1-b591-18b0d681ac0a",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2024-09-01"
+      },
+      {
+        "userId": "fb6319ed-8f91-474a-82c7-da443b92d168",
+        "rating": 2,
+        "comment": "Would buy again.",
+        "date": "2024-12-04"
+      },
+      {
+        "userId": "1e9a75db-9082-4660-9b4a-f8f1cc1b20cb",
+        "rating": 5,
+        "comment": "Would buy again.",
+        "date": "2025-02-20"
+      }
+    ]
+  },
+  {
+    "id": "fd5b060b-091a-4d8a-929b-c141ddfa3e83",
+    "name": "Sunscreen",
+    "category": "Beauty & Personal Care",
+    "price": 119.4,
+    "description": "Not as expected. Quality could improve. Fast delivery and good quality. Very satisfied. Exceeded expectations.",
+    "stock": 113,
+    "image": "https://placeimg.com/94/630/any",
+    "tags": ["beauty", "classic", "fashion"],
+    "ratings": 2.9,
+    "reviews": [
+      {
+        "userId": "a512b9f7-46a2-401f-bcc3-74d9f0d649e9",
+        "rating": 2,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-09-25"
+      },
+      {
+        "userId": "946bb0a6-dd92-4755-b321-ec6b99c35426",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2024-11-09"
+      },
+      {
+        "userId": "cf85ab38-f22a-429a-899b-656c3b26d962",
+        "rating": 3,
+        "comment": "Not as expected.",
+        "date": "2024-05-27"
+      }
+    ]
+  },
+  {
+    "id": "0da1f9f6-89d9-4e5b-aaa5-c360a71b2f77",
+    "name": "Perfume",
+    "category": "Beauty & Personal Care",
+    "price": 11.81,
+    "description": "Not as expected. Exceeded expectations. Would buy again. Very satisfied. Disappointed with this purchase.",
+    "stock": 198,
+    "image": "https://placeimg.com/100/238/any",
+    "tags": ["value", "stationery", "grocery"],
+    "ratings": 1.7,
+    "reviews": [
+      {
+        "userId": "f7d49bee-4540-4d98-9e61-0b2d45911808",
+        "rating": 5,
+        "comment": "Quality could improve.",
+        "date": "2024-03-29"
+      },
+      {
+        "userId": "aed9dbbc-f42d-40bb-9cae-5bb1e20fefd9",
+        "rating": 4,
+        "comment": "Quality could improve.",
+        "date": "2024-07-31"
+      },
+      {
+        "userId": "ffa6ca56-e61b-4b0c-ad58-864094dfbc3d",
+        "rating": 4,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-12-18"
+      }
+    ]
+  },
+  {
+    "id": "03da3c68-3fa4-4339-988d-5cb4587fbc4a",
+    "name": "Hair Dryer",
+    "category": "Beauty & Personal Care",
+    "price": 110.73,
+    "description": "Exceeded expectations. Fast delivery and good quality. Would buy again. Very satisfied. Amazing product!",
+    "stock": 144,
+    "image": "https://placeimg.com/40/365/any",
+    "tags": ["home", "auto", "value"],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "userId": "635da6f0-77e5-4548-8ffe-c949438c56cd",
+        "rating": 4,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-08-13"
+      },
+      {
+        "userId": "ebfe05a6-885b-4cc2-b0d0-e269c80e8045",
+        "rating": 5,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-08-05"
+      },
+      {
+        "userId": "a3f4ecba-58d4-4176-8295-90eb8e6a1269",
+        "rating": 1,
+        "comment": "Amazing product!",
+        "date": "2024-09-04"
+      }
+    ]
+  },
+  {
+    "id": "d57fbe6d-610d-4933-bbb1-1f112e5b6680",
+    "name": "Makeup Kit",
+    "category": "Beauty & Personal Care",
+    "price": 55.68,
+    "description": "Exceeded expectations. Disappointed with this purchase. Amazing product! Fast delivery and good quality. Not as expected.",
+    "stock": 193,
+    "image": "https://placeimg.com/98/323/any",
+    "tags": ["stationery", "health", "home"],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "userId": "eb556841-4187-43c4-b0d2-d4a16b53f200",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2024-08-28"
+      },
+      {
+        "userId": "7dbc3951-418e-4372-b437-152721f7ade5",
+        "rating": 1,
+        "comment": "Exceeded expectations.",
+        "date": "2024-08-14"
+      },
+      {
+        "userId": "0900a673-3220-49f4-9104-e2c37376e12e",
+        "rating": 1,
+        "comment": "Great value for the price.",
+        "date": "2024-01-28"
+      }
+    ]
+  },
+  {
+    "id": "ecf3bb7d-513a-42a5-8baa-3e56712e68b2",
+    "name": "Nail Polish",
+    "category": "Beauty & Personal Care",
+    "price": 37.04,
+    "description": "Quality could improve. Very satisfied. Would buy again. Amazing product! Disappointed with this purchase.",
+    "stock": 97,
+    "image": "https://placeimg.com/52/657/any",
+    "tags": ["fashion", "modern", "classic"],
+    "ratings": 1.2,
+    "reviews": [
+      {
+        "userId": "d9680c31-98fa-4cdb-9ca5-e8cf391d034c",
+        "rating": 3,
+        "comment": "Not as expected.",
+        "date": "2024-12-17"
+      },
+      {
+        "userId": "b64e350e-67a4-4798-a3a5-ef93fede5950",
+        "rating": 3,
+        "comment": "Quality could improve.",
+        "date": "2024-05-03"
+      },
+      {
+        "userId": "dba1d0a8-14f5-4673-9342-ffd2237a93e3",
+        "rating": 3,
+        "comment": "Quality could improve.",
+        "date": "2024-08-24"
+      }
+    ]
+  },
+  {
+    "id": "d5e0217f-b79d-4375-af9f-1a7c11737379",
+    "name": "Organic Rice",
+    "category": "Groceries & Essentials",
+    "price": 94.63,
+    "description": "Amazing product! Would buy again. Very satisfied. Great value for the price. Could be better.",
+    "stock": 182,
+    "image": "https://placeimg.com/63/210/any",
+    "tags": ["office", "trendy", "value"],
+    "ratings": 3.3,
+    "reviews": [
+      {
+        "userId": "0ccaed4f-c5c2-40e6-8441-81a70e2234cf",
+        "rating": 2,
+        "comment": "Could be better.",
+        "date": "2024-11-28"
+      },
+      {
+        "userId": "a56588ef-dbeb-4f94-b430-a7d1bcfcf80f",
+        "rating": 5,
+        "comment": "Exceeded expectations.",
+        "date": "2024-07-01"
+      },
+      {
+        "userId": "057747da-90a6-4a69-8b57-db5c81c9f04f",
+        "rating": 4,
+        "comment": "Very satisfied.",
+        "date": "2025-01-13"
+      }
+    ]
+  },
+  {
+    "id": "92a94571-4691-4df3-a3ee-18a2bb65d766",
+    "name": "Cooking Oil",
+    "category": "Groceries & Essentials",
+    "price": 13.88,
+    "description": "Not as expected. Very satisfied. Quality could improve. Would buy again. Disappointed with this purchase.",
+    "stock": 45,
+    "image": "https://placeimg.com/79/332/any",
+    "tags": ["home", "classic", "modern"],
+    "ratings": 3.8,
+    "reviews": [
+      {
+        "userId": "def6490b-7d20-480c-bbf6-abd7631fd154",
+        "rating": 1,
+        "comment": "Amazing product!",
+        "date": "2024-04-11"
+      },
+      {
+        "userId": "ed2cc003-56c6-4f4f-8862-64e9252033d9",
+        "rating": 3,
+        "comment": "Fast delivery and good quality.",
+        "date": "2025-01-10"
+      },
+      {
+        "userId": "cb3d0b65-f615-401f-9a31-5fff261ec854",
+        "rating": 4,
+        "comment": "Great value for the price.",
+        "date": "2024-05-16"
+      }
+    ]
+  },
+  {
+    "id": "869384e8-212f-4bed-b441-ef3589d5f836",
+    "name": "Pasta",
+    "category": "Groceries & Essentials",
+    "price": 74.97,
+    "description": "Amazing product! Fast delivery and good quality. Quality could improve. Exceeded expectations. Disappointed with this purchase.",
+    "stock": 70,
+    "image": "https://placeimg.com/65/562/any",
+    "tags": ["modern", "classic", "value"],
+    "ratings": 4.1,
+    "reviews": [
+      {
+        "userId": "06910208-6770-4f9b-a752-bcfed4841097",
+        "rating": 3,
+        "comment": "Quality could improve.",
+        "date": "2024-08-17"
+      },
+      {
+        "userId": "d4316ba7-10b4-41eb-a7e4-744d45fbd0c4",
+        "rating": 3,
+        "comment": "Amazing product!",
+        "date": "2025-02-28"
+      },
+      {
+        "userId": "7f887ec8-ae4c-423b-adde-657c765c7989",
+        "rating": 1,
+        "comment": "Not as expected.",
+        "date": "2025-01-12"
+      }
+    ]
+  },
+  {
+    "id": "11e1724d-93a1-47b0-949d-1bec52cfd6b9",
+    "name": "Tomato Sauce",
+    "category": "Groceries & Essentials",
+    "price": 114.4,
+    "description": "Could be better. Disappointed with this purchase. Great value for the price. Not as expected. Would buy again.",
+    "stock": 19,
+    "image": "https://placeimg.com/82/598/any",
+    "tags": ["kids", "new", "tech"],
+    "ratings": 4.1,
+    "reviews": [
+      {
+        "userId": "cbe11f21-427c-459f-baf9-51773816df2f",
+        "rating": 3,
+        "comment": "Could be better.",
+        "date": "2024-10-06"
+      },
+      {
+        "userId": "1bccd31e-f602-4827-9a80-f46d52305341",
+        "rating": 4,
+        "comment": "Great value for the price.",
+        "date": "2024-12-20"
+      },
+      {
+        "userId": "f521a9d4-2040-40e4-939f-378e16baabd4",
+        "rating": 3,
+        "comment": "Would buy again.",
+        "date": "2024-10-13"
+      }
+    ]
+  },
+  {
+    "id": "e17dbeee-9755-4bf3-826d-9bc71994b9ff",
+    "name": "Flour",
+    "category": "Groceries & Essentials",
+    "price": 8.94,
+    "description": "Amazing product! Very satisfied. Fast delivery and good quality. Exceeded expectations. Would buy again.",
+    "stock": 78,
+    "image": "https://placeimg.com/74/700/any",
+    "tags": ["trendy", "value", "tech"],
+    "ratings": 3.3,
+    "reviews": [
+      {
+        "userId": "94172d91-15b5-4fd9-a41d-c5c47b20c4c0",
+        "rating": 2,
+        "comment": "Exceeded expectations.",
+        "date": "2024-03-18"
+      },
+      {
+        "userId": "451f2dd8-efd1-4856-9a7e-5a17dfcad6ef",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2025-03-09"
+      },
+      {
+        "userId": "a1760de8-55a9-4311-8173-9bc4d4284371",
+        "rating": 2,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": "3902bb3f-2ca2-434c-bc23-216511bb9ee6",
+    "name": "Sugar",
+    "category": "Groceries & Essentials",
+    "price": 36.8,
+    "description": "Disappointed with this purchase. Great value for the price. Exceeded expectations. Quality could improve. Would buy again.",
+    "stock": 65,
+    "image": "https://placeimg.com/54/596/any",
+    "tags": ["tech", "value", "office"],
+    "ratings": 4.0,
+    "reviews": [
+      {
+        "userId": "87dab754-5806-4077-8ab5-e71e3f77adc6",
+        "rating": 2,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-01-21"
+      },
+      {
+        "userId": "a3753eb7-a8c0-4c35-81a1-c43e5842a07d",
+        "rating": 1,
+        "comment": "Exceeded expectations.",
+        "date": "2024-11-23"
+      },
+      {
+        "userId": "b7182c74-17c1-4cbe-ac5c-a0ce996ba900",
+        "rating": 4,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-03-13"
+      }
+    ]
+  },
+  {
+    "id": "c152e1e7-6dd6-4fbd-8658-e5d71e0d8a69",
+    "name": "Salt",
+    "category": "Groceries & Essentials",
+    "price": 33.73,
+    "description": "Not as expected. Would buy again. Very satisfied. Amazing product! Quality could improve.",
+    "stock": 76,
+    "image": "https://placeimg.com/57/646/any",
+    "tags": ["auto", "grocery", "value"],
+    "ratings": 1.6,
+    "reviews": [
+      {
+        "userId": "31336c64-14b8-4d2a-98eb-d158297ecbf2",
+        "rating": 2,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-01-27"
+      },
+      {
+        "userId": "397d1f1e-7e5e-4651-a0c0-b122fd3bed21",
+        "rating": 4,
+        "comment": "Not as expected.",
+        "date": "2024-07-12"
+      },
+      {
+        "userId": "ff92501d-ff20-400d-81e9-25c84a2d831c",
+        "rating": 2,
+        "comment": "Very satisfied.",
+        "date": "2024-04-02"
+      }
+    ]
+  },
+  {
+    "id": "98395ff3-4f0c-4a4d-b307-06e79f0ec283",
+    "name": "Cereal",
+    "category": "Groceries & Essentials",
+    "price": 14.86,
+    "description": "Great value for the price. Not as expected. Disappointed with this purchase. Amazing product! Would buy again.",
+    "stock": 135,
+    "image": "https://placeimg.com/48/243/any",
+    "tags": ["auto", "stationery", "health"],
+    "ratings": 3.6,
+    "reviews": [
+      {
+        "userId": "2dcfab94-59b5-480f-b51c-59e8eddf0664",
+        "rating": 3,
+        "comment": "Quality could improve.",
+        "date": "2024-08-11"
+      },
+      {
+        "userId": "e290ce12-de76-42f5-96f8-77b64d5ba170",
+        "rating": 3,
+        "comment": "Would buy again.",
+        "date": "2024-08-25"
+      },
+      {
+        "userId": "0fe7fbd0-ab50-4660-aa43-83eede09cade",
+        "rating": 1,
+        "comment": "Very satisfied.",
+        "date": "2024-10-27"
+      }
+    ]
+  },
+  {
+    "id": "a4304ff3-d62d-4f2a-929a-b806f5498013",
+    "name": "Tea",
+    "category": "Groceries & Essentials",
+    "price": 68.46,
+    "description": "Fast delivery and good quality. Disappointed with this purchase. Very satisfied. Could be better. Great value for the price.",
+    "stock": 24,
+    "image": "https://placeimg.com/57/230/any",
+    "tags": ["classic", "new", "tech"],
+    "ratings": 4.8,
+    "reviews": [
+      {
+        "userId": "8a11d0b8-014f-40eb-b109-b938de91e8b0",
+        "rating": 4,
+        "comment": "Fast delivery and good quality.",
+        "date": "2025-03-04"
+      },
+      {
+        "userId": "7d09b39d-6071-420a-9153-b06e1fbf0688",
+        "rating": 4,
+        "comment": "Great value for the price.",
+        "date": "2024-06-21"
+      },
+      {
+        "userId": "44dac2c8-fafe-46e8-a177-bb95a5b6da53",
+        "rating": 2,
+        "comment": "Very satisfied.",
+        "date": "2024-08-21"
+      }
+    ]
+  },
+  {
+    "id": "86f36e25-b58a-4d4d-9fb9-f1e9383c3b68",
+    "name": "Coffee",
+    "category": "Groceries & Essentials",
+    "price": 28.17,
+    "description": "Could be better. Amazing product! Disappointed with this purchase. Very satisfied. Exceeded expectations.",
+    "stock": 170,
+    "image": "https://placeimg.com/96/413/any",
+    "tags": ["auto", "kids", "stationery"],
+    "ratings": 3.7,
+    "reviews": [
+      {
+        "userId": "bd29056e-bf17-4d92-ae0e-a7ca46d7d631",
+        "rating": 2,
+        "comment": "Exceeded expectations.",
+        "date": "2024-09-22"
+      },
+      {
+        "userId": "110239eb-8337-4c14-ab48-e35bf2c2d043",
+        "rating": 5,
+        "comment": "Could be better.",
+        "date": "2024-04-28"
+      },
+      {
+        "userId": "0d047c13-f9bf-44c0-b4da-6a9851b3bbbe",
+        "rating": 1,
+        "comment": "Great value for the price.",
+        "date": "2025-02-23"
+      }
+    ]
+  },
+  {
+    "id": "09592754-6dd4-4463-bdab-cf485e223ff9",
+    "name": "Vitamin C",
+    "category": "Health & Wellness",
+    "price": 68.48,
+    "description": "Could be better. Fast delivery and good quality. Would buy again. Amazing product! Disappointed with this purchase.",
+    "stock": 62,
+    "image": "https://placeimg.com/93/266/any",
+    "tags": ["modern", "new", "kids"],
+    "ratings": 1.2,
+    "reviews": [
+      {
+        "userId": "30bc562e-83e2-4fcb-ba5b-6a42f51db76f",
+        "rating": 1,
+        "comment": "Quality could improve.",
+        "date": "2025-01-02"
+      },
+      {
+        "userId": "eace001b-9520-4539-93c6-adef9593b5f9",
+        "rating": 5,
+        "comment": "Very satisfied.",
+        "date": "2024-06-30"
+      },
+      {
+        "userId": "7b26c283-de0e-4ccf-a62a-184316596ad0",
+        "rating": 3,
+        "comment": "Very satisfied.",
+        "date": "2024-06-03"
+      }
+    ]
+  },
+  {
+    "id": "89f52056-c791-4aff-a326-a6da369557fb",
+    "name": "First Aid Kit",
+    "category": "Health & Wellness",
+    "price": 78.7,
+    "description": "Disappointed with this purchase. Quality could improve. Amazing product! Fast delivery and good quality. Very satisfied.",
+    "stock": 72,
+    "image": "https://placeimg.com/79/649/any",
+    "tags": ["value", "trendy", "new"],
+    "ratings": 2.8,
+    "reviews": [
+      {
+        "userId": "22202b64-97df-4e31-9952-7f839909a240",
+        "rating": 1,
+        "comment": "Very satisfied.",
+        "date": "2024-08-13"
+      },
+      {
+        "userId": "e417d9fb-c254-449c-b09f-55329bc89ab1",
+        "rating": 5,
+        "comment": "Very satisfied.",
+        "date": "2024-04-06"
+      },
+      {
+        "userId": "eaf44643-ad6c-4bb6-bb37-ebc049c849f6",
+        "rating": 4,
+        "comment": "Very satisfied.",
+        "date": "2024-10-16"
+      }
+    ]
+  },
+  {
+    "id": "a4908527-a3ad-4cb6-b8df-0887f818c39a",
+    "name": "Protein Powder",
+    "category": "Health & Wellness",
+    "price": 91.01,
+    "description": "Great value for the price. Amazing product! Not as expected. Disappointed with this purchase. Exceeded expectations.",
+    "stock": 16,
+    "image": "https://placeimg.com/74/588/any",
+    "tags": ["new", "office", "modern"],
+    "ratings": 5.0,
+    "reviews": [
+      {
+        "userId": "10c6730a-20a8-4f94-8c97-6cc05b97b1f3",
+        "rating": 3,
+        "comment": "Quality could improve.",
+        "date": "2024-08-06"
+      },
+      {
+        "userId": "926b382f-608b-4265-988a-b92fa5f58f42",
+        "rating": 4,
+        "comment": "Exceeded expectations.",
+        "date": "2024-08-27"
+      },
+      {
+        "userId": "21873767-96aa-4c59-aaba-e81690374886",
+        "rating": 2,
+        "comment": "Amazing product!",
+        "date": "2024-02-23"
+      }
+    ]
+  },
+  {
+    "id": "c9578ab2-6d88-4a19-9bab-e878fda6d3b8",
+    "name": "Face Mask",
+    "category": "Health & Wellness",
+    "price": 148.77,
+    "description": "Would buy again. Amazing product! Disappointed with this purchase. Very satisfied. Could be better.",
+    "stock": 43,
+    "image": "https://placeimg.com/90/357/any",
+    "tags": ["value", "trendy", "stationery"],
+    "ratings": 2.5,
+    "reviews": [
+      {
+        "userId": "74389cdd-dd26-4a15-9266-c860df65b215",
+        "rating": 1,
+        "comment": "Not as expected.",
+        "date": "2025-01-30"
+      },
+      {
+        "userId": "c6043c12-435e-4e6f-b00d-db531aba1a2d",
+        "rating": 2,
+        "comment": "Fast delivery and good quality.",
+        "date": "2025-01-05"
+      },
+      {
+        "userId": "ce0cf4e9-1822-448c-b01b-241837cf636f",
+        "rating": 5,
+        "comment": "Could be better.",
+        "date": "2024-03-20"
+      }
+    ]
+  },
+  {
+    "id": "38ca15e5-4bda-421b-8cce-cc4b8bc90c37",
+    "name": "Hand Sanitizer",
+    "category": "Health & Wellness",
+    "price": 99.95,
+    "description": "Quality could improve. Very satisfied. Fast delivery and good quality. Disappointed with this purchase. Could be better.",
+    "stock": 167,
+    "image": "https://placeimg.com/67/273/any",
+    "tags": ["value", "stationery", "home"],
+    "ratings": 2.3,
+    "reviews": [
+      {
+        "userId": "ac23cb82-7715-48eb-900c-85d4bc4f3277",
+        "rating": 2,
+        "comment": "Great value for the price.",
+        "date": "2024-02-26"
+      },
+      {
+        "userId": "0ea467c8-8b5d-4820-8f9d-b3a0ae6aa11a",
+        "rating": 4,
+        "comment": "Quality could improve.",
+        "date": "2024-09-10"
+      },
+      {
+        "userId": "01951d6a-c78b-4a59-94c6-16074ae3ace2",
+        "rating": 4,
+        "comment": "Quality could improve.",
+        "date": "2025-02-12"
+      }
+    ]
+  },
+  {
+    "id": "e6abc317-7712-443c-a88d-91b7b10beef4",
+    "name": "Thermometer",
+    "category": "Health & Wellness",
+    "price": 92.9,
+    "description": "Very satisfied. Amazing product! Could be better. Fast delivery and good quality. Would buy again.",
+    "stock": 136,
+    "image": "https://placeimg.com/80/580/any",
+    "tags": ["grocery", "home", "kids"],
+    "ratings": 2.1,
+    "reviews": [
+      {
+        "userId": "92c7f4e3-b06f-430b-8850-e52606ba6ce3",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2024-12-01"
+      },
+      {
+        "userId": "f90ce639-8de3-4219-92f5-93fe993166f0",
+        "rating": 2,
+        "comment": "Not as expected.",
+        "date": "2024-01-30"
+      },
+      {
+        "userId": "122d9acc-1e0d-40f4-8214-1b9cf756db63",
+        "rating": 5,
+        "comment": "Amazing product!",
+        "date": "2024-09-21"
+      }
+    ]
+  },
+  {
+    "id": "8555964f-176a-48d9-b265-8cd8d3ef87fd",
+    "name": "Yoga Mat",
+    "category": "Health & Wellness",
+    "price": 12.91,
+    "description": "Fast delivery and good quality. Amazing product! Very satisfied. Exceeded expectations. Quality could improve.",
+    "stock": 198,
+    "image": "https://placeimg.com/69/365/any",
+    "tags": ["modern", "fashion", "grocery"],
+    "ratings": 1.4,
+    "reviews": [
+      {
+        "userId": "69f8449c-99f4-4ab0-82ad-01c46e16ea0f",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2024-09-17"
+      },
+      {
+        "userId": "aa807694-cd07-49be-8755-0008e4e66463",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2024-09-11"
+      },
+      {
+        "userId": "bfd1360b-238f-498b-b099-f9cf50e6b613",
+        "rating": 5,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-06-05"
+      }
+    ]
+  },
+  {
+    "id": "07867b5d-6760-43c8-a474-52aba4de3f51",
+    "name": "Blood Pressure Monitor",
+    "category": "Health & Wellness",
+    "price": 60.16,
+    "description": "Exceeded expectations. Not as expected. Could be better. Disappointed with this purchase. Quality could improve.",
+    "stock": 69,
+    "image": "https://placeimg.com/66/246/any",
+    "tags": ["classic", "home", "fashion"],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "userId": "b07cf8da-0223-43e5-9428-aa994f5c59e8",
+        "rating": 1,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-12-30"
+      },
+      {
+        "userId": "08404380-dbd8-46fb-b01b-dc2e0f46636b",
+        "rating": 1,
+        "comment": "Great value for the price.",
+        "date": "2024-11-10"
+      },
+      {
+        "userId": "dfb099e4-b419-4b3b-97a1-4d94e1b788c8",
+        "rating": 3,
+        "comment": "Not as expected.",
+        "date": "2024-08-07"
+      }
+    ]
+  },
+  {
+    "id": "f4d326cb-8e01-42e4-bd6d-d0caa4ceeacb",
+    "name": "Gloves",
+    "category": "Health & Wellness",
+    "price": 54.87,
+    "description": "Fast delivery and good quality. Could be better. Exceeded expectations. Would buy again. Great value for the price.",
+    "stock": 71,
+    "image": "https://placeimg.com/97/321/any",
+    "tags": ["beauty", "modern", "health"],
+    "ratings": 4.6,
+    "reviews": [
+      {
+        "userId": "e477986c-90d2-4507-ac6a-9830b3df4b26",
+        "rating": 5,
+        "comment": "Exceeded expectations.",
+        "date": "2024-08-05"
+      },
+      {
+        "userId": "87c67e76-ad74-44da-97ff-1885359fbebf",
+        "rating": 5,
+        "comment": "Could be better.",
+        "date": "2024-08-03"
+      },
+      {
+        "userId": "36485f8b-2556-4738-be1a-100f69fb0408",
+        "rating": 5,
+        "comment": "Could be better.",
+        "date": "2024-06-18"
+      }
+    ]
+  },
+  {
+    "id": "0a0d1392-001c-4ea8-a8ac-ad7da07ab04c",
+    "name": "Sleep Aid",
+    "category": "Health & Wellness",
+    "price": 6.53,
+    "description": "Disappointed with this purchase. Quality could improve. Fast delivery and good quality. Very satisfied. Amazing product!",
+    "stock": 14,
+    "image": "https://placeimg.com/82/275/any",
+    "tags": ["modern", "fashion", "auto"],
+    "ratings": 2.0,
+    "reviews": [
+      {
+        "userId": "dee9aeb3-0c46-44de-bf7d-8c4e6b77ad13",
+        "rating": 1,
+        "comment": "Exceeded expectations.",
+        "date": "2024-09-02"
+      },
+      {
+        "userId": "92899419-0959-4c54-9066-9db53cd988ee",
+        "rating": 2,
+        "comment": "Very satisfied.",
+        "date": "2024-04-18"
+      },
+      {
+        "userId": "a478ade5-d4d7-4c2c-9e46-a7d424ee36e8",
+        "rating": 2,
+        "comment": "Very satisfied.",
+        "date": "2024-12-28"
+      }
+    ]
+  },
+  {
+    "id": "e1058fa7-bf47-4247-aef2-df995c9bce99",
+    "name": "Mouse",
+    "category": "Computers & Office",
+    "price": 5.64,
+    "description": "Disappointed with this purchase. Would buy again. Very satisfied. Could be better. Quality could improve.",
+    "stock": 147,
+    "image": "https://placeimg.com/61/561/any",
+    "tags": ["grocery", "fashion", "home"],
+    "ratings": 1.0,
+    "reviews": [
+      {
+        "userId": "69e60bcc-ee3e-463c-828d-67224fdb2f6a",
+        "rating": 2,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-12-23"
+      },
+      {
+        "userId": "836206b8-f8ea-4d57-9cb1-f1936bbc8332",
+        "rating": 3,
+        "comment": "Could be better.",
+        "date": "2024-06-10"
+      },
+      {
+        "userId": "6a1aa187-8d37-4155-b83c-68630f320b58",
+        "rating": 5,
+        "comment": "Would buy again.",
+        "date": "2024-08-22"
+      }
+    ]
+  },
+  {
+    "id": "cb46cfc0-2b7f-458e-925a-4f2b21c3958d",
+    "name": "Keyboard",
+    "category": "Computers & Office",
+    "price": 62.93,
+    "description": "Exceeded expectations. Not as expected. Quality could improve. Would buy again. Very satisfied.",
+    "stock": 112,
+    "image": "https://placeimg.com/71/483/any",
+    "tags": ["health", "value", "auto"],
+    "ratings": 1.7,
+    "reviews": [
+      {
+        "userId": "51d755df-ce82-4ae9-b913-a2f401feed3d",
+        "rating": 2,
+        "comment": "Amazing product!",
+        "date": "2024-01-30"
+      },
+      {
+        "userId": "49da09f1-0c99-4e78-a414-3bd317784425",
+        "rating": 2,
+        "comment": "Very satisfied.",
+        "date": "2024-02-21"
+      },
+      {
+        "userId": "69ead294-1efc-4353-b5ef-725955ae4672",
+        "rating": 2,
+        "comment": "Not as expected.",
+        "date": "2024-07-04"
+      }
+    ]
+  },
+  {
+    "id": "9ed65f76-f08b-41eb-972d-8f0098a72592",
+    "name": "Monitor",
+    "category": "Computers & Office",
+    "price": 18.73,
+    "description": "Could be better. Quality could improve. Disappointed with this purchase. Would buy again. Fast delivery and good quality.",
+    "stock": 19,
+    "image": "https://placeimg.com/91/367/any",
+    "tags": ["tech", "value", "grocery"],
+    "ratings": 2.7,
+    "reviews": [
+      {
+        "userId": "73011c2d-959e-49d4-824c-3ed0749d7931",
+        "rating": 5,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-08-22"
+      },
+      {
+        "userId": "90c7839c-1c54-4534-bf13-21fc522de850",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2025-02-09"
+      },
+      {
+        "userId": "829fc7dd-4416-4360-a216-98be446a6fab",
+        "rating": 2,
+        "comment": "Would buy again.",
+        "date": "2025-03-13"
+      }
+    ]
+  },
+  {
+    "id": "a9b226b5-e7b7-464c-b417-7479b62d30e9",
+    "name": "Desk Chair",
+    "category": "Computers & Office",
+    "price": 50.97,
+    "description": "Fast delivery and good quality. Could be better. Not as expected. Very satisfied. Disappointed with this purchase.",
+    "stock": 160,
+    "image": "https://placeimg.com/89/471/any",
+    "tags": ["modern", "stationery", "new"],
+    "ratings": 1.5,
+    "reviews": [
+      {
+        "userId": "2ca56283-93fe-4cc9-8918-631040d22c4f",
+        "rating": 4,
+        "comment": "Great value for the price.",
+        "date": "2024-01-23"
+      },
+      {
+        "userId": "54192865-66fb-4856-9e3f-ade6df0bc75a",
+        "rating": 1,
+        "comment": "Quality could improve.",
+        "date": "2024-12-07"
+      },
+      {
+        "userId": "3d9e6792-ffbd-435f-ab3f-3999e8dbd8c7",
+        "rating": 5,
+        "comment": "Could be better.",
+        "date": "2024-10-06"
+      }
+    ]
+  },
+  {
+    "id": "87b3824b-c456-44f9-b4cc-3d150a2cd01e",
+    "name": "Webcam",
+    "category": "Computers & Office",
+    "price": 71.62,
+    "description": "Disappointed with this purchase. Amazing product! Quality could improve. Exceeded expectations. Great value for the price.",
+    "stock": 132,
+    "image": "https://placeimg.com/75/364/any",
+    "tags": ["new", "auto", "home"],
+    "ratings": 3.3,
+    "reviews": [
+      {
+        "userId": "3114c843-d78c-43f0-bc3a-be2312d31df5",
+        "rating": 4,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-11-19"
+      },
+      {
+        "userId": "515ae7e6-9550-4666-9527-55abe6a06f05",
+        "rating": 5,
+        "comment": "Great value for the price.",
+        "date": "2024-07-13"
+      },
+      {
+        "userId": "f3b57168-a446-4b68-8436-5de4d212f654",
+        "rating": 3,
+        "comment": "Very satisfied.",
+        "date": "2024-03-16"
+      }
+    ]
+  },
+  {
+    "id": "938a4ee8-dfef-4ecd-bf71-0fd0db493617",
+    "name": "Laptop Stand",
+    "category": "Computers & Office",
+    "price": 44.55,
+    "description": "Amazing product! Not as expected. Could be better. Exceeded expectations. Great value for the price.",
+    "stock": 14,
+    "image": "https://placeimg.com/78/440/any",
+    "tags": ["auto", "new", "health"],
+    "ratings": 1.4,
+    "reviews": [
+      {
+        "userId": "817bb810-b29e-446e-94ad-e50e85c0e3f9",
+        "rating": 4,
+        "comment": "Would buy again.",
+        "date": "2024-05-03"
+      },
+      {
+        "userId": "2f082f6d-6192-4f76-a0f6-849a8b625f24",
+        "rating": 5,
+        "comment": "Exceeded expectations.",
+        "date": "2024-08-07"
+      },
+      {
+        "userId": "74374007-0d59-4b76-a125-4d6ad29a7cb3",
+        "rating": 1,
+        "comment": "Exceeded expectations.",
+        "date": "2025-01-08"
+      }
+    ]
+  },
+  {
+    "id": "758d184a-49d4-43f7-88f6-075880de9e66",
+    "name": "USB Hub",
+    "category": "Computers & Office",
+    "price": 145.21,
+    "description": "Would buy again. Fast delivery and good quality. Disappointed with this purchase. Very satisfied. Quality could improve.",
+    "stock": 163,
+    "image": "https://placeimg.com/81/660/any",
+    "tags": ["modern", "office", "kids"],
+    "ratings": 3.9,
+    "reviews": [
+      {
+        "userId": "3387e6dd-c485-43ce-91d3-2af30ce18202",
+        "rating": 4,
+        "comment": "Amazing product!",
+        "date": "2024-07-05"
+      },
+      {
+        "userId": "de0f3974-5fe8-4552-aeab-afc47db5f603",
+        "rating": 5,
+        "comment": "Could be better.",
+        "date": "2024-02-15"
+      },
+      {
+        "userId": "e1ff4d86-6d80-464d-aa0f-009028d5a428",
+        "rating": 5,
+        "comment": "Could be better.",
+        "date": "2024-05-03"
+      }
+    ]
+  },
+  {
+    "id": "8a9117e9-e340-4aa9-bc0b-e02a84c0b49a",
+    "name": "External HDD",
+    "category": "Computers & Office",
+    "price": 46.94,
+    "description": "Would buy again. Great value for the price. Not as expected. Fast delivery and good quality. Quality could improve.",
+    "stock": 40,
+    "image": "https://placeimg.com/97/458/any",
+    "tags": ["auto", "grocery", "home"],
+    "ratings": 3.1,
+    "reviews": [
+      {
+        "userId": "7bde00de-d64b-456b-b94e-bc9a91b19b49",
+        "rating": 1,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-06-05"
+      },
+      {
+        "userId": "fe6ea0c9-e581-4ba7-9a4d-6b4ebce3e04e",
+        "rating": 5,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-11-17"
+      },
+      {
+        "userId": "fed04f14-987c-4a5d-b790-fbf0e6cd7cc0",
+        "rating": 4,
+        "comment": "Exceeded expectations.",
+        "date": "2025-01-29"
+      }
+    ]
+  },
+  {
+    "id": "6da1d371-bcc8-40a2-9471-1abf8f20fcc1",
+    "name": "Printer",
+    "category": "Computers & Office",
+    "price": 91.28,
+    "description": "Disappointed with this purchase. Could be better. Very satisfied. Would buy again. Amazing product!",
+    "stock": 128,
+    "image": "https://placeimg.com/64/270/any",
+    "tags": ["stationery", "grocery", "beauty"],
+    "ratings": 3.6,
+    "reviews": [
+      {
+        "userId": "e9dc984e-cd93-40ff-9659-e79e1e98445f",
+        "rating": 5,
+        "comment": "Would buy again.",
+        "date": "2024-11-07"
+      },
+      {
+        "userId": "97181e3b-eb01-4121-b5a9-453e396dc1d8",
+        "rating": 4,
+        "comment": "Amazing product!",
+        "date": "2024-08-27"
+      },
+      {
+        "userId": "f3e2477e-1fad-4fc0-9346-931b332470f1",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2024-07-13"
+      }
+    ]
+  },
+  {
+    "id": "22824a5b-45b9-4974-b2bd-5897008beb7e",
+    "name": "Scanner",
+    "category": "Computers & Office",
+    "price": 82.4,
+    "description": "Fast delivery and good quality. Exceeded expectations. Very satisfied. Amazing product! Would buy again.",
+    "stock": 64,
+    "image": "https://placeimg.com/46/619/any",
+    "tags": ["grocery", "health", "classic"],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "userId": "25ea9cd0-0b18-482d-9efb-e22a45596292",
+        "rating": 1,
+        "comment": "Very satisfied.",
+        "date": "2024-01-31"
+      },
+      {
+        "userId": "926e4e4b-42ce-45f4-9832-d3bd2e346c93",
+        "rating": 4,
+        "comment": "Amazing product!",
+        "date": "2024-01-05"
+      },
+      {
+        "userId": "bb75fa4d-77e9-4a97-be2d-71eb2975f09f",
+        "rating": 2,
+        "comment": "Quality could improve.",
+        "date": "2024-02-08"
+      }
+    ]
+  },
+  {
+    "id": "91bacba7-074e-4252-9fba-7b3745af02cd",
+    "name": "Toy Car",
+    "category": "Toys, Kids & Baby",
+    "price": 141.34,
+    "description": "Could be better. Quality could improve. Very satisfied. Amazing product! Disappointed with this purchase.",
+    "stock": 51,
+    "image": "https://placeimg.com/72/493/any",
+    "tags": ["health", "trendy", "value"],
+    "ratings": 1.4,
+    "reviews": [
+      {
+        "userId": "1c85bfa7-a54e-4a11-8035-5e0550015bba",
+        "rating": 1,
+        "comment": "Amazing product!",
+        "date": "2025-01-28"
+      },
+      {
+        "userId": "405e1ac7-6170-4b53-bd18-90b98c8b6a0d",
+        "rating": 5,
+        "comment": "Quality could improve.",
+        "date": "2024-08-02"
+      },
+      {
+        "userId": "758006dc-41a7-4531-92f2-3f5441767f05",
+        "rating": 5,
+        "comment": "Amazing product!",
+        "date": "2024-03-25"
+      }
+    ]
+  },
+  {
+    "id": "bc9d7b7a-ff80-4358-b954-bd03759ce2b9",
+    "name": "Stuffed Animal",
+    "category": "Toys, Kids & Baby",
+    "price": 89.64,
+    "description": "Quality could improve. Fast delivery and good quality. Disappointed with this purchase. Very satisfied. Could be better.",
+    "stock": 167,
+    "image": "https://placeimg.com/60/409/any",
+    "tags": ["home", "auto", "modern"],
+    "ratings": 3.9,
+    "reviews": [
+      {
+        "userId": "d515759e-7ea9-45dd-ba10-b58341bc07b9",
+        "rating": 2,
+        "comment": "Quality could improve.",
+        "date": "2024-01-26"
+      },
+      {
+        "userId": "4e1f3f08-4a39-4e08-a717-d21d1ab75bd8",
+        "rating": 2,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-09-02"
+      },
+      {
+        "userId": "a06e2d16-78e6-4bb1-8a5b-35b27407f794",
+        "rating": 2,
+        "comment": "Disappointed with this purchase.",
+        "date": "2025-03-17"
+      }
+    ]
+  },
+  {
+    "id": "22396726-5281-4902-956b-1de54ec9da65",
+    "name": "Puzzle",
+    "category": "Toys, Kids & Baby",
+    "price": 116.73,
+    "description": "Would buy again. Not as expected. Exceeded expectations. Fast delivery and good quality. Great value for the price.",
+    "stock": 90,
+    "image": "https://placeimg.com/54/422/any",
+    "tags": ["auto", "value", "kids"],
+    "ratings": 4.0,
+    "reviews": [
+      {
+        "userId": "bf4cdfbb-a9f6-438b-909a-dcee78372f72",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2024-12-13"
+      },
+      {
+        "userId": "d75a639c-2de0-4719-8ae1-e8f7b83d1039",
+        "rating": 5,
+        "comment": "Great value for the price.",
+        "date": "2024-03-09"
+      },
+      {
+        "userId": "cdbbeaa8-6072-4464-b311-dbe800f0054c",
+        "rating": 3,
+        "comment": "Very satisfied.",
+        "date": "2024-10-20"
+      }
+    ]
+  },
+  {
+    "id": "abd39b2d-8eb8-40c4-a975-f1a8179164da",
+    "name": "Board Game",
+    "category": "Toys, Kids & Baby",
+    "price": 18.35,
+    "description": "Quality could improve. Very satisfied. Amazing product! Exceeded expectations. Could be better.",
+    "stock": 53,
+    "image": "https://placeimg.com/40/628/any",
+    "tags": ["trendy", "value", "auto"],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "userId": "7f0513d6-f143-4531-a78b-4a8f3c5b0fbd",
+        "rating": 2,
+        "comment": "Amazing product!",
+        "date": "2025-01-22"
+      },
+      {
+        "userId": "4d03b3d7-469c-4025-ab7c-af4f0144db30",
+        "rating": 2,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-02-05"
+      },
+      {
+        "userId": "f01546b1-ff04-41c5-804a-a77ef6bb2b99",
+        "rating": 4,
+        "comment": "Would buy again.",
+        "date": "2024-09-28"
+      }
+    ]
+  },
+  {
+    "id": "683a8ebb-c9de-43b0-a3f0-02e0ad6815de",
+    "name": "Crayons",
+    "category": "Toys, Kids & Baby",
+    "price": 54.49,
+    "description": "Fast delivery and good quality. Amazing product! Quality could improve. Could be better. Would buy again.",
+    "stock": 53,
+    "image": "https://placeimg.com/71/610/any",
+    "tags": ["new", "value", "health"],
+    "ratings": 3.6,
+    "reviews": [
+      {
+        "userId": "bf5dd359-355d-43f8-b8f1-da4c9416e18a",
+        "rating": 1,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-09-01"
+      },
+      {
+        "userId": "1f5bda81-aada-4a37-b09f-a8da1f5bd911",
+        "rating": 1,
+        "comment": "Not as expected.",
+        "date": "2024-02-06"
+      },
+      {
+        "userId": "43c18b28-3d5d-4f04-8ce4-6a1a3259fe40",
+        "rating": 1,
+        "comment": "Great value for the price.",
+        "date": "2025-02-25"
+      }
+    ]
+  },
+  {
+    "id": "930f5c60-a9f5-42a9-bec6-e9a2966de3ff",
+    "name": "Coloring Book",
+    "category": "Toys, Kids & Baby",
+    "price": 71.42,
+    "description": "Fast delivery and good quality. Quality could improve. Disappointed with this purchase. Not as expected. Exceeded expectations.",
+    "stock": 73,
+    "image": "https://placeimg.com/71/206/any",
+    "tags": ["stationery", "new", "office"],
+    "ratings": 1.7,
+    "reviews": [
+      {
+        "userId": "75656f11-0f9d-4490-ab70-85737144e566",
+        "rating": 4,
+        "comment": "Very satisfied.",
+        "date": "2025-03-02"
+      },
+      {
+        "userId": "a33ce036-f331-41e8-a229-adc56c8fc809",
+        "rating": 2,
+        "comment": "Not as expected.",
+        "date": "2024-06-30"
+      },
+      {
+        "userId": "27944d0a-4f60-4aaf-92f2-b63f10b0180e",
+        "rating": 5,
+        "comment": "Not as expected.",
+        "date": "2024-07-02"
+      }
+    ]
+  },
+  {
+    "id": "6ac89d75-acd5-47cb-a143-dd16ff49ca66",
+    "name": "Building Blocks",
+    "category": "Toys, Kids & Baby",
+    "price": 13.34,
+    "description": "Not as expected. Would buy again. Exceeded expectations. Disappointed with this purchase. Could be better.",
+    "stock": 175,
+    "image": "https://placeimg.com/55/547/any",
+    "tags": ["health", "new", "value"],
+    "ratings": 3.5,
+    "reviews": [
+      {
+        "userId": "fd1f2b0a-a8f1-43cc-a73a-6c04f953021e",
+        "rating": 1,
+        "comment": "Great value for the price.",
+        "date": "2024-04-12"
+      },
+      {
+        "userId": "f192474e-c705-4f97-99fb-8a8f0851b230",
+        "rating": 4,
+        "comment": "Quality could improve.",
+        "date": "2024-05-18"
+      },
+      {
+        "userId": "0842dc3a-4a03-4d56-8ab5-6c2c0e7109f6",
+        "rating": 4,
+        "comment": "Exceeded expectations.",
+        "date": "2024-06-06"
+      }
+    ]
+  },
+  {
+    "id": "b7e6bf74-3ee1-4306-9c82-4d7de1692080",
+    "name": "Baby Bottle",
+    "category": "Toys, Kids & Baby",
+    "price": 22.8,
+    "description": "Quality could improve. Very satisfied. Disappointed with this purchase. Exceeded expectations. Amazing product!",
+    "stock": 72,
+    "image": "https://placeimg.com/97/272/any",
+    "tags": ["stationery", "grocery", "fashion"],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "userId": "4b36c9c7-ef2c-4b11-a7a6-6d8e390a93b8",
+        "rating": 3,
+        "comment": "Great value for the price.",
+        "date": "2024-01-19"
+      },
+      {
+        "userId": "e58b821e-5f1e-4966-8702-2807d0fa42aa",
+        "rating": 4,
+        "comment": "Amazing product!",
+        "date": "2024-09-30"
+      },
+      {
+        "userId": "fa28c8b9-5821-4ba9-8636-b95da654da8d",
+        "rating": 2,
+        "comment": "Not as expected.",
+        "date": "2024-09-30"
+      }
+    ]
+  },
+  {
+    "id": "43937514-d332-4049-a8d9-e0f570ca868d",
+    "name": "Stroller",
+    "category": "Toys, Kids & Baby",
+    "price": 10.17,
+    "description": "Fast delivery and good quality. Disappointed with this purchase. Not as expected. Could be better. Quality could improve.",
+    "stock": 165,
+    "image": "https://placeimg.com/91/339/any",
+    "tags": ["beauty", "trendy", "kids"],
+    "ratings": 1.8,
+    "reviews": [
+      {
+        "userId": "5cd63a74-4230-4df4-9718-5c2937abc0dd",
+        "rating": 5,
+        "comment": "Quality could improve.",
+        "date": "2025-04-01"
+      },
+      {
+        "userId": "800c9b0c-9f3d-4617-ac1e-91072115b3c9",
+        "rating": 2,
+        "comment": "Amazing product!",
+        "date": "2024-07-09"
+      },
+      {
+        "userId": "c72825fd-19d7-46bf-8840-ad837b549cde",
+        "rating": 2,
+        "comment": "Amazing product!",
+        "date": "2024-08-12"
+      }
+    ]
+  },
+  {
+    "id": "0d39a71c-9bd7-4b7b-b14a-5a18b49a79f6",
+    "name": "Diapers",
+    "category": "Toys, Kids & Baby",
+    "price": 142.35,
+    "description": "Quality could improve. Amazing product! Exceeded expectations. Could be better. Disappointed with this purchase.",
+    "stock": 10,
+    "image": "https://placeimg.com/85/333/any",
+    "tags": ["grocery", "classic", "new"],
+    "ratings": 2.5,
+    "reviews": [
+      {
+        "userId": "3f4a4f80-6f67-4ca5-92e6-5ca628f9d861",
+        "rating": 5,
+        "comment": "Would buy again.",
+        "date": "2024-10-01"
+      },
+      {
+        "userId": "8282a602-ed42-4d3e-ba75-4a5dd0536277",
+        "rating": 1,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-09-13"
+      },
+      {
+        "userId": "9283cf93-2efc-4313-bdbe-cb0a1086fac0",
+        "rating": 2,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-02-28"
+      }
+    ]
+  },
+  {
+    "id": "6dc6bb0b-1580-4e0b-b4b5-df47cf32bddb",
+    "name": "Car Wax",
+    "category": "Automobile & Tools",
+    "price": 78.07,
+    "description": "Could be better. Not as expected. Would buy again. Fast delivery and good quality. Very satisfied.",
+    "stock": 43,
+    "image": "https://placeimg.com/49/386/any",
+    "tags": ["modern", "fashion", "home"],
+    "ratings": 1.5,
+    "reviews": [
+      {
+        "userId": "072e1a43-39e9-4537-8674-61c54ad89f14",
+        "rating": 1,
+        "comment": "Great value for the price.",
+        "date": "2025-02-17"
+      },
+      {
+        "userId": "0b75fbcd-7aba-4957-a415-3a8b9a9f80b6",
+        "rating": 5,
+        "comment": "Could be better.",
+        "date": "2024-05-31"
+      },
+      {
+        "userId": "5a2b8887-8323-4a90-b7bc-d2a647a80d50",
+        "rating": 2,
+        "comment": "Quality could improve.",
+        "date": "2024-05-31"
+      }
+    ]
+  },
+  {
+    "id": "7378ac21-f457-4e3e-9dc8-8a3c4ae469d9",
+    "name": "Tire Inflator",
+    "category": "Automobile & Tools",
+    "price": 111.66,
+    "description": "Could be better. Amazing product! Would buy again. Disappointed with this purchase. Very satisfied.",
+    "stock": 14,
+    "image": "https://placeimg.com/74/235/any",
+    "tags": ["health", "modern", "office"],
+    "ratings": 5.0,
+    "reviews": [
+      {
+        "userId": "0f48311c-2e76-4694-b2e5-4c01db7daf41",
+        "rating": 4,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-09-27"
+      },
+      {
+        "userId": "57fd9377-643c-4c4c-a6c6-97bf97556ff4",
+        "rating": 1,
+        "comment": "Not as expected.",
+        "date": "2024-05-12"
+      },
+      {
+        "userId": "6b264f6b-3b26-4f86-bd32-4b34837e3bab",
+        "rating": 2,
+        "comment": "Exceeded expectations.",
+        "date": "2024-09-18"
+      }
+    ]
+  },
+  {
+    "id": "c4a200e6-421e-4f3f-acb6-c85dfe100a77",
+    "name": "Wrench Set",
+    "category": "Automobile & Tools",
+    "price": 118.32,
+    "description": "Not as expected. Very satisfied. Amazing product! Could be better. Exceeded expectations.",
+    "stock": 161,
+    "image": "https://placeimg.com/86/294/any",
+    "tags": ["office", "health", "auto"],
+    "ratings": 3.8,
+    "reviews": [
+      {
+        "userId": "21d4ad40-dfbc-4657-a9c4-4eda4af28c8b",
+        "rating": 5,
+        "comment": "Could be better.",
+        "date": "2024-04-02"
+      },
+      {
+        "userId": "012a210c-b5e1-42b8-820f-98060ce96bdb",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2024-01-31"
+      },
+      {
+        "userId": "e1945509-2324-4890-aedc-e564c2ed422d",
+        "rating": 5,
+        "comment": "Exceeded expectations.",
+        "date": "2024-07-19"
+      }
+    ]
+  },
+  {
+    "id": "4703f013-c67a-471c-b3a8-2c3faa0f0f4b",
+    "name": "Battery Charger",
+    "category": "Automobile & Tools",
+    "price": 8.07,
+    "description": "Exceeded expectations. Not as expected. Great value for the price. Fast delivery and good quality. Disappointed with this purchase.",
+    "stock": 111,
+    "image": "https://placeimg.com/62/575/any",
+    "tags": ["fashion", "tech", "grocery"],
+    "ratings": 3.7,
+    "reviews": [
+      {
+        "userId": "1afcb5b3-d89e-4fd5-9983-aa1fc7dbf2a4",
+        "rating": 1,
+        "comment": "Very satisfied.",
+        "date": "2024-03-06"
+      },
+      {
+        "userId": "7b9ef6f6-60e7-4156-a2b6-f6561289aff4",
+        "rating": 2,
+        "comment": "Very satisfied.",
+        "date": "2025-02-07"
+      },
+      {
+        "userId": "fef21a94-db34-49ae-92ba-6a06cfd37650",
+        "rating": 3,
+        "comment": "Very satisfied.",
+        "date": "2024-08-16"
+      }
+    ]
+  },
+  {
+    "id": "6785f64a-26bc-4bb5-bc5c-4bd602d35cf0",
+    "name": "Car Vacuum",
+    "category": "Automobile & Tools",
+    "price": 147.63,
+    "description": "Great value for the price. Would buy again. Quality could improve. Disappointed with this purchase. Fast delivery and good quality.",
+    "stock": 133,
+    "image": "https://placeimg.com/73/618/any",
+    "tags": ["stationery", "modern", "auto"],
+    "ratings": 1.7,
+    "reviews": [
+      {
+        "userId": "f0619ab3-a367-4c19-847b-39532136298f",
+        "rating": 3,
+        "comment": "Not as expected.",
+        "date": "2024-08-29"
+      },
+      {
+        "userId": "d2c2de72-8d40-4052-860e-b2ee7443cd6e",
+        "rating": 4,
+        "comment": "Could be better.",
+        "date": "2025-03-27"
+      },
+      {
+        "userId": "6f4aa185-8cf3-45c9-b8e3-72472840a44f",
+        "rating": 2,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-01-02"
+      }
+    ]
+  },
+  {
+    "id": "667ac4d7-ad7e-4ac8-9861-7faba99cbb2f",
+    "name": "Oil Filter",
+    "category": "Automobile & Tools",
+    "price": 29.3,
+    "description": "Great value for the price. Fast delivery and good quality. Very satisfied. Exceeded expectations. Amazing product!",
+    "stock": 196,
+    "image": "https://placeimg.com/71/250/any",
+    "tags": ["modern", "fashion", "trendy"],
+    "ratings": 4.5,
+    "reviews": [
+      {
+        "userId": "284a01cf-9cf8-4cfd-bce7-24e0a2155fd9",
+        "rating": 1,
+        "comment": "Would buy again.",
+        "date": "2024-10-15"
+      },
+      {
+        "userId": "dd2559d6-bc91-4367-a417-676b2f1cc406",
+        "rating": 3,
+        "comment": "Exceeded expectations.",
+        "date": "2024-07-24"
+      },
+      {
+        "userId": "e58833f8-c19a-43bb-88f7-c046e1ab7f57",
+        "rating": 2,
+        "comment": "Could be better.",
+        "date": "2024-02-19"
+      }
+    ]
+  },
+  {
+    "id": "90f98de9-c601-4190-b6e6-9b904cabb9ea",
+    "name": "Spark Plug",
+    "category": "Automobile & Tools",
+    "price": 87.02,
+    "description": "Would buy again. Exceeded expectations. Could be better. Amazing product! Great value for the price.",
+    "stock": 155,
+    "image": "https://placeimg.com/48/237/any",
+    "tags": ["trendy", "value", "grocery"],
+    "ratings": 3.4,
+    "reviews": [
+      {
+        "userId": "88da9162-ef75-4bf0-9e8d-b3bf44962d20",
+        "rating": 1,
+        "comment": "Would buy again.",
+        "date": "2024-05-22"
+      },
+      {
+        "userId": "21995387-4c67-45c2-a643-e24792950488",
+        "rating": 4,
+        "comment": "Exceeded expectations.",
+        "date": "2024-09-03"
+      },
+      {
+        "userId": "2ece2d00-6029-4b9a-9158-5c336e1168d3",
+        "rating": 5,
+        "comment": "Exceeded expectations.",
+        "date": "2025-02-11"
+      }
+    ]
+  },
+  {
+    "id": "8bb4ab44-4150-4ab1-8ddd-ec71926b9355",
+    "name": "Screwdriver Set",
+    "category": "Automobile & Tools",
+    "price": 128.71,
+    "description": "Amazing product! Great value for the price. Disappointed with this purchase. Exceeded expectations. Not as expected.",
+    "stock": 78,
+    "image": "https://placeimg.com/49/241/any",
+    "tags": ["grocery", "office", "new"],
+    "ratings": 2.8,
+    "reviews": [
+      {
+        "userId": "137e1073-7742-4ef7-93d8-58241c9191ee",
+        "rating": 1,
+        "comment": "Quality could improve.",
+        "date": "2024-04-02"
+      },
+      {
+        "userId": "f67e2fd0-6c4f-4f2e-8a77-d436ab31c940",
+        "rating": 3,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-01-08"
+      },
+      {
+        "userId": "d19ce446-502b-414d-b5d9-919012eefc33",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2024-05-08"
+      }
+    ]
+  },
+  {
+    "id": "2a35b6d3-fa6b-44ca-a72c-13c15b2fe428",
+    "name": "Motor Oil",
+    "category": "Automobile & Tools",
+    "price": 71.73,
+    "description": "Amazing product! Could be better. Fast delivery and good quality. Great value for the price. Not as expected.",
+    "stock": 147,
+    "image": "https://placeimg.com/84/467/any",
+    "tags": ["tech", "office", "classic"],
+    "ratings": 3.5,
+    "reviews": [
+      {
+        "userId": "27b9aeb0-130e-428d-a2ff-cb73917bf8a8",
+        "rating": 4,
+        "comment": "Quality could improve.",
+        "date": "2024-09-11"
+      },
+      {
+        "userId": "995b86ea-b839-4484-9746-9695ec91b1d0",
+        "rating": 4,
+        "comment": "Great value for the price.",
+        "date": "2024-03-06"
+      },
+      {
+        "userId": "45caff0c-ed65-415e-93e9-d43de5374b0f",
+        "rating": 2,
+        "comment": "Would buy again.",
+        "date": "2024-07-25"
+      }
+    ]
+  },
+  {
+    "id": "2f06284d-94eb-4252-8f44-166fb399fe44",
+    "name": "Jump Starter",
+    "category": "Automobile & Tools",
+    "price": 124.7,
+    "description": "Amazing product! Not as expected. Exceeded expectations. Could be better. Fast delivery and good quality.",
+    "stock": 182,
+    "image": "https://placeimg.com/55/542/any",
+    "tags": ["tech", "health", "classic"],
+    "ratings": 4.6,
+    "reviews": [
+      {
+        "userId": "b7f584c5-a3af-4a09-b509-9c1efa5b3a6a",
+        "rating": 1,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-11-25"
+      },
+      {
+        "userId": "3d3f1265-8088-4ade-9e20-6d57c756c24e",
+        "rating": 1,
+        "comment": "Not as expected.",
+        "date": "2025-01-19"
+      },
+      {
+        "userId": "32aa560d-f9c1-40f6-afc3-d4321544a7b6",
+        "rating": 2,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-06-17"
+      }
+    ]
+  },
+  {
+    "id": "0ded67e8-0729-444c-8a4a-3cc4b86befd5",
+    "name": "Fiction Novel",
+    "category": "Books & Stationery",
+    "price": 139.55,
+    "description": "Could be better. Very satisfied. Would buy again. Exceeded expectations. Great value for the price.",
+    "stock": 106,
+    "image": "https://placeimg.com/90/493/any",
+    "tags": ["trendy", "stationery", "home"],
+    "ratings": 3.4,
+    "reviews": [
+      {
+        "userId": "2ac91991-9c3e-4190-8587-4e4a3684af90",
+        "rating": 4,
+        "comment": "Very satisfied.",
+        "date": "2024-09-14"
+      },
+      {
+        "userId": "f3b7b4ea-b28e-4fce-b272-586385890762",
+        "rating": 3,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-08-12"
+      },
+      {
+        "userId": "a7f5e0e8-91c0-4f33-a916-03cd749b77b5",
+        "rating": 2,
+        "comment": "Disappointed with this purchase.",
+        "date": "2025-02-21"
+      }
+    ]
+  },
+  {
+    "id": "b16b35bb-e82c-4f3f-87de-de780d49a1a9",
+    "name": "Notebook",
+    "category": "Books & Stationery",
+    "price": 10.66,
+    "description": "Not as expected. Exceeded expectations. Fast delivery and good quality. Would buy again. Disappointed with this purchase.",
+    "stock": 101,
+    "image": "https://placeimg.com/98/623/any",
+    "tags": ["health", "modern", "value"],
+    "ratings": 1.4,
+    "reviews": [
+      {
+        "userId": "a9350808-0f9b-4fa5-ad92-b6d2d23f786d",
+        "rating": 3,
+        "comment": "Quality could improve.",
+        "date": "2024-03-22"
+      },
+      {
+        "userId": "239f3c3e-149d-4de0-8569-3905c7c0713a",
+        "rating": 1,
+        "comment": "Not as expected.",
+        "date": "2024-12-08"
+      },
+      {
+        "userId": "c6449065-9361-4464-943c-35046b40fecd",
+        "rating": 4,
+        "comment": "Would buy again.",
+        "date": "2024-01-16"
+      }
+    ]
+  },
+  {
+    "id": "43c63832-4279-441d-890e-70f4c53091f4",
+    "name": "Pen Set",
+    "category": "Books & Stationery",
+    "price": 75.27,
+    "description": "Not as expected. Very satisfied. Amazing product! Would buy again. Disappointed with this purchase.",
+    "stock": 71,
+    "image": "https://placeimg.com/69/684/any",
+    "tags": ["trendy", "classic", "kids"],
+    "ratings": 2.9,
+    "reviews": [
+      {
+        "userId": "a4778225-436b-41e3-ae25-2f33e9ec5ba3",
+        "rating": 2,
+        "comment": "Great value for the price.",
+        "date": "2024-11-08"
+      },
+      {
+        "userId": "6353c137-387f-41ca-b4f4-8db5f2e78f10",
+        "rating": 4,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-10-25"
+      },
+      {
+        "userId": "42d119b2-17a8-46a4-90c2-40f7063d164c",
+        "rating": 3,
+        "comment": "Great value for the price.",
+        "date": "2024-04-11"
+      }
+    ]
+  },
+  {
+    "id": "1a598b9c-8575-43e3-8f75-d0eef6179acb",
+    "name": "Sketch Pad",
+    "category": "Books & Stationery",
+    "price": 69.97,
+    "description": "Exceeded expectations. Quality could improve. Very satisfied. Would buy again. Fast delivery and good quality.",
+    "stock": 107,
+    "image": "https://placeimg.com/68/610/any",
+    "tags": ["health", "trendy", "beauty"],
+    "ratings": 1.7,
+    "reviews": [
+      {
+        "userId": "bd9dc399-e73f-400a-be04-f59d335ab73c",
+        "rating": 3,
+        "comment": "Exceeded expectations.",
+        "date": "2024-01-21"
+      },
+      {
+        "userId": "b9f5aa68-492c-4495-aa13-48688956db52",
+        "rating": 3,
+        "comment": "Quality could improve.",
+        "date": "2024-01-28"
+      },
+      {
+        "userId": "b761b6d0-9e55-4428-a59f-4a21df0f8939",
+        "rating": 1,
+        "comment": "Amazing product!",
+        "date": "2025-03-26"
+      }
+    ]
+  },
+  {
+    "id": "c0ff04f5-f1e7-4966-963c-b66deb0ee1b0",
+    "name": "Textbook",
+    "category": "Books & Stationery",
+    "price": 50.08,
+    "description": "Great value for the price. Exceeded expectations. Very satisfied. Not as expected. Could be better.",
+    "stock": 53,
+    "image": "https://placeimg.com/57/559/any",
+    "tags": ["modern", "auto", "value"],
+    "ratings": 2.6,
+    "reviews": [
+      {
+        "userId": "babfe426-23f5-40b9-8441-abc32c96806e",
+        "rating": 5,
+        "comment": "Disappointed with this purchase.",
+        "date": "2025-03-12"
+      },
+      {
+        "userId": "76f928f8-20e2-4714-ae83-e64f8ceda304",
+        "rating": 3,
+        "comment": "Disappointed with this purchase.",
+        "date": "2025-01-26"
+      },
+      {
+        "userId": "0a38254d-2d43-4c50-82bc-1d0f6498942a",
+        "rating": 5,
+        "comment": "Great value for the price.",
+        "date": "2024-11-27"
+      }
+    ]
+  },
+  {
+    "id": "70f030af-f7da-4004-ba5c-c203339fa941",
+    "name": "Journal",
+    "category": "Books & Stationery",
+    "price": 124.61,
+    "description": "Could be better. Exceeded expectations. Fast delivery and good quality. Would buy again. Amazing product!",
+    "stock": 164,
+    "image": "https://placeimg.com/86/568/any",
+    "tags": ["office", "fashion", "beauty"],
+    "ratings": 3.8,
+    "reviews": [
+      {
+        "userId": "dfd1f749-a838-4f52-b7c3-14c45aa38db1",
+        "rating": 4,
+        "comment": "Great value for the price.",
+        "date": "2024-09-08"
+      },
+      {
+        "userId": "fdd270ab-955f-4fec-8f9a-aa1d4a111705",
+        "rating": 1,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-02-19"
+      },
+      {
+        "userId": "989a292a-c097-43e8-9e40-04c3b2080295",
+        "rating": 4,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-10-26"
+      }
+    ]
+  },
+  {
+    "id": "9fbb3596-d9a2-4837-b539-cc43e0248474",
+    "name": "Highlighter",
+    "category": "Books & Stationery",
+    "price": 8.34,
+    "description": "Not as expected. Amazing product! Could be better. Quality could improve. Very satisfied.",
+    "stock": 56,
+    "image": "https://placeimg.com/55/641/any",
+    "tags": ["stationery", "classic", "fashion"],
+    "ratings": 4.9,
+    "reviews": [
+      {
+        "userId": "d2208379-c35d-4dba-99ac-0cc8629f8335",
+        "rating": 1,
+        "comment": "Fast delivery and good quality.",
+        "date": "2024-12-04"
+      },
+      {
+        "userId": "7095c109-2abd-4568-a105-3c1d1bdaf566",
+        "rating": 1,
+        "comment": "Could be better.",
+        "date": "2025-03-12"
+      },
+      {
+        "userId": "07cb757c-ff26-469a-89aa-f42e5a2240f7",
+        "rating": 3,
+        "comment": "Quality could improve.",
+        "date": "2024-12-25"
+      }
+    ]
+  },
+  {
+    "id": "9518975d-35cf-49ad-815e-e49ae0d7074a",
+    "name": "Eraser",
+    "category": "Books & Stationery",
+    "price": 149.56,
+    "description": "Would buy again. Quality could improve. Fast delivery and good quality. Great value for the price. Amazing product!",
+    "stock": 98,
+    "image": "https://placeimg.com/81/208/any",
+    "tags": ["office", "grocery", "auto"],
+    "ratings": 1.4,
+    "reviews": [
+      {
+        "userId": "ff3c1ab9-c8a0-4929-995e-2a15f4d062ca",
+        "rating": 3,
+        "comment": "Not as expected.",
+        "date": "2024-05-10"
+      },
+      {
+        "userId": "937d0286-05ee-48ce-b754-5b8da007bd62",
+        "rating": 5,
+        "comment": "Quality could improve.",
+        "date": "2024-07-30"
+      },
+      {
+        "userId": "909acd9b-1b45-44fa-9246-4a6ff1bc6d21",
+        "rating": 4,
+        "comment": "Exceeded expectations.",
+        "date": "2024-09-02"
+      }
+    ]
+  },
+  {
+    "id": "da252c16-07fe-43ca-8766-b3575b71adfb",
+    "name": "Bookmark",
+    "category": "Books & Stationery",
+    "price": 141.46,
+    "description": "Not as expected. Quality could improve. Exceeded expectations. Would buy again. Disappointed with this purchase.",
+    "stock": 36,
+    "image": "https://placeimg.com/60/244/any",
+    "tags": ["fashion", "value", "tech"],
+    "ratings": 4.7,
+    "reviews": [
+      {
+        "userId": "62194e3d-9b67-4df8-ac6d-9561c9e63420",
+        "rating": 1,
+        "comment": "Exceeded expectations.",
+        "date": "2025-01-04"
+      },
+      {
+        "userId": "4788818c-e3c3-4fb8-87e7-62ac41d46309",
+        "rating": 4,
+        "comment": "Amazing product!",
+        "date": "2024-01-02"
+      },
+      {
+        "userId": "5da2803f-9183-4177-9a67-14ef6ef6f27c",
+        "rating": 5,
+        "comment": "Quality could improve.",
+        "date": "2024-03-26"
+      }
+    ]
+  },
+  {
+    "id": "0077913a-382e-4399-9820-c5bdaf513f10",
+    "name": "Sticky Notes",
+    "category": "Books & Stationery",
+    "price": 109.46,
+    "description": "Would buy again. Exceeded expectations. Great value for the price. Not as expected. Amazing product!",
+    "stock": 87,
+    "image": "https://placeimg.com/76/429/any",
+    "tags": ["tech", "new", "classic"],
+    "ratings": 4.3,
+    "reviews": [
+      {
+        "userId": "42f8faaf-6875-4b64-999c-b853c8e6cc46",
+        "rating": 5,
+        "comment": "Would buy again.",
+        "date": "2025-02-02"
+      },
+      {
+        "userId": "4c0949fe-5884-4735-8418-41dd28f85f4c",
+        "rating": 4,
+        "comment": "Disappointed with this purchase.",
+        "date": "2024-05-02"
+      },
+      {
+        "userId": "1adff288-b7a9-44cb-b4e6-076d65bdf776",
+        "rating": 2,
+        "comment": "Amazing product!",
+        "date": "2025-01-30"
+      }
+    ]
+  }
+]

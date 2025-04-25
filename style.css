@@ -221,8 +221,9 @@ section {
   padding-bottom: var(--sp9);
 }
 .hero {
-  background-color: var(--bg-dark-primary);
-  color: var(--txt-white);
+  /* background-color: var(--bg-dark-primary); */
+  /* color: var(--txt-white); */
+  background-color: var(--bg-secondary);
 }
 .hero h2 {
   font-size: var(--f-v-4);
@@ -283,4 +284,11 @@ h2 i {
 section:not(.hero) h2 {
   font-weight: 500;
   font-size: var(--f-v-2);
+}
+.hero .cta-btns button {
+  color: var(--txt-white);
+  background-color: var(--bg-dark-primary);
+}
+section.products {
+  padding-block: var(--sp8);
 }
