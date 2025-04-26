@@ -19,14 +19,19 @@
         </div>
         <nav class="nav1">
           <form action="" method="get">
-            <input type="text" placeholder="Search..." /><button type="submit">
+            <input type="text" placeholder="Search..." />
+            <button type="submit" title="Search">
               <i class="fas fa-search"></i>
             </button>
           </form>
           <div class="btns">
-            <button class="userBtn"><i class="fas fa-user-circle"></i></button>
-            <button class="menuBtn"><i class="fas fas fa-bars"></i></button>
-            <button class="cartBtn">
+            <button class="userBtn" title="Profile">
+              <i class="fas fa-user-circle"></i>
+            </button>
+            <button class="menuBtn" title="Menu">
+              <i class="fas fas fa-bars"></i>
+            </button>
+            <button class="cartBtn" title="Cart">
               <i class="fas fas fas fa-shopping-cart"></i>
             </button>
           </div>
@@ -58,7 +63,27 @@
         </div>
       </section>
       <section class="products">
-        <h2>Products</h2>
+        <div class="product-section section-wrapper product-grid">
+          <figure class="product-card">
+            <div class="img-wrapper">
+              <img src="./images/failed.png" alt="failed" />
+            </div>
+            <figcaption>
+              <h3>Product</h3>
+              <p>Product def</p>
+              <div class="stars">
+                <i class="fas far fa-star"></i><i class="fas far fa-star"></i
+                ><i class="fas far fa-star"></i><i class="fas far fa-star"></i>
+                <i class="fas far fa-star"></i>
+              </div>
+              <p class="price">$89.90</p>
+              <div class="price"></div>
+              <div class="opt-btns">
+                <button>Add to Cart</button> <a href="">View Market</a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
       </section>
     </main>
   </body>

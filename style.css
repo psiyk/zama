@@ -1,6 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 :root {
   --font-1: "Urbanist", sans-serif;
+  --font-2: "Raleway", sans-serif;
+  --font-3: "DM sans", sans-serif;
 
   --sp1: 0.25rem;
   --sp2: 0.5rem;
@@ -19,6 +23,8 @@
   --bl-2: 10rem;
   --bl-3: 15rem;
 
+  --card-w-1: 18rem;
+
   --f-unit-1: 0.5rem;
   --f-unit-2: 0.8rem;
   --f-unit-3: 1rem;
@@ -33,10 +39,10 @@
   --bd: 1.5px solid;
   --bd2: 2px solid;
 
-  --bd-radius-1: 1rem;
-  --bd-radius-2: 1.5rem;
-  --bd-radius-3: 2rem;
-  --bd-radius-4: 5rem;
+  --bd-radius-1: 0.5rem;
+  --bd-radius-2: 1rem;
+  --bd-radius-3: 1.5rem;
+  --bd-radius-4: 2rem;
 
   --gap-1: 0.5rem;
   --gap-2: 1rem;
@@ -49,6 +55,7 @@
   --txt-sec: #402020; /* Slightly reddish tone for secondary text */
   --txt-sec-2: #40202022; /* Transparent reddish tone */
   --txt-highlight: #ff9900; /* Subtle orange for highlights */
+  --txt-highlight-op: #ff990044; /* Subtle orange for highlights */
 
   --bg-primary: #f9f3f3; /* Very light red tint for primary background */
   --bg-secondary: #f5e6e6; /* Light reddish tint for secondary background */
@@ -75,7 +82,7 @@
   --section-spacing-3: var(--bl-1) var(--vp-2);
 
   --gradient-red-orange: linear-gradient(
-    to bottom,
+    to top,
     var(--red-highlight),
     var(--orange-highlight)
   );
@@ -88,7 +95,8 @@
   text-decoration: none;
   color: inherit;
   padding: 0;
-  font-family: var(--font-1);
+  font-family: var(--font-3);
+  letter-spacing: -0.5px;
 }
 html {
   scroll-behavior: smooth;
@@ -116,7 +124,6 @@ nav > form {
 }
 header {
   padding: var(--sp2) var(--vp-2);
-  border-bottom: var(--bd) var(--bg-tertiary);
 }
 header h1 {
   color: var(--txt-black);
@@ -192,14 +199,15 @@ nav.cat-btns {
   padding: var(--sp2) var(--vp-2);
   -ms-overflow-style: none; /* IE/Edge */
   scrollbar-width: none; /* Firefox */
-  -webkit-overflow-scrolling: touch;
+  /* -webkit-overflow-scrolling: touch; */
+  border-bottom: var(--bd) var(--bg-tertiary);
 }
 button[id^="cat-"] {
   scroll-snap-align: start;
   padding: var(--sp4) var(--sp4);
   /* min-width: rem; */
   min-width: 15rem;
-  border-radius: var(--bd-radius-4);
+  border-radius: var(--bd-radius-2);
   border: none;
 
   font-weight: 500;
@@ -223,7 +231,8 @@ section {
 .hero {
   /* background-color: var(--bg-dark-primary); */
   /* color: var(--txt-white); */
-  background-color: var(--bg-secondary);
+  /* background-color: var(--bg-secondary); */
+  background-image: url(images\bg-images\orange.jpeg);
 }
 .hero h2 {
   font-size: var(--f-v-4);
@@ -257,12 +266,14 @@ h2 i {
 .hero .cta-btns a {
   padding: var(--sp4) var(--sp9);
   text-align: center;
-  width: min(50%, 15rem);
+  width: min(50%, 13.5rem);
   font-size: var(--f-unit-4);
   font-weight: 500;
-  border-radius: var(--bd-radius-4);
-  border: none;
+  border-radius: var(--bd-radius-2);
+  border: var(--bd2) var(--bg-dark-primary);
   background-color: var(--bg-secondary);
+  background-size: 300%;
+  background-position: center;
   color: var(--txt-black);
   transition: ease-in-out 0.3s;
 
@@ -277,7 +288,6 @@ h2 i {
   background-image: var(--gradient-red-orange);
   /* box-shadow: ; */
   box-shadow: inset 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0px 10px 15px -10px var(--red-highlight),
     inset 0px -10px 15px -3px rgba(0, 0, 0, 0.1);
   color: var(--txt-white);
 }
@@ -291,4 +301,57 @@ section:not(.hero) h2 {
 }
 section.products {
   padding-block: var(--sp8);
+}
+.product-card {
+  /* border: var(--bd); */
+  width: var(--card-w-1);
+  padding: var(--sp2);
+  border-radius: calc(var(--bd-radius-1) + var(--sp2));
+  object-fit: cover;
+  object-position: center;
+  /* width: 18rem; */
+}
+.product-card .img-wrapper {
+  --width: calc(var(--card-w-1) - (2 * var(--sp2)));
+  width: var(--width);
+  height: calc(var(--width) * 0.5);
+  overflow: hidden;
+  border-radius: var(--bd-radius-1);
+  margin-bottom: var(--sp3);
+}
+.product-card img {
+  /* border: var(--bd); */
+  display: block;
+  width: 100%;
+}
+.product-card h3,
+.product-card p.price {
+  font-size: var(--f-unit-5);
+  /* margin-bottom: var(--sp1); */
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.product-card h3 + p,
+p + .stars {
+  display: flex;
+  gap: var(--sp1);
+  letter-spacing: 0px;
+  font-size: var(--f-unit-4);
+}
+.product-card .stars {
+  margin-block: var(--sp3);
+  color: var(--txt-highlight-op);
+  width: fit-content;
+  background-image: linear-gradient(
+    90deg,
+    var(--txt-highlight),
+    var(--txt-highlight) 90%,
+    var(--bg-primary) 90%,
+    var(--bg-primary)
+  );
+  background-clip: text;
+}
+.product-card p.price {
+  font-weight: 600;
 }
