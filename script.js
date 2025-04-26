@@ -1,12 +1,12 @@
 async function loadProducts() {
   try {
-    const response = await fetch("./json-files/emarket_products.json");
+    const response = await fetch("json-files/products.json");
     const data = await response.json();
     const MyProducts = data;
-    console.table(MyProducts);
+    // console.log(MyProducts[0]);
 
     //
-
+    work(MyProducts);
     //
   } catch (error) {
     console.error("File MISSNG");
@@ -14,3 +14,19 @@ async function loadProducts() {
 }
 
 loadProducts();
+
+function work(MyProducts) {
+  productList = [];
+  productCat = [];
+  MyProducts.forEach((product) => {
+    productList.push(product);
+    if (!productCat.includes(product.category)) {
+      productCat.push(product, categories);
+    }
+  });
+  p(productCat);
+}
+
+function p(e) {
+  console.log(e);
+}
