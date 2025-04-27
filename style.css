@@ -55,19 +55,19 @@
   /* --bg-white: #f2f7db; */
   /* --bg-black: #000000; */
   --txt-white: #ffffff; /* Keep white for text contrast */
-  --txt-black: #201e1e; /* Keep black for strong contrast */
-  --txt-sec: #402020; /* Slightly reddish tone for secondary text */
-  --txt-sec-2: #40202022; /* Transparent reddish tone */
-  --txt-highlight: #ff9900; /* Subtle orange for highlights */
-  --txt-highlight-op: #ff990044; /* Subtle orange for highlights */
+  --txt-black: #101010; /* Deep black for strong contrast */
+  --txt-sec: #203020; /* Muted green for secondary text */
+  --txt-sec-2: #20302022; /* Transparent muted green */
+  --txt-highlight: #00cc66; /* Bright green for highlights */
+  --txt-highlight-op: #00cc6644; /* Transparent bright green for highlights */
 
-  --bg-primary: #f9f3f3; /* Very light red tint for primary background */
-  --bg-secondary: #f5e6e6; /* Light reddish tint for secondary background */
-  --bg-tertiary: #f0d6d6; /* Slightly darker reddish tint for tertiary background */
+  --bg-primary: #e6f5e6; /* Very light green for primary background */
+  --bg-secondary: #ccf2cc; /* Light green for secondary background */
+  --bg-tertiary: #b3e6b3; /* Slightly darker green for tertiary background */
 
-  --bg-dark-primary: #201e1e; /* Keep dark primary as is */
-  --bg-dark-secondary: #201e1e22; /* Keep dark secondary as is */
-  --bg-dark-tertiary: #201e1e33; /* Keep dark tertiary as is */
+  --bg-dark-primary: #101010; /* Deep black for dark primary background */
+  --bg-dark-secondary: #10101022; /* Transparent black for dark secondary background */
+  --bg-dark-tertiary: #10101033; /* Slightly more transparent black for dark tertiary background */
 
   --red-light: #ffcccc;
   --red: #ff0000;
@@ -81,6 +81,18 @@
   --red-highlight: #ff4d4d;
   --orange-highlight: #ffb84d;
 
+  --green-light: #ccffcc; /* Light green */
+  --green: #00cc66; /* Standard green */
+  --green-dark: #00994d; /* Dark green */
+
+  --green-black-gradient: linear-gradient(
+    45deg,
+    var(--green),
+    var(--txt-black)
+  );
+  --green-highlight: #33ff99; /* Vibrant green for highlights */
+  --black-highlight: #333333; /* Subtle black highlight */
+
   --section-spacing-1: var(--sp4) var(--vp-2);
   --section-spacing-2: var(--sp2) var(--vp-2);
   --section-spacing-3: var(--bl-1) var(--vp-2);
@@ -91,6 +103,12 @@
     var(--orange-highlight)
   );
   --gradient-orange-yellow: linear-gradient(135deg, var(--orange), #ffd700);
+  --gradient-green-black: linear-gradient(
+    to top,
+    var(--green-highlight),
+    var(--black-highlight)
+  );
+  --gradient-green-yellow: linear-gradient(135deg, var(--green), #e6ff66);
 }
 
 * {
@@ -127,7 +145,11 @@ nav > form {
   justify-content: space-between;
 }
 header {
-  padding: var(--sp2) var(--vp-2);
+  padding: var(--sp4) var(--vp-2);
+  background-color: var(--bg-dark-primary);
+  color: var(--txt-white);
+  position: sticky;
+  top: 0;
 }
 header h1 {
   color: var(--txt-black);
@@ -136,8 +158,7 @@ nav {
   align-items: center;
   gap: var(--gap-2);
 }
-header nav > form,
-header .btns {
+header nav > form {
   gap: var(--gap-1);
 }
 header button {
@@ -151,7 +172,7 @@ header button {
 }
 header form {
   min-width: 18rem;
-
+  display: none;
   border: var(--bd2) var(--bg-tertiary);
   border-radius: var(--bd-radius-4);
   gap: 0 !important;
@@ -161,8 +182,8 @@ header form {
   font-size: var(--f-unit-5);
   padding: 0;
   padding: var(--sp3) var(--sp5);
-  color: var(--txt-black);
-  background-image: var(--gradient-orange-yellow);
+  color: var(--green-highlight);
+  background-image: var(--gradient-green-yellow);
   background-clip: text;
   transition: color 0.3s ease-in-out;
   padding-inline: var(--sp6);
@@ -186,25 +207,22 @@ header form button {
 }
 header form:has(input:focus) {
   border: var(--bd2) var(--red-highlight);
-  color: var(--txt-sec);
+  color: var(--txt-white);
 }
 header h1 {
   font-size: var(--f-unit-5);
 }
 nav.cat-btns {
+  position: sticky;
   display: flex;
   gap: var(--sp2);
-  /* border-bottom: var(--bd) var(--bg-tertiary); */
-  background-color: var(--bg-primary);
+  background-color: var(--bg-dark-primary);
   overflow-x: auto;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-
   padding: var(--sp2) var(--vp-2);
   -ms-overflow-style: none; /* IE/Edge */
   scrollbar-width: none; /* Firefox */
-  /* -webkit-overflow-scrolling: touch; */
-  border-bottom: var(--bd) var(--bg-tertiary);
 }
 button[id^="cat-"] {
   scroll-snap-align: start;
@@ -238,7 +256,7 @@ section {
   background-color: var(--bg-primary);
   background-image: url(images/bg/orange.jpeg);
   background-size: cover;
-  background-blend-mode: saturation;
+  background-blend-mode: soft-light;
 }
 .hero h2 {
   font-size: var(--f-v-4);
@@ -256,7 +274,7 @@ section {
 h2 b,
 h1 {
   color: transparent !important;
-  background-image: var(--red-orange-gradient);
+  background-image: var(--gradient-green-yellow);
   background-clip: text;
 }
 h2 i {
@@ -308,39 +326,47 @@ section.products {
 }
 .product-grid {
   gap: var(--gap-4);
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   @media (max-width: 500px) {
     gap: var(--gap-2);
   }
-  /* justify-content: center; */
+}
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  }
+}
+
+header .btns {
+  gap: var(--gap-3);
+}
+.btns button {
+  padding: 0;
+}
+/* For phones */
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
 }
 .product-card {
-  /* margin-inline: 0 auto; */
-  border: var(--bd);
+  /* border: var(--bd); */
   --bdrr: calc(var(--bd-radius-1) + var(--sp2));
   --bbdrr: calc(var(--bd-radius-1) + var(--sp4));
-  width: var(--card-w-1);
   padding: var(--sp2);
   border-radius: var(--bdrr) var(--bdrr) var(--bbdrr) var(--bbdrr);
   object-fit: cover;
   object-position: bottom;
-  @media (max-width: 500px) {
-    width: var(--card-w-1-min);
-
-    .img-wrapper {
-      --width: calc(var(--card-w-1-min) - (2 * var(--sp2)));
-    }
-  }
 }
 .product-card .img-wrapper {
   --width: calc(var(--card-w-1) - (2 * var(--sp2)));
 
-  width: var(--width);
+  width: 100%;
   height: calc(var(--width) * 9 / 16);
 
   overflow: hidden;
-  border-radius: var(--bd-radius-1);
+  border-radius: var(--bd-radius-1) var(--bd-radius-1) 2px 2px;
   margin-bottom: var(--sp3);
 }
 .product-card img {
@@ -364,14 +390,15 @@ p + .stars {
   font-size: var(--f-unit-4);
 }
 .product-card .stars {
+  /* --ratingGR: 90%; */
   margin-block: var(--sp3);
   color: var(--txt-highlight-op);
   width: fit-content;
   background-image: linear-gradient(
     90deg,
     var(--txt-highlight),
-    var(--txt-highlight) 90%,
-    var(--bg-primary) 90%,
+    var(--txt-highlight) var(--ratingGR),
+    var(--bg-primary) var(--ratingGR),
     var(--bg-primary)
   );
   background-clip: text;
@@ -399,4 +426,10 @@ p + .stars {
 }
 .opt-btns a {
   background-color: var(--bg-secondary);
+}
+.opt-btns a:hover,
+.opt-btns button:hover,
+.opt-btns a:focus,
+.opt-btns button:focus {
+  filter: invert(1);
 }
