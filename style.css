@@ -347,6 +347,20 @@ header .btns {
 .btns button {
   padding: 0;
 }
+.cartBtn {
+  position: relative;
+}
+.cartBtn span.amount-icon {
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  left: 10px;
+  filter: drop-shadow(0px 0px 10px var(--bg-dark-tertiary));
+  text-align: center;
+  font-size: var(--f-unit-3);
+  color: var(--green-light);
+  background-color: var(--bg-dark-secondary);
+}
 /* For phones */
 @media (max-width: 768px) {
   .product-grid {
@@ -395,6 +409,7 @@ header .btns {
   text-overflow: ellipsis;
   overflow-wrap: break-word;
   overflow: hidden;
+  white-space: wrap;
 }
 .product-card h3 + p,
 p + .stars {

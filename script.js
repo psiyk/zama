@@ -1,3 +1,9 @@
+const catnav = document.querySelector(`nav.cat-btns`);
+const header = document.querySelector(`header`);
+const headerHeight = header.offsetHeight;
+const cartBtn = document.querySelector(".cartBtn");
+const productItem = document.querySelector(".product-grid .product-card");
+
 async function loadProducts() {
   try {
     const response = await fetch("./json-files/products.json");
@@ -99,9 +105,5 @@ function p(e) {
 function t(e) {
   console.table(e);
 }
-
-const catnav = document.querySelector(`nav.cat-btns`);
-const header = document.querySelector(`header`);
-const headerHeight = header.offsetHeight;
 
 catnav.style.top = `${headerHeight}px`;
