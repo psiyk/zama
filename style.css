@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 :root {
   --font-1: "Playfair Display", sans-serif;
@@ -71,18 +71,35 @@
   --accent-taupe: #a89f91; /* Balanced neutral taupe */
   --accent-champagne: #f7e9d7; /* Very light luxury accent */
 
-  --gradient-gold-taupe: linear-gradient(45deg, var(--accent-gold), var(--accent-taupe));
-  --gradient-dark-lux: linear-gradient(90deg, var(--bg-dark-primary), var(--bg-dark-secondary));
-  --gradient-light-elegance: linear-gradient(to bottom, var(--bg-primary), var(--bg-secondary));
+  --gradient-gold-taupe: linear-gradient(
+    45deg,
+    var(--accent-gold),
+    var(--accent-taupe)
+  );
+  --gradient-dark-lux: linear-gradient(
+    90deg,
+    var(--bg-dark-primary),
+    var(--bg-dark-secondary)
+  );
+  --gradient-light-elegance: linear-gradient(
+    to bottom,
+    var(--bg-primary),
+    var(--bg-secondary)
+  );
 
   --highlight: var(--accent-gold); /* Premium highlight tone */
   --highlight-muted: #d1bfa5; /* Soft pastel gold */
 
   --tran: 0.4s ease-in-out;
 }
-h1,h2,h3,h4,h5,h6{
-  font-family: "Playfair Display",serif;
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  color: inherit;
 }
 * {
   box-sizing: border-box;
@@ -117,19 +134,63 @@ header .btns,
 nav > form {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-
+header {
+  padding: var(--sp4) var(--vp-2);
+  color: var(--txt-primary);
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-primary);
+}
+header form {
+  border: var(--bd2) var(--bg-tertiary);
+  padding-inline: var(--sp4) var(--sp2);
+  border-radius: var(--bd-radius-3);
+}
+form:focus-within {
+  /* outline: var(--bd); */
+  border: var(--bd2) var(--bg-dark-secondary);
+}
+header input {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  width: 15rem;
+  padding: var(--sp2);
+}
+header form button {
+  padding: var(--sp3);
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+header .btns {
+  /* background-color: red; */
+  gap: 0 !important;
+}
+header .btns button {
+  background-color: transparent;
+  border: none;
+  padding: var(--sp2) var(--sp4);
+  font-size: 1.25rem;
+}
+header nav {
+  gap: var(--gap-1);
+}
 nav.cat-btns {
   position: sticky;
   display: flex;
   gap: var(--sp2);
-  background-color: var(--bg-dark-primary);
+  background-color: var(--bg-primary);
   overflow-x: auto;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   padding: var(--sp2) var(--vp-2);
   -ms-overflow-style: none; /* IE/Edge */
   scrollbar-width: none; /* Firefox */
+  border-top: var(--bd) var(--bg-secondary);
 }
 button[id^="cat-"] {
   scroll-snap-align: start;
@@ -142,7 +203,8 @@ button[id^="cat-"] {
 
   font-weight: 500;
   transition: background-color 0.3s;
-  background-color: var(--bg-secondary);
+  /* background-color: var(--bg-secondary); */
+  background-color: transparent;
 }
 
 button[id^="cat-"]:first-child {
@@ -162,7 +224,7 @@ section {
   /* background-color: var(--bg-dark-primary); */
   /* color: var(--txt-white); */
   background-color: var(--bg-primary);
-  background-image: url(images/bg/orange.jpeg);
+  /* background-image: url(images/bg/orange.jpeg); */
   background-size: cover;
   background-blend-mode: soft-light;
 }
@@ -180,12 +242,12 @@ section {
   font-weight: 500;
   font-size: var(--f-unit-4);
 }
-h2 b,
+/* h2 b,
 h1 {
   color: transparent !important;
   background-image: var(--gradient-green-yellow);
   background-clip: text;
-}
+} */
 h2 i {
   color: var(--txt-white);
   font-style: normal;
@@ -259,13 +321,16 @@ header .btns {
 .cartBtn span.amount-icon {
   position: absolute;
   bottom: -5px;
-  right: -5px;
-  left: 10px;
-  filter: drop-shadow(0px 0px 10px var(--bg-dark-tertiary));
+  /* right: -5px; */
+  right: -10px;
+  /* filter: drop-shadow(0px 0px 10px var(--bg-dark-tertiary)); */
   text-align: center;
   font-size: var(--f-unit-3);
   color: var(--green-light);
-  background-color: var(--bg-dark-secondary);
+  /* padding: var(--sp1); */
+  border: var(--bd1);
+  color: var(--txt-accent);
+  background-color: var(--bg-primary);
 }
 /* For phones */
 @media (max-width: 768px) {
