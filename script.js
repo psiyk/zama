@@ -83,12 +83,16 @@ function work(MyProducts) {
         <figcaption>
           <h3>${p.name}</h3>
           <p>${p.description}</p>
+          
+          <div class="user-ratings">
           <div class="stars" style="--ratingGR: ${ratingGr};">
-            <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
-            <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
-            <i class="fas far fa-star"></i>
+          <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
+          <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
+          <i class="fas far fa-star"></i>
           </div>
-          <p class="price">$${p.price}</p>
+            <p class ="rating">${p.ratings}</p>
+            </div>
+            <p class="price">$${p.price}</p>
           <div class="opt-btns">
             <button id="cartAdd">Add to Cart</button>
             <a href="#">View</a>
@@ -96,6 +100,17 @@ function work(MyProducts) {
         </figcaption>
       </figure>
     `;
+  }
+
+  async function cardSettings() {
+    try {
+      const p_cards = document.querySelectorAll("product-card");
+      p_cards.forEach((card) => {
+        card.setAttribute("tabIndex", "0");
+      });
+    } catch (error) {
+      console.log(`wahalla`);
+    }
   }
 }
 
@@ -108,10 +123,20 @@ function t(e) {
 
 catnav.style.top = `${headerHeight}px`;
 
-
-function products(){
+function products() {
   class productClass {
-    constructor(id,name,category,price,description,stock,image,tags,ratings,reviews) {
+    constructor(
+      id,
+      name,
+      category,
+      price,
+      description,
+      stock,
+      image,
+      tags,
+      ratings,
+      reviews
+    ) {
       this.id = id;
       this.category = category;
       this.price = price;
@@ -121,12 +146,12 @@ function products(){
       this.tags = tags;
       this.ratings = ratings;
       this.reviews = reviews;
-      this.name = name; 
+      this.name = name;
       this.image = image;
     }
     async fetchImage(imageUrl) {
       try {
-        const response = await fetch(imageUrl)
+        const response = await fetch(imageUrl);
         const blob = await response.blob();
         const imageObjectURL = URL.createObjectURL(blob);
         return imageObjectURL;
@@ -134,11 +159,11 @@ function products(){
         return "./images/failed.png"; // fallback
       }
     }
-  async setimageUrl(image){
-  this.imageUrl = await fetchImage(image);
-}
+    async setimageUrl(image) {
+      this.imageUrl = await fetchImage(image);
+    }
 
-    get productCard(){
+    get productCard() {
       return `
       <figure class="product-card">
         <div class="img-wrapper">
@@ -159,7 +184,7 @@ function products(){
           </div>
         </figcaption>
       </figure>
-      `
+      `;
     }
   }
 }

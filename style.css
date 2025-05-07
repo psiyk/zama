@@ -42,6 +42,7 @@
   --bd: 1.5px solid;
   --bd2: 2px solid;
 
+  --bd-radius-1: 2px;
   --bd-radius-1: 0.5rem;
   --bd-radius-2: 1rem;
   --bd-radius-3: 1.5rem;
@@ -97,9 +98,13 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Playfair Display", serif;
+h6,
+span.styled {
   color: inherit;
+  font-family: "Playfair Display", serif !important;
+}
+span.styled {
+  font-style: italic;
 }
 * {
   box-sizing: border-box;
@@ -131,7 +136,8 @@ a {
 .header-wrapper,
 header nav,
 header .btns,
-nav > form {
+nav > form,
+.product-card .user-ratings {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -142,6 +148,11 @@ header {
   position: sticky;
   top: 0;
   background-color: var(--bg-primary);
+  z-index: 111;
+}
+header h1 {
+  color: var(--txt-accent);
+  font-weight: normal;
 }
 header form {
   border: var(--bd2) var(--bg-tertiary);
@@ -180,6 +191,7 @@ header nav {
   gap: var(--gap-1);
 }
 nav.cat-btns {
+  z-index: 100;
   position: sticky;
   display: flex;
   gap: var(--sp2);
@@ -227,19 +239,26 @@ section {
   /* background-image: url(images/bg/orange.jpeg); */
   background-size: cover;
   background-blend-mode: soft-light;
+  padding: var(--sp8) var(--vp-2);
 }
 .hero h2 {
   font-size: var(--f-v-4);
   font-weight: 500;
-  color: var(--txt-primary);
+
+  color: var(--accent-gold);
   line-height: 1;
-  padding: var(--gap-4) var(--gap-3);
+  /* padding: var(--gap-4) var(--gap-3); */
   /* text-align: center; */
+  font-family: var(--font-1);
+}
+h2 b {
+  font-family: inherit;
+  font-weight: lighter;
 }
 .hero h2 + p {
   /* color: var(--txt-sec); */
   margin-bottom: var(--sp4);
-  font-weight: 500;
+  font-weight: bold;
   font-size: var(--f-unit-4);
 }
 /* h2 b,
@@ -264,7 +283,7 @@ h2 i {
   width: min(50%, 13.5rem);
   font-size: var(--f-unit-4);
   font-weight: 500;
-  border-radius: var(--bd-radius-2);
+  border-radius: 2px;
   border: var(--bd2);
   background-color: var(--bg-secondary);
   background-size: 300%;
@@ -290,7 +309,8 @@ section:not(.hero) h2 {
 }
 .hero .cta-btns button {
   color: var(--txt-white);
-  background-color: var(--bg-dark-primary);
+  background-color: var(--bg-primary);
+  color: var(--txt-highlight);
 }
 section.products {
   padding-block: var(--sp8);
@@ -298,6 +318,7 @@ section.products {
 .product-grid {
   gap: var(--gap-4);
   display: grid;
+  padding: var(--sp1) var(--vp-2);
   grid-template-columns: repeat(5, 1fr);
   @media (max-width: 500px) {
     gap: var(--gap-2);
@@ -342,11 +363,16 @@ header .btns {
   /* border: var(--bd); */
   --bdrr: calc(var(--bd-radius-1) + var(--sp2));
   --bbdrr: calc(var(--bd-radius-1) + var(--sp4));
-  padding: var(--gap-2);
+  /* padding: var(--gap-2); */
   border-radius: var(--gap-2);
   object-fit: cover;
   object-position: bottom;
-  background-color: var(--bg-secondary);
+  border: var(--bd) transparent;
+  /* background-color: var(--bg-secondary); */
+}
+.product-card:focus-within {
+  /* background-color: var(--bg-secondary); */
+  translate: 0rem -1rem;
 }
 .product-card .img-wrapper {
   --width: calc(var(--card-w-1) - (2 * var(--sp2)));
@@ -355,8 +381,7 @@ header .btns {
   height: calc(var(--width) * 9 / 16);
 
   overflow: hidden;
-  border-radius: var(--bd-radius-1) var(--bd-radius-1) 2px 2px;
-  margin-bottom: var(--sp3);
+  border-radius: var(--bd-radius-0) var(--bd-radius-0) 0 0;
 }
 .product-card img {
   /* border: var(--bd); */
@@ -364,9 +389,12 @@ header .btns {
   width: 100%;
 }
 .product-card h3 {
+  padding-top: var(--sp4);
+  border-top: var(--bd) var(--bg-tertiary);
   min-height: 2lh;
   margin-block: var(--sp1);
   color: var(--txt-primary);
+  font-family: var(--font-3);
 }
 .product-card h3,
 .product-card p.price {
@@ -382,7 +410,9 @@ header .btns {
   text-overflow: ellipsis;
   overflow-wrap: break-word;
   overflow: hidden;
+  font-weight: 500;
   white-space: wrap;
+  color: var(--txt-secondary);
 }
 .product-card h3 + p,
 p + .stars {
@@ -394,13 +424,13 @@ p + .stars {
 .product-card .stars {
   /* --ratingGR: 90%; */
   margin-block: var(--sp3);
-  color: var(--txt-muted);
+  color: transparent;
   width: fit-content;
   background-size: calc(100% + (3 * var(--sp1)));
   background-image: linear-gradient(
     90deg,
-    var(--txt-highlight),
-    var(--txt-highlight) var(--ratingGR),
+    var(--highlight),
+    var(--highlight) var(--ratingGR),
     var(--bg-primary) var(--ratingGR),
     var(--bg-primary)
   );
@@ -408,6 +438,7 @@ p + .stars {
 }
 .product-card p.price {
   font-weight: 600;
+  font-family: var(--font-1);
   color: var(--txt-accent);
 }
 .product-card .opt-btns {
@@ -418,20 +449,26 @@ p + .stars {
 }
 .opt-btns button,
 .opt-btns a {
-  border-radius: var(--gap-2);
+  border-radius: var(--bd-radius-1);
   flex-grow: 1;
   padding: var(--gap-1);
   text-align: center;
   /* border: var(--bd2); */
   border: none;
+  font-weight: 500;
+  color: var(--txt-primary);
   background-color: var(--bg-tertiary);
-  color: var(--txt-light);
+}
+.opt-btns a {
+  background-color: transparent;
 }
 .opt-btns button:hover,
 .opt-btns a:hover,
 .opt-btns a:focus,
 .opt-btns button:focus {
-  filter: invert(1);
+  color: var(--txt-light);
+  /* filter: invert(1); */
+  outline: none;
   background-color: var(--bg-dark-secondary);
 }
 section.cart {
