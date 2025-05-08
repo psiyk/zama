@@ -93,7 +93,7 @@ function work(MyProducts) {
             <p class ="rating">${p.ratings} rating</p>
             </div>
             <p class="price">$${p.price}</p>
-            ${p.}
+            
           <div class="opt-btns">
             <button id="cartAdd">Add to Cart</button>
             <a href="#">View</a>
