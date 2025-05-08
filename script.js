@@ -1,8 +1,9 @@
 const catnav = document.querySelector(`nav.cat-btns`);
 const header = document.querySelector(`header`);
 const headerHeight = header.offsetHeight;
-const cartBtn = document.querySelector(".cartBtn");
+const cartBtn = document.querySelectorAll(".cartBtn");
 const productItem = document.querySelector(".product-grid .product-card");
+const cartSection = document.querySelector("section.cart");
 
 async function loadProducts() {
   try {
@@ -25,7 +26,7 @@ function work(MyProducts) {
   const productList = [];
   const productCat = [];
 
-  MyProducts.forEach((product) => {
+  MyProducts.forEach((product, index) => {
     productList.push(product);
     if (!productCat.includes(product.category)) {
       productCat.push(product.category);
@@ -113,6 +114,7 @@ function work(MyProducts) {
       console.log(`wahalla`);
     }
   }
+  cardSettings();
 }
 
 function p(e) {
@@ -189,3 +191,13 @@ function products() {
     }
   }
 }
+
+function toggleNav(e) {
+  e.classList.toggle("active");
+}
+cartBtn.forEach((cartBtn) => {
+  cartBtn.addEventListener("click", () => {
+    toggleNav(cartSection);
+    document.body.classList.toggle("blurred", e.classList.contains("active"));
+  });
+});
