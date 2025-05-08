@@ -391,10 +391,13 @@ header .btns {
 .product-card h3 {
   padding-top: var(--sp4);
   border-top: var(--bd) var(--bg-tertiary);
-  min-height: 2lh;
+  min-height: 2.2lh !important;
   margin-block: var(--sp1);
   color: var(--txt-primary);
   font-family: var(--font-3);
+}
+.product-card p.amount {
+  margin-top: var(--sp2);
 }
 .product-card h3,
 .product-card p.price {
@@ -444,7 +447,7 @@ p + .stars {
 }
 .product-card .opt-btns {
   display: flex;
-  margin-top: var(--sp7);
+  margin-top: var(--sp5);
   border: var(--bd-radius-2);
   gap: var(--gap-1);
 }
