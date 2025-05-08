@@ -55,20 +55,22 @@ function work(MyProducts) {
         productWrapper.innerHTML += productHTML;
       }
     }
+    cardSettings(); // Call after rendering
   }
 
   async function createProductCard(p) {
     async function fetchImage(imageUrl) {
       try {
         const response = await fetch(imageUrl);
-        // if (!response.ok) {
-        //   throw new Error(`Failed to fetch image: ${response.statusText}`);
-        // }
-        const blob = await response.blob();
-        const imageObjectURL = URL.createObjectURL(blob);
-        return imageObjectURL;
+        if (!response) {
+          return "./images/failed.png"; // fallback
+        } else {
+          const blob = await response.blob();
+          const imageObjectURL = URL.createObjectURL(blob);
+          return imageObjectURL;
+        }
       } catch (error) {
-        // console.error("Error fetching image:", error);
+        console.log("error");
         return "./images/failed.png"; // fallback
       }
     }
@@ -104,17 +106,22 @@ function work(MyProducts) {
     `;
   }
 
-  async function cardSettings() {
+  function cardSettings() {
     try {
-      const p_cards = document.querySelectorAll("product-card");
-      p_cards.forEach((card) => {
-        card.setAttribute("tabIndex", "0");
+      const p_cards = document.querySelectorAll(".product-card");
+      p_cards.forEach((card, index) => {
+        const addToCartBtn = card.querySelector("#cartAdd");
+        if (addToCartBtn) {
+          // console.log(addToCartBtn);
+          addToCartBtn.addEventListener("click");
+        } else {
+          console.warn("Add to Cart button not found in card:", card);
+        }
       });
     } catch (error) {
-      console.log(`wahalla`);
+      console.log("Error in cardSettings:", error);
     }
   }
-  cardSettings();
 }
 
 function p(e) {
@@ -126,78 +133,81 @@ function t(e) {
 
 catnav.style.top = `${headerHeight}px`;
 
-function products() {
-  class productClass {
-    constructor(
-      id,
-      name,
-      category,
-      price,
-      description,
-      stock,
-      image,
-      tags,
-      ratings,
-      reviews
-    ) {
-      this.id = id;
-      this.category = category;
-      this.price = price;
-      this.description = description;
-      this.stock = stock;
-      this.imageUrl = image;
-      this.tags = tags;
-      this.ratings = ratings;
-      this.reviews = reviews;
-      this.name = name;
-      this.image = image;
-    }
-    async fetchImage(imageUrl) {
-      try {
-        const response = await fetch(imageUrl);
-        const blob = await response.blob();
-        const imageObjectURL = URL.createObjectURL(blob);
-        return imageObjectURL;
-      } catch (error) {
-        return "./images/failed.png"; // fallback
-      }
-    }
-    async setimageUrl(image) {
-      this.imageUrl = await fetchImage(image);
-    }
+// function products() {
+//   class productClass {
+//     constructor(
+//       id,
+//       name,
+//       category,
+//       price,
+//       description,
+//       stock,
+//       image,
+//       tags,
+//       ratings,
+//       reviews
+//     ) {
+//       this.id = id;
+//       this.category = category;
+//       this.price = price;
+//       this.description = description;
+//       this.stock = stock;
+//       this.imageUrl = image;
+//       this.tags = tags;
+//       this.ratings = ratings;
+//       this.reviews = reviews;
+//       this.name = name;
+//       this.image = image;
+//     }
+//     async fetchImage(imageUrl) {
+//       try {
+//         const response = await fetch(imageUrl);
+//         const blob = await response.blob();
+//         const imageObjectURL = URL.createObjectURL(blob);
+//         return imageObjectURL;
+//       } catch (error) {
+//         return "./images/failed.png"; // fallback
+//       }
+//     }
+//     async setimageUrl(image) {
+//       this.imageUrl = await fetchImage(image);
+//     }
 
-    get productCard() {
-      return `
-      <figure class="product-card">
-        <div class="img-wrapper">
-          <img src="${this.imageUrl}" alt="${this.name}" />
-        </div>
-        <figcaption>
-          <h3>${this.name}</h3>
-          <p>${this.description}</p>
-          <div class="stars" style="--ratingGR: ${ratingGr};">
-            <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
-            <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
-            <i class="fas far fa-star"></i>
-          </div>
-          <p class="price">$${p.price}</p>
-          <div class="opt-btns">
-            <button id="cartAdd">Add to Cart</button>
-            <a href="#">View</a>
-          </div>
-        </figcaption>
-      </figure>
-      `;
-    }
-  }
-}
+//     get productCard() {
+//       return `
+//       <figure class="product-card">
+//         <div class="img-wrapper">
+//           <img src="${this.imageUrl}" alt="${this.name}" />
+//         </div>
+//         <figcaption>
+//           <h3>${this.name}</h3>
+//           <p>${this.description}</p>
+//           <div class="stars" style="--ratingGR: ${ratingGr};">
+//             <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
+//             <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
+//             <i class="fas far fa-star"></i>
+//           </div>
+//           <p class="price">$${p.price}</p>
+//           <div class="opt-btns">
+//             <button id="cartAdd">Add to Cart</button>
+//             <a href="#">View</a>
+//           </div>
+//         </figcaption>
+//       </figure>
+//       `;
+//     }
+//   }
+// }
 
 function toggleNav(e) {
   e.classList.toggle("active");
 }
-cartBtn.forEach((cartBtn) => {
-  cartBtn.addEventListener("click", () => {
+cartBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
     toggleNav(cartSection);
-    document.body.classList.toggle("blurred", e.classList.contains("active"));
+    document.body.classList.toggle(
+      "blurred",
+      cartSection.classList.contains("active")
+    );
   });
 });

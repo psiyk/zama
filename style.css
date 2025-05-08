@@ -382,6 +382,9 @@ header .btns {
   /* background-color: var(--bg-secondary); */
   translate: 0rem -1rem;
 }
+.product-card:focus {
+  border: 1px solid #000;
+}
 .product-card .img-wrapper {
   --width: calc(var(--card-w-1) - (2 * var(--sp2)));
 
@@ -603,8 +606,9 @@ section h4 {
   gap: var(--gap-2);
   align-items: center;
   padding: var(--sp2) var(--sp4);
-  background-color: var(--bg-dark-secondary);
-  border-radius: var(--bd-radius-2);
+  background-color: var(--bg-primary);
+  /* border-radius: var(--bd-radius-2); */
+  border-radius: var(--bd-radius-1);
   max-width: fit-content;
   line-height: 1;
   margin-top: var(--sp1);
