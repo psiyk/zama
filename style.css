@@ -391,13 +391,14 @@ header .btns {
 .product-card h3 {
   padding-top: var(--sp4);
   border-top: var(--bd) var(--bg-tertiary);
-  min-height: 2.2lh !important;
+  height: 5rem !important;
   margin-block: var(--sp1);
   color: var(--txt-primary);
   font-family: var(--font-3);
 }
 .product-card p.amount {
   margin-top: var(--sp2);
+  font-weight: 500;
 }
 .product-card h3,
 .product-card p.price {
