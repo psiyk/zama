@@ -410,16 +410,17 @@ header .btns {
   text-overflow: ellipsis;
   overflow-wrap: break-word;
   overflow: hidden;
-  font-weight: 500;
+  /* font-weight: 500; */
   white-space: wrap;
   color: var(--txt-secondary);
+  /* font-size: .8rem; */
 }
 .product-card h3 + p,
 p + .stars {
   display: flex;
   gap: var(--sp1);
   letter-spacing: 0px;
-  font-size: var(--f-unit-4);
+  font-size: var(--f-unit-3);
 }
 .product-card .stars {
   /* --ratingGR: 90%; */

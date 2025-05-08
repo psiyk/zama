@@ -90,9 +90,10 @@ function work(MyProducts) {
           <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
           <i class="fas far fa-star"></i>
           </div>
-            <p class ="rating">${p.ratings}</p>
+            <p class ="rating">${p.ratings} rating</p>
             </div>
             <p class="price">$${p.price}</p>
+            ${p.}
           <div class="opt-btns">
             <button id="cartAdd">Add to Cart</button>
             <a href="#">View</a>
