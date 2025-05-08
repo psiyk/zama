@@ -392,7 +392,7 @@ header .btns {
   padding-top: var(--sp4);
   border-top: var(--bd) var(--bg-tertiary);
   height: 5rem !important;
-  margin-block: var(--sp1);
+  margin-block: var(--sp1) var(--sp2);
   color: var(--txt-primary);
   font-family: var(--font-3);
 }
