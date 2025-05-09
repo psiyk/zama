@@ -464,7 +464,7 @@ p + .stars {
   gap: var(--gap-1);
 }
 .opt-btns button,
-.opt-btns a {
+.opt-btns .view {
   border-radius: var(--bd-radius-1);
   flex-grow: 1;
   padding: var(--gap-1);
@@ -640,4 +640,15 @@ section h4 {
 .total-amount P:first-child {
   flex-grow: 1;
   font-weight: 500;
+}
+#removeBtn {
+  color: var(--txt-primary);
+  font-weight: bold;
+}
+#removeBtn:hover {
+  color: var(--txt-secondary);
+}
+#removeBtn:focus {
+  translate: 0 -2px;
+  color: var(--txt-secondary);
 }
