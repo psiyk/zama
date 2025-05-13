@@ -1,199 +1,147 @@
-const catnav = document.querySelector(`nav.cat-btns`);
-const header = document.querySelector(`header`);
-const headerHeight = header.offsetHeight;
-const cartBtn = document.querySelectorAll(".cartBtn");
-const productItem = document.querySelector(".product-grid .product-card");
+const catnav = document.querySelector("nav.cat-btns");
+const header = document.querySelector("header");
 const cartSection = document.querySelector("section.cart");
+const cartContainer = document.querySelector("ul.cart-section");
+const cartBtn = document.querySelectorAll(".cartBtn");
+const productWrapper = document.querySelector(".product-grid.product-section");
+
+const headerHeight = header.offsetHeight;
+catnav.style.top = `${headerHeight}px`;
+
+// Cart array to hold products
+let cart = [];
 
 async function loadProducts() {
   try {
     const response = await fetch("./json-files/products.json");
-    const data = await response.json();
-    const MyProducts = data;
-    // console.log(MyProducts[0]);
-
-    //
-    work(MyProducts);
-    //
+    const products = await response.json();
+    displayProducts(products);
   } catch (error) {
-    console.error("File MISSNG");
+    console.error("Failed to load product file:", error);
   }
 }
 
-loadProducts();
-const productWrapper = document.querySelector(`.product-grid.product-section`);
-function work(MyProducts) {
-  const productList = [];
-  const productCat = [];
+async function displayProducts(products) {
+  const categories = [...new Set(products.map((p) => p.category))];
+  const ProductsObject = {};
 
-  MyProducts.forEach((product, index) => {
-    productList.push(product);
-    if (!productCat.includes(product.category)) {
-      productCat.push(product.category);
-    }
+  categories.forEach((cat) => {
+    ProductsObject[cat] = products.filter((p) => p.category === cat);
   });
 
-  const ProductsObject = classify();
-
-  function classify() {
-    const ProductsObject = {};
-    productCat.forEach((cat) => {
-      const catProducts = MyProducts.filter(
-        (product) => product.category === cat
-      );
-      ProductsObject[cat] = catProducts;
-    });
-    return ProductsObject;
-  }
-
-  displayProducts();
-
-  async function displayProducts() {
-    for (const category in ProductsObject) {
-      for (const p of ProductsObject[category]) {
-        const productHTML = await createProductCard(p);
-        productWrapper.innerHTML += productHTML;
-      }
+  for (const category in ProductsObject) {
+    for (const product of ProductsObject[category]) {
+      const productHTML = await createProductCard(product);
+      productWrapper.insertAdjacentHTML("beforeend", productHTML);
     }
-    cardSettings(); // Call after rendering
   }
-  async function cartItem(p) {
-    const cartItem = document.createElement("ul");
-    const x_amount = 0;
-    cartItem.classList.add("item");
-    cartItem.innerHTML = `
-       <li class="item">
-          <div class="item-img">
-                 <img src="${p.image}" alt="${p.name}" />
-          </div>
-          <div class="details">
-            <h4 class="name">${p.name}</h4>
-            <p>$<span class="price">$${p.price}</span></p>
-            <p class="amount">
-              <button
-                type="button"
-                id="addAmountBtn"
-                title="Decrease the amount"
-              >
-                <i class="fas fas fas fa-minus"></i>
-              </button>
-              ${x_amount}
-              <button
-                type="button"
-                id="minusAmountBtn"
-                title="Increase the amount"
-              >
-                <i class="fas fas fa-plus"></i>
-              </button>
-              <button type="button" id="removeBtn">Remove</button>
-            </p>
-          </div>
-        </li>
-    `;
-    return cartItem;
-  }
-  async function createProductCard(p) {
-    async function fetchImage(imageUrl) {
-      try {
-        const response = await fetch(imageUrl);
-        if (!response) {
-          return "./images/failed.png"; // fallback
-        } else {
-          const blob = await response.blob();
-          const imageObjectURL = URL.createObjectURL(blob);
-          return imageObjectURL;
-        }
-      } catch (error) {
-        console.log("error");
-        return "./images/failed.png"; // fallback
-      }
-    }
 
-    const imageUrl = await fetchImage(p.image);
-    const ratingGr = `${(p.ratings * 100) / 5}%`;
+  bindAddToCartButtons(products);
+}
 
-    const boughtAmount = 0;
-    // console.log(p.rating);
-    return `
-      <figure class="product-card">
-        <div class="img-wrapper">
-          <img src="${imageUrl}" alt="${p.name}" />
-        </div>
-        <figcaption>
-          <h3>${p.name}</h3>
-          <p>${p.description}</p>
-          
-          <div class="user-ratings">
+async function createProductCard(p) {
+  const imageUrl = await fetchImage(p.image);
+  const ratingGr = `${(p.ratings * 100) / 5}%`;
+
+  return `
+    <figure class="product-card" data-id="${p.id}">
+      <div class="img-wrapper">
+        <img src="${imageUrl}" alt="${p.name}" />
+      </div>
+      <figcaption>
+        <h3>${p.name}</h3>
+        <p>${p.description}</p>
+        <div class="user-ratings">
           <div class="stars" style="--ratingGR: ${ratingGr};">
-          <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
-          <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
-          <i class="fas far fa-star"></i>
+            <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
+            <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
+            <i class="fas far fa-star"></i>
           </div>
-            <p class ="rating">${p.ratings} rating</p>
-            </div>
-            <p class="price">$${p.price}</p>
-            <p class="amount">Amount left: ${p.stock}</p>
-          <div class="opt-btns">
-            <button id="cartAdd">Add to Cart</button>
-            <a href="#">View</a>
-          </div>
-        </figcaption>
-      </figure>
-    `;
-  }
+          <p class="rating">${p.ratings} rating</p>
+        </div>
+        <p class="price">$${p.price}</p>
+        <p class="amount">Amount left: ${p.stock}</p>
+        <div class="opt-btns">
+          <button class="cartAdd">Add to Cart</button>
+          <a href="#">View</a>
+        </div>
+      </figcaption>
+    </figure>
+  `;
+}
 
-  function cardSettings() {
-    try {
-      const p_cards = document.querySelectorAll(".product-card");
-      p_cards.forEach((card, index) => {
-        const addToCartBtn = card.querySelector("#cartAdd");
-        if (addToCartBtn) {
-          // console.log(addToCartBtn);
-          addToCartBtn.addEventListener("click", {});
-        } else {
-          console.warn("Add to Cart button not found in card:", card);
-        }
+async function fetchImage(imageUrl) {
+  try {
+    const response = await fetch(imageUrl);
+    if (!response.ok) throw new Error("Image not found");
+    const blob = await response.blob();
+    return URL.createObjectURL(blob);
+  } catch {
+    return "./images/failed.png"; // fallback image
+  }
+}
+
+function bindAddToCartButtons(allProducts) {
+  const cards = document.querySelectorAll(".product-card");
+
+  cards.forEach((card) => {
+    const id = card.dataset.id;
+    const product = allProducts.find((p) => p.id == id);
+    const addBtn = card.querySelector(".cartAdd");
+
+    if (addBtn) {
+      addBtn.addEventListener("click", () => {
+        addToCart(product);
       });
-    } catch (error) {
-      console.log("Error in cardSettings:", error);
     }
+  });
+}
+
+function addToCart(product) {
+  const existingItem = cart.find((item) => item.id === product.id);
+
+  if (existingItem) {
+    existingItem.quantity += 1;
+  } else {
+    cart.push({ ...product, quantity: 1 });
   }
-  async function recieveproducts() {
-    let products = await fetch("./json-files/products.json");
-    products = await products.json();
-    console.log(products[0]);
 
-    let prodproducts = document.querySelectorAll(".product-card");
-    let cartSection = document.querySelector(``);
+  renderCart();
+}
 
-    prodproducts.forEach((product, index) => {
-      const addToCartBtn = product.querySelector("#cartAdd");
-      if (addToCartBtn) {
-        addToCartBtn.addEventListener("click", () => {
-          const cartItem = cartItem(products[index]);
-          cartSection.appendChild(cartItem);
-          console.log(cartItem);
-        });
-      } else {
-        console.warn("Add to Cart button not found in card:", product);
-      }
+function renderCart() {
+  cartSection.innerHTML = ""; // clear cart before rendering
+
+  cart.forEach((item) => {
+    const cartItem = document.createElement("li");
+    cartItem.classList.add("cart-item");
+    cartItem.innerHTML = `
+      <div class="item-img">
+        <img src="${item.image}" alt="${item.name}" />
+      </div>
+      <div class="details">
+        <h4 class="name">${item.name}</h4>
+        <p class="price">Price: $${item.price}</p>
+        <p>Quantity: ${item.quantity}
+        <button class="remove-item" data-id="${item.id}">Remove</button>
+        </p>
+      </div>
+    `;
+
+    cartContainer.appendChild(cartItem);
+  });
+
+  // Bind remove buttons
+  document.querySelectorAll(".remove-item").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.id;
+      cart = cart.filter((item) => item.id != id);
+      renderCart();
     });
-  }
-  recieveproducts();
+  });
 }
 
-function p(e) {
-  console.log(e);
-}
-function t(e) {
-  console.table(e);
-}
-
-catnav.style.top = `${headerHeight}px`;
-
-function toggleNav(e) {
-  e.classList.toggle("active");
-}
+// Cart toggle UI
 cartBtn.forEach((btn) => {
   btn.addEventListener("click", () => {
     toggleNav(cartSection);
@@ -203,3 +151,10 @@ cartBtn.forEach((btn) => {
     );
   });
 });
+
+function toggleNav(element) {
+  element.classList.toggle("active");
+}
+
+// Start the program
+loadProducts();

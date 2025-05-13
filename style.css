@@ -133,6 +133,7 @@ body.blurred {
 body.blurred > *:not(section.active) {
   filter: blur(5px); /* Adjust the blur intensity */
   pointer-events: none; /* Disable interaction with blurred elements */
+  -webkit-user-select: none; /* Prevent text selection */
   user-select: none; /* Prevent text selection */
 }
 button,
@@ -209,6 +210,7 @@ nav.cat-btns {
   scroll-snap-type: x mandatory;
   padding: var(--sp2) var(--vp-2);
   -ms-overflow-style: none; /* IE/Edge */
+  -webkit-scrollbar-width: none; /* Firefox */
   scrollbar-width: none; /* Firefox */
   border-top: var(--bd) var(--bg-secondary);
 }
@@ -552,6 +554,7 @@ section.cart {
   /* background-color: var(--bg-secondary); */
   color: var(--bg-dark-primary);
   border-bottom: var(--bd) var(--accent-gold);
+  -webkit-mask-image: linear-gradient(transparent, 30%, black 40%);
   mask-image: linear-gradient(transparent, 30%, black 40%);
   width: 100%;
   margin-bottom: var(--sp2);
@@ -560,7 +563,7 @@ section.cart {
 #CashOutBtn:focus {
   background-color: var(--bg-secondary);
 }
-.item {
+.cart-item {
   --bd-x: calc(var(--sp2));
   display: flex;
   gap: var(--gap-2);
@@ -585,13 +588,13 @@ section.cart {
   width: 100%;
   height: 100%;
 }
-.item {
+.cart-item {
   transition: var(--tran);
 }
-.item:hover {
+.cart-item:hover {
   background-color: var(--bg-secondary);
 }
-.item .details {
+.cart-item .details {
   flex-grow: 1;
 }
 section.active {
@@ -613,15 +616,15 @@ section h4 {
   line-height: 1;
   margin-top: var(--sp1);
 }
-.cart .item button {
+.cart .cart-item button {
   padding: 0;
   line-height: 0;
   background-color: transparent;
   border-radius: 100%;
   border: none;
 }
-.item button:hover,
-.item button:focus {
+.cart-item button:hover,
+.cart-item button:focus {
   color: var(--red-highlight);
 }
 .total-amount {
@@ -633,8 +636,8 @@ section h4 {
   font-size: var(--f-unit-4);
   background-color: var(--bg-secondary);
   color: var(--txt-primary);
-  backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   border-radius: var(--bd-radius-1);
 }
 .total-amount P:first-child {
