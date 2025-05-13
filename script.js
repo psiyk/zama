@@ -110,26 +110,36 @@ function addToCart(product) {
 }
 
 function renderCart() {
-  cartSection.innerHTML = ""; // clear cart before rendering
-
-  cart.forEach((item) => {
-    const cartItem = document.createElement("li");
-    cartItem.classList.add("cart-item");
-    cartItem.innerHTML = `
-      <div class="item-img">
-        <img src="${item.image}" alt="${item.name}" />
-      </div>
-      <div class="details">
-        <h4 class="name">${item.name}</h4>
-        <p class="price">Price: $${item.price}</p>
-        <p>Quantity: ${item.quantity}
-        <button class="remove-item" data-id="${item.id}">Remove</button>
+  cartContainer.innerHTML = ""; // clear cart before rendering
+  if (cart.length === 0) {
+    cartContainer.innerHTML = `
+      <li class="empty-cart">
+        <h3>Your cart is empty</h3>
+        <p>Start shopping now!</p>
+      </li>
+    `;
+  } else {
+    cart.forEach((item) => {
+      const cartItem = document.createElement("li");
+      cartItem.classList.add("cart-item");
+      cartItem.innerHTML = `
+        <div class="item-img">
+          <img src="${item.image}" alt="${item.name}" />
+        </div>
+        <div class="details">
+          <h4 class="name">${item.name}</h4>
+          <p class="price">Price: $${item.price}</p>
+          <p class="amount"><span>
+      <i class="fas fa-shopping-bag"></i>
+        </span> ${item.quantity}
+        <button class="remove-item" data-id="${item.id}" id="removeBtn">Remove</button>
         </p>
       </div>
     `;
 
-    cartContainer.appendChild(cartItem);
-  });
+      cartContainer.appendChild(cartItem);
+    });
+  }
 
   // Bind remove buttons
   document.querySelectorAll(".remove-item").forEach((btn) => {
