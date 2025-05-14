@@ -773,6 +773,7 @@ section h4 {
   /* color: green; */
 }
 .tags {
+  text-transform: capitalize;
   display: flex;
   gap: var(--gap-1);
   margin-block: var(--sp2);
