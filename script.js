@@ -53,7 +53,8 @@ async function createProductCard(p) {
         <p>${p.description}</p>
         <div class="user-ratings">
           <div class="stars" style="--ratingGR: ${ratingGr};">
-            <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
+
+           <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
             <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
             <i class="fas far fa-star"></i>
           </div>
