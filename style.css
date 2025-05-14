@@ -481,13 +481,14 @@ p + .stars {
   color: var(--txt-primary);
   background-color: var(--bg-tertiary);
 }
-.opt-btns a {
+.opt-btns .viewProductBtn {
   background-color: transparent;
   font-weight: 500;
+  color: var(--txt-secondary);
 }
 .opt-btns button:hover,
-.opt-btns a:hover,
-.opt-btns a:focus,
+.opt-btns .viewProductBtn:hover,
+.opt-btns .viewProductBtn:focus,
 .opt-btns button:focus {
   color: var(--txt-light);
   /* filter: invert(1); */
@@ -674,7 +675,7 @@ section h4 {
   z-index: 10000;
   padding: var(--sp4) var(--vp-2);
   overflow: auto;
-  /* display: none; */
+  display: none;
 }
 .modal-content.section-wrapper {
   display: flex;
@@ -782,6 +783,14 @@ section h4 {
   background-color: var(--bg-secondary);
   padding: var(--sp2) var(--sp7);
   border-radius: var(--bd-radius-3);
+}
+.info {
+  display: flex;
+  gap: var(--sp2);
+  margin-block: var(--sp2);
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 .modal .stock {
   color: var(--txt-primary);

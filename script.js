@@ -37,6 +37,18 @@ async function displayProducts(products) {
   }
 
   bindAddToCartButtons(products);
+  bindViewButtons(products);
+}
+function bindViewButtons(products) {
+  const viewBtns = document.querySelectorAll(".viewProductBtn");
+
+  viewBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.id;
+      const product = products.find((p) => p.id == id);
+      if (product) openProductModal(product);
+    });
+  });
 }
 
 async function createProductCard(p) {
@@ -64,7 +76,7 @@ async function createProductCard(p) {
         <p class="amount">Amount left: ${p.stock}</p>
         <div class="opt-btns">
           <button class="cartAdd">Add to Cart</button>
-          <a href="#">View</a>
+          <button class="viewProductBtn" data-id="${p.id}">View</button>
         </div>
       </figcaption>
     </figure>
@@ -166,6 +178,63 @@ cartBtn.forEach((btn) => {
 function toggleNav(element) {
   element.classList.toggle("active");
 }
+function openProductModal(product) {
+  const modal = document.getElementById("productModal");
+  const modalDetails = modal.querySelector(".modal-details");
 
+  // ✅ Set image
+  modalDetails.querySelector(".modal-img img").src =
+    product.image || "./images/failed.png";
+  modalDetails.querySelector(".modal-img img").alt = product.name;
+
+  // ✅ Set name, price, description, stock, rating
+  modalDetails.querySelector("h3").textContent = product.name;
+  modalDetails.querySelector("#modalPrice").textContent = product.price;
+  modalDetails.querySelector("#modalStock").textContent = product.stock;
+  modalDetails.querySelector(".description").textContent = product.description;
+  modalDetails.querySelector(".ratings p span").textContent = product.ratings;
+
+  // ✅ Set tags
+  const tagContainer = modalDetails.querySelector(".tags");
+  tagContainer.innerHTML = product.tags.map((tag) => `<p>${tag}</p>`).join("");
+
+  // ✅ Set reviews
+  const reviewList = modalDetails.querySelector(".reviews");
+  if (Array.isArray(product.reviews) && product.reviews.length > 0) {
+    reviewList.innerHTML = product.reviews
+      .map(
+        (review) => `
+      <li>
+        <div class="reviewer">
+          <img src="images/failed.png" alt="Reviewer" />
+          <p>${review.user}</p>
+        </div>
+        <p class="review-text">${review.comment}</p>
+        <div class="ratings">
+          <p>Rating: ${review.rating} / 5</p>
+        </div>
+      </li>
+    `
+      )
+      .join("");
+  } else {
+    reviewList.innerHTML = `<li><p>No reviews available for this product.</p></li>`;
+  }
+
+  // ✅ Show modal
+  modal.classList.remove("hidden");
+  modal.style.display = "block";
+}
+
+document.getElementById("modalClose").addEventListener("click", () => {
+  const modal = document.getElementById("productModal");
+  modal.style.display = "none";
+});
+window.addEventListener("click", (e) => {
+  const modal = document.getElementById("productModal");
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+});
 // Start the program
 loadProducts();
