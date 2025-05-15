@@ -701,8 +701,10 @@ section h4 {
   flex-wrap: wrap;
   /* text-align: center; */
 }
-.stars {
-  background-color: var(--bg-secondary);
+.modal-details .stars {
+  /* background-color: var(--bg-secondary); */
+  background-color: #b4b4b471 !important;
+  background-size: contain;
 }
 .modal-details .modal-img {
   border: 1px solid #000;
@@ -742,6 +744,7 @@ section h4 {
   /* border-radius: var(--bd-radius-1); */
   background-color: transparent;
   border: var(--bd2);
+  cursor: pointer;
 }
 .modal-content img {
   max-height: 50rem;
@@ -872,4 +875,15 @@ section h4 {
 }
 p.review-text {
   font-weight: 500;
+}
+h3#categoryHeading {
+  font-family: var(--font-3) !important;
+  padding: var(--sp4) var(--vp-2);
+  font-size: var(--f-unit-5);
+}
+.banner {
+  border: var(-bd);
+}
+.banner .section-wrapper {
+  padding-block: var(--sp8);
 }

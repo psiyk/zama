@@ -40,16 +40,17 @@
       </div>
     </header>
     <nav class="cat-btns">
-      <button id="cat-elec">Electronics & Gadgets</button>
-      <button id="cat-fash">Fashion & Apparel</button>
-      <button id="cat-home">Home & Kitchen</button>
-      <button id="cat-beauty">Beauty & Personal Care</button>
-      <button id="cat-groc">Groceries & Essentials</button>
-      <button id="cat-health">Health & Wellness</button>
-      <button id="cat-office">Computers & Office</button>
-      <button id="cat-kids">Toys, Kids & Baby</button>
-      <button id="cat-auto">Automobile & Tools</button>
-      <button id="cat-books">Books & Stationery</button>
+      <button id="cat-all" data-category="all">All Products</button>
+      <button id="cat-elec" data-category="Electronics & Gadgets">Electronics & Gadgets</button>
+      <button id="cat-fash" data-category="Fashion & Apparel">Fashion & Apparel</button>
+      <button id="cat-home" data-category="Home & Kitchen">Home & Kitchen</button>
+      <button id="cat-beauty" data-category="Beauty & Personal Care">Beauty & Personal Care</button>
+      <button id="cat-groc" data-category="Groceries & Essentials">Groceries & Essentials</button>
+      <button id="cat-health" data-category="Health & Wellness">Health & Wellness</button>
+      <button id="cat-office" data-category="Computers & Office">Computers & Office</button>
+      <button id="cat-kids" data-category="Toys, Kids & Baby">Toys, Kids & Baby</button>
+      <button id="cat-auto" data-category="Automobile & Tools">Automobile & Tools</button>
+      <button id="cat-books" data-category="Books & Stationery">Books & Stationery</button>
     </nav>
     <section class="cart">
       <div class="cart-title">
@@ -138,6 +139,7 @@
         </div>
       </section>
       <section class="products">
+        <h3 id="categoryHeading">All Products</h3> <!-- Category heading -->
         <div class="product-section section-wrapper product-grid"></div>
       </section>
       <section id="productModal" class="modal hidden">
@@ -194,7 +196,7 @@
                   Repudiandae, cumque.
                   
                 </p>
-                <div class="ratings">
+                <div class="ratings"></div>
               </li>
               <li>
                 <div class="reviewer">
@@ -206,7 +208,7 @@
                   Repudiandae, cumque.
                   
                 </p>
-                <div class="ratings">
+                <div class="ratings"></div>
               </li>
               <li>
                 <div class="reviewer">
@@ -218,11 +220,24 @@
                   Repudiandae, cumque.
                   
                 </p>
-                <div class="ratings">
+                <div class="ratings"></div>
               </li>
             </ul>
           </div>
         </div>
+      </section>
+      <section class="banner">
+        <div class="section-wrapper">
+          <div class="banner-text">
+            <h3>Special Offer</h3>
+            <p>Get 50% off on your first purchase!</p>
+          </div>
+          <div class="banner-btns">
+            <button class="cta-btn">Shop Now</button>
+            <button class="cta-btn">Learn More</button>
+          </div>
+        </div>
+
       </section>
     </main>
   </body>

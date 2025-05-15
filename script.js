@@ -4,6 +4,7 @@ const cartSection = document.querySelector("section.cart");
 const cartContainer = document.querySelector("ul.cart-section");
 const cartBtn = document.querySelectorAll(".cartBtn");
 const productWrapper = document.querySelector(".product-grid.product-section");
+const categoryHeading = document.getElementById("categoryHeading");
 
 const headerHeight = header.offsetHeight;
 catnav.style.top = `${headerHeight}px`;
@@ -11,11 +12,14 @@ catnav.style.top = `${headerHeight}px`;
 // Cart array to hold products
 let cart = [];
 
+let allProducts = [];
 async function loadProducts() {
   try {
     const response = await fetch("./json-files/products.json");
     const products = await response.json();
-    displayProducts(products);
+    allProducts = products; // Store for category filter
+    displayProducts(allProducts);
+    setupCategoryFilters(); // Add this line
   } catch (error) {
     console.error("Failed to load product file:", error);
   }
@@ -39,6 +43,37 @@ async function displayProducts(products) {
   bindAddToCartButtons(products);
   bindViewButtons(products);
 }
+function setupCategoryFilters() {
+  const catButtons = document.querySelectorAll(".cat-btns button");
+
+  catButtons.forEach((button) => {
+    button.addEventListener("click", async () => {
+      const selectedCategory = button.dataset.category;
+      const displayName = button.textContent;
+      categoryHeading.textContent =
+        selectedCategory === "all" ? "All Products" : displayName;
+
+      // Clear previous products
+      productWrapper.innerHTML = "";
+
+      // ✅ If "all" is clicked, show everything; otherwise, filter
+      const filteredProducts =
+        selectedCategory === "all"
+          ? allProducts
+          : allProducts.filter((p) => p.category === selectedCategory);
+
+      // Render filtered products
+      for (const product of filteredProducts) {
+        const productHTML = await createProductCard(product);
+        productWrapper.insertAdjacentHTML("beforeend", productHTML);
+      }
+
+      bindAddToCartButtons(filteredProducts);
+      bindViewButtons(filteredProducts);
+    });
+  });
+}
+
 function bindViewButtons(products) {
   const viewBtns = document.querySelectorAll(".viewProductBtn");
 
@@ -193,7 +228,8 @@ function openProductModal(product) {
   modalDetails.querySelector("#modalStock").textContent = product.stock;
   modalDetails.querySelector(".description").textContent = product.description;
   modalDetails.querySelector(".ratings p span").textContent = product.ratings;
-
+  const modalStars = modalDetails.querySelector(".ratings .stars");
+  modalStars.style.setProperty("--ratingGR", `${(product.ratings * 100) / 5}%`);
   // ✅ Set tags
   const tagContainer = modalDetails.querySelector(".tags");
   tagContainer.innerHTML = product.tags.map((tag) => `<p>${tag}</p>`).join("");

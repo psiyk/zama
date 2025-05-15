@@ -7,26 +7,25 @@
     "description": "Bluetooth Speaker offers premium quality and outstanding reliability. Built with cutting-edge technology for exceptional performance. Perfect for tech enthusiasts seeking style and innovation.",
     "stock": 91,
     "image": "https://placeimg.com/49/682/any",
-    "tags": [
-      "beauty",
-      "value",
-      "kids"
-    ],
+    "tags": ["beauty", "value", "kids"],
     "ratings": 1.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "011a9e99-baed-4a3a-b946-38ac3446c5f9",
         "rating": 1,
         "comment": "Exceeded expectations.",
         "date": "2025-01-28"
       },
       {
+        "user": " John Doe",
         "userId": "e27646d8-d35d-4803-9a78-8cb0a426571d",
         "rating": 4,
         "comment": "Quality could improve.",
         "date": "2024-08-14"
       },
       {
+        "user": " John Doe",
         "userId": "8c90ae58-dbdb-4718-a6b6-ab6319857620",
         "rating": 2,
         "comment": "Fast delivery and good quality.",
@@ -42,26 +41,25 @@
     "description": "Smartphone offers premium quality and outstanding reliability. Built with cutting-edge technology for exceptional performance. Perfect for tech enthusiasts seeking style and innovation.",
     "stock": 67,
     "image": "https://placeimg.com/87/587/any",
-    "tags": [
-      "auto",
-      "health",
-      "modern"
-    ],
+    "tags": ["auto", "health", "modern"],
     "ratings": 1.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "9635be7a-af3c-4c46-9857-ad35c8971f50",
         "rating": 3,
         "comment": "Fast delivery and good quality.",
         "date": "2024-09-10"
       },
       {
+        "user": " John Doe",
         "userId": "afca9d6d-6ce7-4a5b-9e4e-7a1f012d7fe7",
         "rating": 5,
         "comment": "Not as expected.",
         "date": "2024-04-04"
       },
       {
+        "user": " John Doe",
         "userId": "78c0a78d-3101-48ea-8fc0-3e73c9d2b6bc",
         "rating": 5,
         "comment": "Not as expected.",
@@ -77,26 +75,25 @@
     "description": "Wireless Earbuds offers premium quality and outstanding reliability. Built with cutting-edge technology for exceptional performance. Perfect for tech enthusiasts seeking style and innovation.",
     "stock": 191,
     "image": "https://placeimg.com/99/601/any",
-    "tags": [
-      "office",
-      "tech",
-      "stationery"
-    ],
+    "tags": ["office", "tech", "stationery"],
     "ratings": 1.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "1a248f23-1c45-4666-a31f-1df264de91ae",
         "rating": 5,
         "comment": "Disappointed with this purchase.",
         "date": "2024-11-22"
       },
       {
+        "user": " John Doe",
         "userId": "a7e7768e-0d79-4a68-b207-2b9e333c04a7",
         "rating": 2,
         "comment": "Disappointed with this purchase.",
         "date": "2025-01-02"
       },
       {
+        "user": " John Doe",
         "userId": "f59115f7-0eff-49b0-b07b-4dd826d6da29",
         "rating": 1,
         "comment": "Exceeded expectations.",
@@ -112,26 +109,25 @@
     "description": "Smartwatch offers premium quality and outstanding reliability. Built with cutting-edge technology for exceptional performance. Perfect for tech enthusiasts seeking style and innovation.",
     "stock": 144,
     "image": "https://placeimg.com/96/367/any",
-    "tags": [
-      "grocery",
-      "stationery",
-      "auto"
-    ],
+    "tags": ["grocery", "stationery", "auto"],
     "ratings": 2.2,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "933ce058-acbc-4638-aff2-71130c8b2cd9",
         "rating": 1,
         "comment": "Fast delivery and good quality.",
         "date": "2024-07-16"
       },
       {
+        "user": " John Doe",
         "userId": "63b38749-b194-4c44-a0b4-64209ff7fb07",
         "rating": 5,
         "comment": "Disappointed with this purchase.",
         "date": "2025-01-03"
       },
       {
+        "user": " John Doe",
         "userId": "ab6812db-866d-4d7b-9946-eb7f20a281d5",
         "rating": 1,
         "comment": "Could be better.",
@@ -147,26 +143,25 @@
     "description": "Drone offers premium quality and outstanding reliability. Built with cutting-edge technology for exceptional performance. Perfect for tech enthusiasts seeking style and innovation.",
     "stock": 171,
     "image": "https://placeimg.com/99/457/any",
-    "tags": [
-      "kids",
-      "new",
-      "trendy"
-    ],
+    "tags": ["kids", "new", "trendy"],
     "ratings": 2.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "898d7da9-2df1-40a5-acb5-2023a193d1f4",
         "rating": 1,
         "comment": "Exceeded expectations.",
         "date": "2024-10-19"
       },
       {
+        "user": " John Doe",
         "userId": "ac1b4f82-c12f-41c3-bb94-9b2420390b25",
         "rating": 2,
         "comment": "Exceeded expectations.",
         "date": "2024-08-31"
       },
       {
+        "user": " John Doe",
         "userId": "32c4526e-52dd-4931-8cb3-7ebf50fb6f9f",
         "rating": 3,
         "comment": "Very satisfied.",
@@ -182,26 +177,25 @@
     "description": "Gaming Console offers premium quality and outstanding reliability. Built with cutting-edge technology for exceptional performance. Perfect for tech enthusiasts seeking style and innovation.",
     "stock": 60,
     "image": "https://placeimg.com/63/377/any",
-    "tags": [
-      "modern",
-      "trendy",
-      "grocery"
-    ],
+    "tags": ["modern", "trendy", "grocery"],
     "ratings": 2.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "48ac6c75-321a-43ee-9ef5-47fb131dbffc",
         "rating": 1,
         "comment": "Not as expected.",
         "date": "2024-12-31"
       },
       {
+        "user": " John Doe",
         "userId": "7a3527c7-b7a2-4872-b329-a823eb59bdba",
         "rating": 3,
         "comment": "Fast delivery and good quality.",
         "date": "2024-05-29"
       },
       {
+        "user": " John Doe",
         "userId": "9bcabcfa-fcc9-444d-ae8a-81589c18c1e9",
         "rating": 3,
         "comment": "Great value for the price.",
@@ -217,26 +211,25 @@
     "description": "Action Camera offers premium quality and outstanding reliability. Built with cutting-edge technology for exceptional performance. Perfect for tech enthusiasts seeking style and innovation.",
     "stock": 180,
     "image": "https://placeimg.com/63/665/any",
-    "tags": [
-      "health",
-      "fashion",
-      "office"
-    ],
+    "tags": ["health", "fashion", "office"],
     "ratings": 3.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "bf51c1cc-a662-48e0-b9a1-fd91344373b8",
         "rating": 3,
         "comment": "Fast delivery and good quality.",
         "date": "2024-01-15"
       },
       {
+        "user": " John Doe",
         "userId": "b9df7486-16ba-4cba-b6c2-783094bddf7e",
         "rating": 4,
         "comment": "Amazing product!",
         "date": "2024-01-16"
       },
       {
+        "user": " John Doe",
         "userId": "6721cde2-0d37-45d2-83d2-c492961c2d23",
         "rating": 5,
         "comment": "Not as expected.",
@@ -252,26 +245,25 @@
     "description": "Laptop offers premium quality and outstanding reliability. Built with cutting-edge technology for exceptional performance. Perfect for tech enthusiasts seeking style and innovation.",
     "stock": 63,
     "image": "https://placeimg.com/73/607/any",
-    "tags": [
-      "grocery",
-      "stationery",
-      "health"
-    ],
+    "tags": ["grocery", "stationery", "health"],
     "ratings": 3.1,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "9deab5bb-b8f4-4e48-a36a-b2e740ca466e",
         "rating": 2,
         "comment": "Would buy again.",
         "date": "2024-07-10"
       },
       {
+        "user": " John Doe",
         "userId": "6ab486ab-5d15-42b0-9dfc-71f25d50a2c8",
         "rating": 4,
         "comment": "Could be better.",
         "date": "2025-03-25"
       },
       {
+        "user": " John Doe",
         "userId": "91bb9434-828e-49d2-8a3e-f39d2be3362b",
         "rating": 4,
         "comment": "Very satisfied.",
@@ -287,26 +279,25 @@
     "description": "Tablet offers premium quality and outstanding reliability. Built with cutting-edge technology for exceptional performance. Perfect for tech enthusiasts seeking style and innovation.",
     "stock": 177,
     "image": "https://placeimg.com/64/572/any",
-    "tags": [
-      "office",
-      "classic",
-      "new"
-    ],
+    "tags": ["office", "classic", "new"],
     "ratings": 3.9,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "85f8024f-47e2-4d3d-a318-f3ac55f810fa",
         "rating": 4,
         "comment": "Very satisfied.",
         "date": "2024-01-25"
       },
       {
+        "user": " John Doe",
         "userId": "a6d39aba-5f45-487c-ad84-01dd9fa50946",
         "rating": 5,
         "comment": "Disappointed with this purchase.",
         "date": "2024-11-13"
       },
       {
+        "user": " John Doe",
         "userId": "6c13a5b1-c433-473f-9824-3d455f142dbb",
         "rating": 2,
         "comment": "Fast delivery and good quality.",
@@ -322,26 +313,25 @@
     "description": "Portable Charger offers premium quality and outstanding reliability. Built with cutting-edge technology for exceptional performance. Perfect for tech enthusiasts seeking style and innovation.",
     "stock": 67,
     "image": "https://placeimg.com/77/276/any",
-    "tags": [
-      "tech",
-      "grocery",
-      "office"
-    ],
+    "tags": ["tech", "grocery", "office"],
     "ratings": 3.9,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "1417c0bf-a55e-4db5-b482-9cc31214d076",
         "rating": 1,
         "comment": "Fast delivery and good quality.",
         "date": "2024-01-26"
       },
       {
+        "user": " John Doe",
         "userId": "e33979e7-ec26-4b58-94ab-e00d755e39ab",
         "rating": 4,
         "comment": "Exceeded expectations.",
         "date": "2024-04-03"
       },
       {
+        "user": " John Doe",
         "userId": "e45b1291-f207-4cc7-a3af-26f98cfd29c7",
         "rating": 4,
         "comment": "Would buy again.",
@@ -357,26 +347,25 @@
     "description": "Men's T-Shirt offers premium quality and outstanding reliability. Designed for modern trends and comfort, using premium materials. Perfect for everyday wear and special occasions.",
     "stock": 133,
     "image": "https://placeimg.com/90/562/any",
-    "tags": [
-      "beauty",
-      "fashion",
-      "kids"
-    ],
+    "tags": ["beauty", "fashion", "kids"],
     "ratings": 3.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "c09098f4-645b-4c10-a59f-f5be8feea638",
         "rating": 4,
         "comment": "Great value for the price.",
         "date": "2024-07-16"
       },
       {
+        "user": " John Doe",
         "userId": "bf1c9f78-8d57-49cf-b984-e4d69a5c75a0",
         "rating": 3,
         "comment": "Amazing product!",
         "date": "2024-06-25"
       },
       {
+        "user": " John Doe",
         "userId": "67b78e49-e7c9-4c2b-8941-8927502a45a1",
         "rating": 2,
         "comment": "Could be better.",
@@ -392,26 +381,25 @@
     "description": "Women's Dress offers premium quality and outstanding reliability. Designed for modern trends and comfort, using premium materials. Perfect for everyday wear and special occasions.",
     "stock": 134,
     "image": "https://placeimg.com/63/259/any",
-    "tags": [
-      "classic",
-      "value",
-      "auto"
-    ],
+    "tags": ["classic", "value", "auto"],
     "ratings": 2.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "0bd40708-848d-404b-9fe3-e4f988999ae8",
         "rating": 3,
         "comment": "Quality could improve.",
         "date": "2024-06-13"
       },
       {
+        "user": " John Doe",
         "userId": "e2e031eb-bb98-4333-863f-aa0b69b97b72",
         "rating": 4,
         "comment": "Could be better.",
         "date": "2024-10-23"
       },
       {
+        "user": " John Doe",
         "userId": "470637fe-b52b-46ad-b4c9-dda79d536bbe",
         "rating": 5,
         "comment": "Would buy again.",
@@ -427,26 +415,25 @@
     "description": "Sneakers offers premium quality and outstanding reliability. Designed for modern trends and comfort, using premium materials. Perfect for everyday wear and special occasions.",
     "stock": 64,
     "image": "https://placeimg.com/93/458/any",
-    "tags": [
-      "office",
-      "auto",
-      "home"
-    ],
+    "tags": ["office", "auto", "home"],
     "ratings": 2.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "db22dfd0-f353-436e-b506-3ecee1dfc58b",
         "rating": 3,
         "comment": "Quality could improve.",
         "date": "2025-03-07"
       },
       {
+        "user": " John Doe",
         "userId": "ed5555aa-07d1-4afc-b63c-e0573d92fd4c",
         "rating": 5,
         "comment": "Disappointed with this purchase.",
         "date": "2024-01-17"
       },
       {
+        "user": " John Doe",
         "userId": "a3e2dbf2-a55e-452e-b0c1-8a18dbba11bd",
         "rating": 5,
         "comment": "Would buy again.",
@@ -462,26 +449,25 @@
     "description": "Jeans offers premium quality and outstanding reliability. Designed for modern trends and comfort, using premium materials. Perfect for everyday wear and special occasions.",
     "stock": 116,
     "image": "https://placeimg.com/94/366/any",
-    "tags": [
-      "beauty",
-      "modern",
-      "kids"
-    ],
+    "tags": ["beauty", "modern", "kids"],
     "ratings": 1.1,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "1e9bc89e-68ed-43c3-854c-6b8d390fbafd",
         "rating": 4,
         "comment": "Fast delivery and good quality.",
         "date": "2024-06-02"
       },
       {
+        "user": " John Doe",
         "userId": "ee319e5c-3bba-4f89-b90a-ebfbc84a9d58",
         "rating": 5,
         "comment": "Very satisfied.",
         "date": "2024-09-05"
       },
       {
+        "user": " John Doe",
         "userId": "4075371e-deb8-4ee8-b5d5-b9242c018c3f",
         "rating": 4,
         "comment": "Amazing product!",
@@ -497,26 +483,25 @@
     "description": "Leather Jacket offers premium quality and outstanding reliability. Designed for modern trends and comfort, using premium materials. Perfect for everyday wear and special occasions.",
     "stock": 54,
     "image": "https://placeimg.com/79/443/any",
-    "tags": [
-      "grocery",
-      "stationery",
-      "auto"
-    ],
+    "tags": ["grocery", "stationery", "auto"],
     "ratings": 4.2,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "9160bb47-ba59-4bbc-bf82-c12cb2a5be14",
         "rating": 4,
         "comment": "Exceeded expectations.",
         "date": "2024-05-13"
       },
       {
+        "user": " John Doe",
         "userId": "594ec878-cb3b-4724-9162-9c4b5a908cb9",
         "rating": 3,
         "comment": "Disappointed with this purchase.",
         "date": "2024-08-07"
       },
       {
+        "user": " John Doe",
         "userId": "a93323bd-1bd0-4185-9ba9-481ba472851f",
         "rating": 4,
         "comment": "Amazing product!",
@@ -532,26 +517,25 @@
     "description": "Sunglasses offers premium quality and outstanding reliability. Designed for modern trends and comfort, using premium materials. Perfect for everyday wear and special occasions.",
     "stock": 189,
     "image": "https://placeimg.com/73/215/any",
-    "tags": [
-      "tech",
-      "new",
-      "fashion"
-    ],
+    "tags": ["tech", "new", "fashion"],
     "ratings": 1.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "30014ff5-2f7c-4cf5-ab15-1d1a2807fae5",
         "rating": 4,
         "comment": "Great value for the price.",
         "date": "2024-03-04"
       },
       {
+        "user": " John Doe",
         "userId": "e5a67f48-caa3-4b8d-9e91-f706932cbacd",
         "rating": 1,
         "comment": "Could be better.",
         "date": "2025-02-16"
       },
       {
+        "user": " John Doe",
         "userId": "10371c60-c10d-4dbe-9333-4dd0c0818ed1",
         "rating": 2,
         "comment": "Disappointed with this purchase.",
@@ -567,26 +551,25 @@
     "description": "Handbag offers premium quality and outstanding reliability. Designed for modern trends and comfort, using premium materials. Perfect for everyday wear and special occasions.",
     "stock": 90,
     "image": "https://placeimg.com/52/525/any",
-    "tags": [
-      "stationery",
-      "auto",
-      "classic"
-    ],
+    "tags": ["stationery", "auto", "classic"],
     "ratings": 1.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "e91c9c44-4a42-4103-8208-25702ccb5d43",
         "rating": 5,
         "comment": "Very satisfied.",
         "date": "2025-01-03"
       },
       {
+        "user": " John Doe",
         "userId": "a4deb0f5-3363-47da-befa-43110214f6fa",
         "rating": 5,
         "comment": "Great value for the price.",
         "date": "2024-07-08"
       },
       {
+        "user": " John Doe",
         "userId": "f4a8585f-7e0a-4439-84cf-4282c3fe5ac5",
         "rating": 5,
         "comment": "Amazing product!",
@@ -602,26 +585,25 @@
     "description": "Wristwatch offers premium quality and outstanding reliability. Designed for modern trends and comfort, using premium materials. Perfect for everyday wear and special occasions.",
     "stock": 25,
     "image": "https://placeimg.com/84/296/any",
-    "tags": [
-      "kids",
-      "modern",
-      "auto"
-    ],
+    "tags": ["kids", "modern", "auto"],
     "ratings": 3.1,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "9cdb81c5-6f54-4890-b981-e5a796f373ad",
         "rating": 4,
         "comment": "Exceeded expectations.",
         "date": "2024-07-23"
       },
       {
+        "user": " John Doe",
         "userId": "145e49d6-25ac-4dd8-9582-a6a98ae3fd7a",
         "rating": 4,
         "comment": "Could be better.",
         "date": "2024-03-19"
       },
       {
+        "user": " John Doe",
         "userId": "88fd5724-d310-43f9-a05a-cb21fe4a8532",
         "rating": 1,
         "comment": "Would buy again.",
@@ -637,26 +619,25 @@
     "description": "Cap offers premium quality and outstanding reliability. Designed for modern trends and comfort, using premium materials. Perfect for everyday wear and special occasions.",
     "stock": 37,
     "image": "https://placeimg.com/61/553/any",
-    "tags": [
-      "health",
-      "kids",
-      "tech"
-    ],
+    "tags": ["health", "kids", "tech"],
     "ratings": 4.3,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "80c62b8f-de62-45d0-b612-00110d6e841e",
         "rating": 4,
         "comment": "Fast delivery and good quality.",
         "date": "2025-01-31"
       },
       {
+        "user": " John Doe",
         "userId": "c9fb1c84-534c-455e-90c3-b62ee169971b",
         "rating": 5,
         "comment": "Not as expected.",
         "date": "2024-07-20"
       },
       {
+        "user": " John Doe",
         "userId": "2f8b1a62-286d-480f-885f-031815b58a02",
         "rating": 3,
         "comment": "Very satisfied.",
@@ -672,26 +653,25 @@
     "description": "Scarf offers premium quality and outstanding reliability. Designed for modern trends and comfort, using premium materials. Perfect for everyday wear and special occasions.",
     "stock": 170,
     "image": "https://placeimg.com/89/687/any",
-    "tags": [
-      "beauty",
-      "kids",
-      "fashion"
-    ],
+    "tags": ["beauty", "kids", "fashion"],
     "ratings": 1.1,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "71b7f668-4ecb-4d01-a8b1-bfcaac70d230",
         "rating": 4,
         "comment": "Great value for the price.",
         "date": "2024-07-24"
       },
       {
+        "user": " John Doe",
         "userId": "831fc5e2-ca00-476e-85fe-060a55a015fa",
         "rating": 4,
         "comment": "Exceeded expectations.",
         "date": "2024-11-08"
       },
       {
+        "user": " John Doe",
         "userId": "30bdd237-b875-450a-803f-d68d4b55520b",
         "rating": 4,
         "comment": "Fast delivery and good quality.",
@@ -707,26 +687,25 @@
     "description": "Nonstick Pan offers premium quality and outstanding reliability. Crafted to enhance your living space with both style and function. Reliable and built to last in everyday use.",
     "stock": 197,
     "image": "https://placeimg.com/40/523/any",
-    "tags": [
-      "grocery",
-      "trendy",
-      "beauty"
-    ],
+    "tags": ["grocery", "trendy", "beauty"],
     "ratings": 1.3,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "492571f1-9ac6-401f-9257-da0c09d20a17",
         "rating": 3,
         "comment": "Disappointed with this purchase.",
         "date": "2024-02-08"
       },
       {
+        "user": " John Doe",
         "userId": "2966656c-97c2-4dbc-9d94-cc982bd07d47",
         "rating": 4,
         "comment": "Amazing product!",
         "date": "2024-08-28"
       },
       {
+        "user": " John Doe",
         "userId": "a2317781-767b-474f-8419-58e7c745a7c7",
         "rating": 3,
         "comment": "Not as expected.",
@@ -742,26 +721,25 @@
     "description": "Blender offers premium quality and outstanding reliability. Crafted to enhance your living space with both style and function. Reliable and built to last in everyday use.",
     "stock": 28,
     "image": "https://placeimg.com/90/506/any",
-    "tags": [
-      "home",
-      "fashion",
-      "value"
-    ],
+    "tags": ["home", "fashion", "value"],
     "ratings": 4.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "16bf7739-08b1-4ae0-bfee-1f4d81877777",
         "rating": 2,
         "comment": "Fast delivery and good quality.",
         "date": "2024-10-20"
       },
       {
+        "user": " John Doe",
         "userId": "4eaafcb7-21a0-4e32-bdf7-a0ba12af52e5",
         "rating": 2,
         "comment": "Would buy again.",
         "date": "2024-09-20"
       },
       {
+        "user": " John Doe",
         "userId": "cabba013-66f9-42d1-bd63-22f3af6fd47e",
         "rating": 2,
         "comment": "Amazing product!",
@@ -777,26 +755,25 @@
     "description": "Microwave Oven offers premium quality and outstanding reliability. Crafted to enhance your living space with both style and function. Reliable and built to last in everyday use.",
     "stock": 100,
     "image": "https://placeimg.com/66/626/any",
-    "tags": [
-      "trendy",
-      "fashion",
-      "value"
-    ],
+    "tags": ["trendy", "fashion", "value"],
     "ratings": 2.3,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "95672b94-f5bc-499d-a7ba-af126c6e4fa1",
         "rating": 5,
         "comment": "Would buy again.",
         "date": "2024-06-27"
       },
       {
+        "user": " John Doe",
         "userId": "81ec880f-612f-42fb-881f-d69da47c6071",
         "rating": 4,
         "comment": "Not as expected.",
         "date": "2024-06-03"
       },
       {
+        "user": " John Doe",
         "userId": "f55d7e52-e960-4437-bbcc-6bb2bbcab67f",
         "rating": 3,
         "comment": "Could be better.",
@@ -812,26 +789,25 @@
     "description": "Toaster offers premium quality and outstanding reliability. Crafted to enhance your living space with both style and function. Reliable and built to last in everyday use.",
     "stock": 79,
     "image": "https://placeimg.com/55/684/any",
-    "tags": [
-      "value",
-      "office",
-      "stationery"
-    ],
+    "tags": ["value", "office", "stationery"],
     "ratings": 1.2,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "d8a35667-af72-419e-ae0d-b5c4e3f9253e",
         "rating": 5,
         "comment": "Not as expected.",
         "date": "2024-07-04"
       },
       {
+        "user": " John Doe",
         "userId": "edcffc91-6998-4a9c-8aff-76caacbc4841",
         "rating": 3,
         "comment": "Disappointed with this purchase.",
         "date": "2024-06-12"
       },
       {
+        "user": " John Doe",
         "userId": "b21073c9-9ed4-43be-ae79-c8465fe9ad76",
         "rating": 5,
         "comment": "Great value for the price.",
@@ -847,26 +823,25 @@
     "description": "Cookware Set offers premium quality and outstanding reliability. Crafted to enhance your living space with both style and function. Reliable and built to last in everyday use.",
     "stock": 195,
     "image": "https://placeimg.com/47/610/any",
-    "tags": [
-      "value",
-      "fashion",
-      "grocery"
-    ],
+    "tags": ["value", "fashion", "grocery"],
     "ratings": 1.2,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "0aec3bfb-b561-4f40-bca0-4cd5af48bd69",
         "rating": 4,
         "comment": "Fast delivery and good quality.",
         "date": "2024-08-30"
       },
       {
+        "user": " John Doe",
         "userId": "c1a38beb-e38d-4a3f-a3ba-7467d84fd5fa",
         "rating": 3,
         "comment": "Disappointed with this purchase.",
         "date": "2024-02-24"
       },
       {
+        "user": " John Doe",
         "userId": "8863427b-9126-4628-a5da-f8dcbc653435",
         "rating": 2,
         "comment": "Could be better.",
@@ -882,26 +857,25 @@
     "description": "Electric Kettle offers premium quality and outstanding reliability. Crafted to enhance your living space with both style and function. Reliable and built to last in everyday use.",
     "stock": 21,
     "image": "https://placeimg.com/88/679/any",
-    "tags": [
-      "value",
-      "fashion",
-      "auto"
-    ],
+    "tags": ["value", "fashion", "auto"],
     "ratings": 2.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "2c97583d-f7f5-4701-b463-af6d160257fc",
         "rating": 4,
         "comment": "Quality could improve.",
         "date": "2025-03-08"
       },
       {
+        "user": " John Doe",
         "userId": "41481bb9-dd14-457a-8b6e-f7faea3d12bc",
         "rating": 5,
         "comment": "Not as expected.",
         "date": "2024-03-18"
       },
       {
+        "user": " John Doe",
         "userId": "6f8c8386-0bb0-4231-a993-81fe8d7229a8",
         "rating": 1,
         "comment": "Amazing product!",
@@ -917,26 +891,25 @@
     "description": "Vacuum Cleaner offers premium quality and outstanding reliability. Crafted to enhance your living space with both style and function. Reliable and built to last in everyday use.",
     "stock": 15,
     "image": "https://placeimg.com/65/491/any",
-    "tags": [
-      "home",
-      "trendy",
-      "stationery"
-    ],
+    "tags": ["home", "trendy", "stationery"],
     "ratings": 3.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "3a49c2dc-5a27-4f12-8835-caed8ea5ed91",
         "rating": 2,
         "comment": "Could be better.",
         "date": "2024-04-14"
       },
       {
+        "user": " John Doe",
         "userId": "477f6113-98d8-45f1-a13b-ff494696a06e",
         "rating": 4,
         "comment": "Would buy again.",
         "date": "2024-07-09"
       },
       {
+        "user": " John Doe",
         "userId": "b3b87cf9-ca5c-4d20-a397-2ef26f43373d",
         "rating": 3,
         "comment": "Exceeded expectations.",
@@ -952,26 +925,25 @@
     "description": "Air Fryer offers premium quality and outstanding reliability. Crafted to enhance your living space with both style and function. Reliable and built to last in everyday use.",
     "stock": 30,
     "image": "https://placeimg.com/78/378/any",
-    "tags": [
-      "office",
-      "auto",
-      "tech"
-    ],
+    "tags": ["office", "auto", "tech"],
     "ratings": 4.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "5161a4d5-4a50-41a2-a2fa-d02f4d7bb103",
         "rating": 5,
         "comment": "Disappointed with this purchase.",
         "date": "2024-05-25"
       },
       {
+        "user": " John Doe",
         "userId": "6aa0de1d-a8de-4a7c-a54b-3c4362791f04",
         "rating": 5,
         "comment": "Exceeded expectations.",
         "date": "2025-01-28"
       },
       {
+        "user": " John Doe",
         "userId": "42568505-71f5-4c6d-8f6c-9f846fcd26e3",
         "rating": 5,
         "comment": "Very satisfied.",
@@ -987,26 +959,25 @@
     "description": "Rice Cooker offers premium quality and outstanding reliability. Crafted to enhance your living space with both style and function. Reliable and built to last in everyday use.",
     "stock": 161,
     "image": "https://placeimg.com/43/349/any",
-    "tags": [
-      "kids",
-      "trendy",
-      "classic"
-    ],
+    "tags": ["kids", "trendy", "classic"],
     "ratings": 4.2,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "332c3af5-ed52-4cd3-b22a-ecc8598fdabf",
         "rating": 5,
         "comment": "Amazing product!",
         "date": "2024-02-25"
       },
       {
+        "user": " John Doe",
         "userId": "ecbb0de2-772b-4682-8399-fcef7bbdbb99",
         "rating": 3,
         "comment": "Would buy again.",
         "date": "2024-04-28"
       },
       {
+        "user": " John Doe",
         "userId": "25280b14-c1c6-4194-a5de-8f8ddecf0922",
         "rating": 1,
         "comment": "Fast delivery and good quality.",
@@ -1022,26 +993,25 @@
     "description": "Dish Rack offers premium quality and outstanding reliability. Crafted to enhance your living space with both style and function. Reliable and built to last in everyday use.",
     "stock": 140,
     "image": "https://placeimg.com/63/385/any",
-    "tags": [
-      "value",
-      "health",
-      "trendy"
-    ],
+    "tags": ["value", "health", "trendy"],
     "ratings": 1.1,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "49322189-4279-4588-9555-d365c340e52e",
         "rating": 5,
         "comment": "Fast delivery and good quality.",
         "date": "2024-07-14"
       },
       {
+        "user": " John Doe",
         "userId": "0bb6528d-e6b5-4cd8-a0d9-761000588e3d",
         "rating": 1,
         "comment": "Very satisfied.",
         "date": "2024-03-19"
       },
       {
+        "user": " John Doe",
         "userId": "237c1a59-553e-40cf-8b15-103a718c1fad",
         "rating": 2,
         "comment": "Great value for the price.",
@@ -1057,26 +1027,25 @@
     "description": "Face Wash offers premium quality and outstanding reliability. Formulated to bring out your natural beauty with gentle, effective care. Suitable for all skin types and daily routines.",
     "stock": 82,
     "image": "https://placeimg.com/60/625/any",
-    "tags": [
-      "classic",
-      "value",
-      "fashion"
-    ],
+    "tags": ["classic", "value", "fashion"],
     "ratings": 1.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "6e849229-b634-47bf-82b7-20b7505d457b",
         "rating": 4,
         "comment": "Would buy again.",
         "date": "2024-08-08"
       },
       {
+        "user": " John Doe",
         "userId": "905ba79a-d8b3-4c4f-805d-2f25c7d2338b",
         "rating": 1,
         "comment": "Not as expected.",
         "date": "2024-10-04"
       },
       {
+        "user": " John Doe",
         "userId": "572c51cd-cc43-4be6-8019-be7aab5f18a7",
         "rating": 1,
         "comment": "Could be better.",
@@ -1092,26 +1061,25 @@
     "description": "Shampoo offers premium quality and outstanding reliability. Formulated to bring out your natural beauty with gentle, effective care. Suitable for all skin types and daily routines.",
     "stock": 20,
     "image": "https://placeimg.com/62/436/any",
-    "tags": [
-      "beauty",
-      "tech",
-      "fashion"
-    ],
+    "tags": ["beauty", "tech", "fashion"],
     "ratings": 2.1,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "2247b44d-62a6-4389-ac9f-3dfdffbcf04c",
         "rating": 4,
         "comment": "Exceeded expectations.",
         "date": "2024-05-29"
       },
       {
+        "user": " John Doe",
         "userId": "784c68ee-5df1-4693-a2d8-ce23efaf79a9",
         "rating": 1,
         "comment": "Exceeded expectations.",
         "date": "2024-04-09"
       },
       {
+        "user": " John Doe",
         "userId": "d15db35e-0113-4f18-adcc-3c5ec23d0566",
         "rating": 5,
         "comment": "Very satisfied.",
@@ -1127,26 +1095,25 @@
     "description": "Conditioner offers premium quality and outstanding reliability. Formulated to bring out your natural beauty with gentle, effective care. Suitable for all skin types and daily routines.",
     "stock": 71,
     "image": "https://placeimg.com/69/548/any",
-    "tags": [
-      "new",
-      "classic",
-      "office"
-    ],
+    "tags": ["new", "classic", "office"],
     "ratings": 4.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "a4d9fef1-279b-4f9c-8624-db85b4ac7aa5",
         "rating": 1,
         "comment": "Disappointed with this purchase.",
         "date": "2024-06-23"
       },
       {
+        "user": " John Doe",
         "userId": "f5a3cbed-50a2-412d-b8cb-62c524e193ab",
         "rating": 4,
         "comment": "Disappointed with this purchase.",
         "date": "2025-01-02"
       },
       {
+        "user": " John Doe",
         "userId": "4d9257d6-b9cd-458e-8b17-e888194b20c1",
         "rating": 5,
         "comment": "Fast delivery and good quality.",
@@ -1162,26 +1129,25 @@
     "description": "Lip Balm offers premium quality and outstanding reliability. Formulated to bring out your natural beauty with gentle, effective care. Suitable for all skin types and daily routines.",
     "stock": 35,
     "image": "https://placeimg.com/76/541/any",
-    "tags": [
-      "trendy",
-      "home",
-      "kids"
-    ],
+    "tags": ["trendy", "home", "kids"],
     "ratings": 1.9,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "c8e0a505-ad5f-40fb-8abd-9c820f8fc857",
         "rating": 5,
         "comment": "Disappointed with this purchase.",
         "date": "2024-01-24"
       },
       {
+        "user": " John Doe",
         "userId": "0e8e1b1a-a57b-46c1-bcb5-3368b20d0444",
         "rating": 2,
         "comment": "Not as expected.",
         "date": "2025-02-04"
       },
       {
+        "user": " John Doe",
         "userId": "b99486e4-d836-45c7-9c92-dcbd7100fbe3",
         "rating": 3,
         "comment": "Exceeded expectations.",
@@ -1197,26 +1163,25 @@
     "description": "Body Lotion offers premium quality and outstanding reliability. Formulated to bring out your natural beauty with gentle, effective care. Suitable for all skin types and daily routines.",
     "stock": 164,
     "image": "https://placeimg.com/90/559/any",
-    "tags": [
-      "new",
-      "fashion",
-      "kids"
-    ],
+    "tags": ["new", "fashion", "kids"],
     "ratings": 2.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "3cf73f6d-b16e-41e1-b591-18b0d681ac0a",
         "rating": 1,
         "comment": "Could be better.",
         "date": "2024-09-01"
       },
       {
+        "user": " John Doe",
         "userId": "fb6319ed-8f91-474a-82c7-da443b92d168",
         "rating": 2,
         "comment": "Would buy again.",
         "date": "2024-12-04"
       },
       {
+        "user": " John Doe",
         "userId": "1e9a75db-9082-4660-9b4a-f8f1cc1b20cb",
         "rating": 5,
         "comment": "Would buy again.",
@@ -1232,26 +1197,25 @@
     "description": "Sunscreen offers premium quality and outstanding reliability. Formulated to bring out your natural beauty with gentle, effective care. Suitable for all skin types and daily routines.",
     "stock": 113,
     "image": "https://placeimg.com/94/630/any",
-    "tags": [
-      "beauty",
-      "classic",
-      "fashion"
-    ],
+    "tags": ["beauty", "classic", "fashion"],
     "ratings": 2.9,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "a512b9f7-46a2-401f-bcc3-74d9f0d649e9",
         "rating": 2,
         "comment": "Disappointed with this purchase.",
         "date": "2024-09-25"
       },
       {
+        "user": " John Doe",
         "userId": "946bb0a6-dd92-4755-b321-ec6b99c35426",
         "rating": 1,
         "comment": "Could be better.",
         "date": "2024-11-09"
       },
       {
+        "user": " John Doe",
         "userId": "cf85ab38-f22a-429a-899b-656c3b26d962",
         "rating": 3,
         "comment": "Not as expected.",
@@ -1267,26 +1231,25 @@
     "description": "Perfume offers premium quality and outstanding reliability. Formulated to bring out your natural beauty with gentle, effective care. Suitable for all skin types and daily routines.",
     "stock": 198,
     "image": "https://placeimg.com/100/238/any",
-    "tags": [
-      "value",
-      "stationery",
-      "grocery"
-    ],
+    "tags": ["value", "stationery", "grocery"],
     "ratings": 1.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "f7d49bee-4540-4d98-9e61-0b2d45911808",
         "rating": 5,
         "comment": "Quality could improve.",
         "date": "2024-03-29"
       },
       {
+        "user": " John Doe",
         "userId": "aed9dbbc-f42d-40bb-9cae-5bb1e20fefd9",
         "rating": 4,
         "comment": "Quality could improve.",
         "date": "2024-07-31"
       },
       {
+        "user": " John Doe",
         "userId": "ffa6ca56-e61b-4b0c-ad58-864094dfbc3d",
         "rating": 4,
         "comment": "Disappointed with this purchase.",
@@ -1302,26 +1265,25 @@
     "description": "Hair Dryer offers premium quality and outstanding reliability. Formulated to bring out your natural beauty with gentle, effective care. Suitable for all skin types and daily routines.",
     "stock": 144,
     "image": "https://placeimg.com/40/365/any",
-    "tags": [
-      "home",
-      "auto",
-      "value"
-    ],
+    "tags": ["home", "auto", "value"],
     "ratings": 4.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "635da6f0-77e5-4548-8ffe-c949438c56cd",
         "rating": 4,
         "comment": "Disappointed with this purchase.",
         "date": "2024-08-13"
       },
       {
+        "user": " John Doe",
         "userId": "ebfe05a6-885b-4cc2-b0d0-e269c80e8045",
         "rating": 5,
         "comment": "Fast delivery and good quality.",
         "date": "2024-08-05"
       },
       {
+        "user": " John Doe",
         "userId": "a3f4ecba-58d4-4176-8295-90eb8e6a1269",
         "rating": 1,
         "comment": "Amazing product!",
@@ -1337,26 +1299,25 @@
     "description": "Makeup Kit offers premium quality and outstanding reliability. Formulated to bring out your natural beauty with gentle, effective care. Suitable for all skin types and daily routines.",
     "stock": 193,
     "image": "https://placeimg.com/98/323/any",
-    "tags": [
-      "stationery",
-      "health",
-      "home"
-    ],
+    "tags": ["stationery", "health", "home"],
     "ratings": 4.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "eb556841-4187-43c4-b0d2-d4a16b53f200",
         "rating": 5,
         "comment": "Not as expected.",
         "date": "2024-08-28"
       },
       {
+        "user": " John Doe",
         "userId": "7dbc3951-418e-4372-b437-152721f7ade5",
         "rating": 1,
         "comment": "Exceeded expectations.",
         "date": "2024-08-14"
       },
       {
+        "user": " John Doe",
         "userId": "0900a673-3220-49f4-9104-e2c37376e12e",
         "rating": 1,
         "comment": "Great value for the price.",
@@ -1372,26 +1333,25 @@
     "description": "Nail Polish offers premium quality and outstanding reliability. Formulated to bring out your natural beauty with gentle, effective care. Suitable for all skin types and daily routines.",
     "stock": 97,
     "image": "https://placeimg.com/52/657/any",
-    "tags": [
-      "fashion",
-      "modern",
-      "classic"
-    ],
+    "tags": ["fashion", "modern", "classic"],
     "ratings": 1.2,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "d9680c31-98fa-4cdb-9ca5-e8cf391d034c",
         "rating": 3,
         "comment": "Not as expected.",
         "date": "2024-12-17"
       },
       {
+        "user": " John Doe",
         "userId": "b64e350e-67a4-4798-a3a5-ef93fede5950",
         "rating": 3,
         "comment": "Quality could improve.",
         "date": "2024-05-03"
       },
       {
+        "user": " John Doe",
         "userId": "dba1d0a8-14f5-4673-9342-ffd2237a93e3",
         "rating": 3,
         "comment": "Quality could improve.",
@@ -1407,26 +1367,25 @@
     "description": "Organic Rice offers premium quality and outstanding reliability. Sourced fresh and packed with care to ensure maximum quality. Essential ingredients for a healthy lifestyle.",
     "stock": 182,
     "image": "https://placeimg.com/63/210/any",
-    "tags": [
-      "office",
-      "trendy",
-      "value"
-    ],
+    "tags": ["office", "trendy", "value"],
     "ratings": 3.3,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "0ccaed4f-c5c2-40e6-8441-81a70e2234cf",
         "rating": 2,
         "comment": "Could be better.",
         "date": "2024-11-28"
       },
       {
+        "user": " John Doe",
         "userId": "a56588ef-dbeb-4f94-b430-a7d1bcfcf80f",
         "rating": 5,
         "comment": "Exceeded expectations.",
         "date": "2024-07-01"
       },
       {
+        "user": " John Doe",
         "userId": "057747da-90a6-4a69-8b57-db5c81c9f04f",
         "rating": 4,
         "comment": "Very satisfied.",
@@ -1442,26 +1401,25 @@
     "description": "Cooking Oil offers premium quality and outstanding reliability. Sourced fresh and packed with care to ensure maximum quality. Essential ingredients for a healthy lifestyle.",
     "stock": 45,
     "image": "https://placeimg.com/79/332/any",
-    "tags": [
-      "home",
-      "classic",
-      "modern"
-    ],
+    "tags": ["home", "classic", "modern"],
     "ratings": 3.8,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "def6490b-7d20-480c-bbf6-abd7631fd154",
         "rating": 1,
         "comment": "Amazing product!",
         "date": "2024-04-11"
       },
       {
+        "user": " John Doe",
         "userId": "ed2cc003-56c6-4f4f-8862-64e9252033d9",
         "rating": 3,
         "comment": "Fast delivery and good quality.",
         "date": "2025-01-10"
       },
       {
+        "user": " John Doe",
         "userId": "cb3d0b65-f615-401f-9a31-5fff261ec854",
         "rating": 4,
         "comment": "Great value for the price.",
@@ -1477,26 +1435,25 @@
     "description": "Pasta offers premium quality and outstanding reliability. Sourced fresh and packed with care to ensure maximum quality. Essential ingredients for a healthy lifestyle.",
     "stock": 70,
     "image": "https://placeimg.com/65/562/any",
-    "tags": [
-      "modern",
-      "classic",
-      "value"
-    ],
+    "tags": ["modern", "classic", "value"],
     "ratings": 4.1,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "06910208-6770-4f9b-a752-bcfed4841097",
         "rating": 3,
         "comment": "Quality could improve.",
         "date": "2024-08-17"
       },
       {
+        "user": " John Doe",
         "userId": "d4316ba7-10b4-41eb-a7e4-744d45fbd0c4",
         "rating": 3,
         "comment": "Amazing product!",
         "date": "2025-02-28"
       },
       {
+        "user": " John Doe",
         "userId": "7f887ec8-ae4c-423b-adde-657c765c7989",
         "rating": 1,
         "comment": "Not as expected.",
@@ -1512,26 +1469,25 @@
     "description": "Tomato Sauce offers premium quality and outstanding reliability. Sourced fresh and packed with care to ensure maximum quality. Essential ingredients for a healthy lifestyle.",
     "stock": 19,
     "image": "https://placeimg.com/82/598/any",
-    "tags": [
-      "kids",
-      "new",
-      "tech"
-    ],
+    "tags": ["kids", "new", "tech"],
     "ratings": 4.1,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "cbe11f21-427c-459f-baf9-51773816df2f",
         "rating": 3,
         "comment": "Could be better.",
         "date": "2024-10-06"
       },
       {
+        "user": " John Doe",
         "userId": "1bccd31e-f602-4827-9a80-f46d52305341",
         "rating": 4,
         "comment": "Great value for the price.",
         "date": "2024-12-20"
       },
       {
+        "user": " John Doe",
         "userId": "f521a9d4-2040-40e4-939f-378e16baabd4",
         "rating": 3,
         "comment": "Would buy again.",
@@ -1547,26 +1503,25 @@
     "description": "Flour offers premium quality and outstanding reliability. Sourced fresh and packed with care to ensure maximum quality. Essential ingredients for a healthy lifestyle.",
     "stock": 78,
     "image": "https://placeimg.com/74/700/any",
-    "tags": [
-      "trendy",
-      "value",
-      "tech"
-    ],
+    "tags": ["trendy", "value", "tech"],
     "ratings": 3.3,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "94172d91-15b5-4fd9-a41d-c5c47b20c4c0",
         "rating": 2,
         "comment": "Exceeded expectations.",
         "date": "2024-03-18"
       },
       {
+        "user": " John Doe",
         "userId": "451f2dd8-efd1-4856-9a7e-5a17dfcad6ef",
         "rating": 1,
         "comment": "Could be better.",
         "date": "2025-03-09"
       },
       {
+        "user": " John Doe",
         "userId": "a1760de8-55a9-4311-8173-9bc4d4284371",
         "rating": 2,
         "comment": "Disappointed with this purchase.",
@@ -1582,26 +1537,25 @@
     "description": "Sugar offers premium quality and outstanding reliability. Sourced fresh and packed with care to ensure maximum quality. Essential ingredients for a healthy lifestyle.",
     "stock": 65,
     "image": "https://placeimg.com/54/596/any",
-    "tags": [
-      "tech",
-      "value",
-      "office"
-    ],
+    "tags": ["tech", "value", "office"],
     "ratings": 4.0,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "87dab754-5806-4077-8ab5-e71e3f77adc6",
         "rating": 2,
         "comment": "Disappointed with this purchase.",
         "date": "2024-01-21"
       },
       {
+        "user": " John Doe",
         "userId": "a3753eb7-a8c0-4c35-81a1-c43e5842a07d",
         "rating": 1,
         "comment": "Exceeded expectations.",
         "date": "2024-11-23"
       },
       {
+        "user": " John Doe",
         "userId": "b7182c74-17c1-4cbe-ac5c-a0ce996ba900",
         "rating": 4,
         "comment": "Disappointed with this purchase.",
@@ -1617,26 +1571,25 @@
     "description": "Salt offers premium quality and outstanding reliability. Sourced fresh and packed with care to ensure maximum quality. Essential ingredients for a healthy lifestyle.",
     "stock": 76,
     "image": "https://placeimg.com/57/646/any",
-    "tags": [
-      "auto",
-      "grocery",
-      "value"
-    ],
+    "tags": ["auto", "grocery", "value"],
     "ratings": 1.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "31336c64-14b8-4d2a-98eb-d158297ecbf2",
         "rating": 2,
         "comment": "Fast delivery and good quality.",
         "date": "2024-01-27"
       },
       {
+        "user": " John Doe",
         "userId": "397d1f1e-7e5e-4651-a0c0-b122fd3bed21",
         "rating": 4,
         "comment": "Not as expected.",
         "date": "2024-07-12"
       },
       {
+        "user": " John Doe",
         "userId": "ff92501d-ff20-400d-81e9-25c84a2d831c",
         "rating": 2,
         "comment": "Very satisfied.",
@@ -1652,26 +1605,25 @@
     "description": "Cereal offers premium quality and outstanding reliability. Sourced fresh and packed with care to ensure maximum quality. Essential ingredients for a healthy lifestyle.",
     "stock": 135,
     "image": "https://placeimg.com/48/243/any",
-    "tags": [
-      "auto",
-      "stationery",
-      "health"
-    ],
+    "tags": ["auto", "stationery", "health"],
     "ratings": 3.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "2dcfab94-59b5-480f-b51c-59e8eddf0664",
         "rating": 3,
         "comment": "Quality could improve.",
         "date": "2024-08-11"
       },
       {
+        "user": " John Doe",
         "userId": "e290ce12-de76-42f5-96f8-77b64d5ba170",
         "rating": 3,
         "comment": "Would buy again.",
         "date": "2024-08-25"
       },
       {
+        "user": " John Doe",
         "userId": "0fe7fbd0-ab50-4660-aa43-83eede09cade",
         "rating": 1,
         "comment": "Very satisfied.",
@@ -1687,26 +1639,25 @@
     "description": "Tea offers premium quality and outstanding reliability. Sourced fresh and packed with care to ensure maximum quality. Essential ingredients for a healthy lifestyle.",
     "stock": 24,
     "image": "https://placeimg.com/57/230/any",
-    "tags": [
-      "classic",
-      "new",
-      "tech"
-    ],
+    "tags": ["classic", "new", "tech"],
     "ratings": 4.8,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "8a11d0b8-014f-40eb-b109-b938de91e8b0",
         "rating": 4,
         "comment": "Fast delivery and good quality.",
         "date": "2025-03-04"
       },
       {
+        "user": " John Doe",
         "userId": "7d09b39d-6071-420a-9153-b06e1fbf0688",
         "rating": 4,
         "comment": "Great value for the price.",
         "date": "2024-06-21"
       },
       {
+        "user": " John Doe",
         "userId": "44dac2c8-fafe-46e8-a177-bb95a5b6da53",
         "rating": 2,
         "comment": "Very satisfied.",
@@ -1722,26 +1673,25 @@
     "description": "Coffee offers premium quality and outstanding reliability. Sourced fresh and packed with care to ensure maximum quality. Essential ingredients for a healthy lifestyle.",
     "stock": 170,
     "image": "https://placeimg.com/96/413/any",
-    "tags": [
-      "auto",
-      "kids",
-      "stationery"
-    ],
+    "tags": ["auto", "kids", "stationery"],
     "ratings": 3.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "bd29056e-bf17-4d92-ae0e-a7ca46d7d631",
         "rating": 2,
         "comment": "Exceeded expectations.",
         "date": "2024-09-22"
       },
       {
+        "user": " John Doe",
         "userId": "110239eb-8337-4c14-ab48-e35bf2c2d043",
         "rating": 5,
         "comment": "Could be better.",
         "date": "2024-04-28"
       },
       {
+        "user": " John Doe",
         "userId": "0d047c13-f9bf-44c0-b4da-6a9851b3bbbe",
         "rating": 1,
         "comment": "Great value for the price.",
@@ -1757,26 +1707,25 @@
     "description": "Vitamin C offers premium quality and outstanding reliability. Carefully designed to support your active, healthy lifestyle. Trusted by many for purity and effectiveness.",
     "stock": 62,
     "image": "https://placeimg.com/93/266/any",
-    "tags": [
-      "modern",
-      "new",
-      "kids"
-    ],
+    "tags": ["modern", "new", "kids"],
     "ratings": 1.2,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "30bc562e-83e2-4fcb-ba5b-6a42f51db76f",
         "rating": 1,
         "comment": "Quality could improve.",
         "date": "2025-01-02"
       },
       {
+        "user": " John Doe",
         "userId": "eace001b-9520-4539-93c6-adef9593b5f9",
         "rating": 5,
         "comment": "Very satisfied.",
         "date": "2024-06-30"
       },
       {
+        "user": " John Doe",
         "userId": "7b26c283-de0e-4ccf-a62a-184316596ad0",
         "rating": 3,
         "comment": "Very satisfied.",
@@ -1792,26 +1741,25 @@
     "description": "First Aid Kit offers premium quality and outstanding reliability. Carefully designed to support your active, healthy lifestyle. Trusted by many for purity and effectiveness.",
     "stock": 72,
     "image": "https://placeimg.com/79/649/any",
-    "tags": [
-      "value",
-      "trendy",
-      "new"
-    ],
+    "tags": ["value", "trendy", "new"],
     "ratings": 2.8,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "22202b64-97df-4e31-9952-7f839909a240",
         "rating": 1,
         "comment": "Very satisfied.",
         "date": "2024-08-13"
       },
       {
+        "user": " John Doe",
         "userId": "e417d9fb-c254-449c-b09f-55329bc89ab1",
         "rating": 5,
         "comment": "Very satisfied.",
         "date": "2024-04-06"
       },
       {
+        "user": " John Doe",
         "userId": "eaf44643-ad6c-4bb6-bb37-ebc049c849f6",
         "rating": 4,
         "comment": "Very satisfied.",
@@ -1827,26 +1775,25 @@
     "description": "Protein Powder offers premium quality and outstanding reliability. Carefully designed to support your active, healthy lifestyle. Trusted by many for purity and effectiveness.",
     "stock": 16,
     "image": "https://placeimg.com/74/588/any",
-    "tags": [
-      "new",
-      "office",
-      "modern"
-    ],
+    "tags": ["new", "office", "modern"],
     "ratings": 5.0,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "10c6730a-20a8-4f94-8c97-6cc05b97b1f3",
         "rating": 3,
         "comment": "Quality could improve.",
         "date": "2024-08-06"
       },
       {
+        "user": " John Doe",
         "userId": "926b382f-608b-4265-988a-b92fa5f58f42",
         "rating": 4,
         "comment": "Exceeded expectations.",
         "date": "2024-08-27"
       },
       {
+        "user": " John Doe",
         "userId": "21873767-96aa-4c59-aaba-e81690374886",
         "rating": 2,
         "comment": "Amazing product!",
@@ -1862,26 +1809,25 @@
     "description": "Face Mask offers premium quality and outstanding reliability. Carefully designed to support your active, healthy lifestyle. Trusted by many for purity and effectiveness.",
     "stock": 43,
     "image": "https://placeimg.com/90/357/any",
-    "tags": [
-      "value",
-      "trendy",
-      "stationery"
-    ],
+    "tags": ["value", "trendy", "stationery"],
     "ratings": 2.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "74389cdd-dd26-4a15-9266-c860df65b215",
         "rating": 1,
         "comment": "Not as expected.",
         "date": "2025-01-30"
       },
       {
+        "user": " John Doe",
         "userId": "c6043c12-435e-4e6f-b00d-db531aba1a2d",
         "rating": 2,
         "comment": "Fast delivery and good quality.",
         "date": "2025-01-05"
       },
       {
+        "user": " John Doe",
         "userId": "ce0cf4e9-1822-448c-b01b-241837cf636f",
         "rating": 5,
         "comment": "Could be better.",
@@ -1897,26 +1843,25 @@
     "description": "Hand Sanitizer offers premium quality and outstanding reliability. Carefully designed to support your active, healthy lifestyle. Trusted by many for purity and effectiveness.",
     "stock": 167,
     "image": "https://placeimg.com/67/273/any",
-    "tags": [
-      "value",
-      "stationery",
-      "home"
-    ],
+    "tags": ["value", "stationery", "home"],
     "ratings": 2.3,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "ac23cb82-7715-48eb-900c-85d4bc4f3277",
         "rating": 2,
         "comment": "Great value for the price.",
         "date": "2024-02-26"
       },
       {
+        "user": " John Doe",
         "userId": "0ea467c8-8b5d-4820-8f9d-b3a0ae6aa11a",
         "rating": 4,
         "comment": "Quality could improve.",
         "date": "2024-09-10"
       },
       {
+        "user": " John Doe",
         "userId": "01951d6a-c78b-4a59-94c6-16074ae3ace2",
         "rating": 4,
         "comment": "Quality could improve.",
@@ -1932,26 +1877,25 @@
     "description": "Thermometer offers premium quality and outstanding reliability. Carefully designed to support your active, healthy lifestyle. Trusted by many for purity and effectiveness.",
     "stock": 136,
     "image": "https://placeimg.com/80/580/any",
-    "tags": [
-      "grocery",
-      "home",
-      "kids"
-    ],
+    "tags": ["grocery", "home", "kids"],
     "ratings": 2.1,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "92c7f4e3-b06f-430b-8850-e52606ba6ce3",
         "rating": 5,
         "comment": "Not as expected.",
         "date": "2024-12-01"
       },
       {
+        "user": " John Doe",
         "userId": "f90ce639-8de3-4219-92f5-93fe993166f0",
         "rating": 2,
         "comment": "Not as expected.",
         "date": "2024-01-30"
       },
       {
+        "user": " John Doe",
         "userId": "122d9acc-1e0d-40f4-8214-1b9cf756db63",
         "rating": 5,
         "comment": "Amazing product!",
@@ -1967,26 +1911,25 @@
     "description": "Yoga Mat offers premium quality and outstanding reliability. Carefully designed to support your active, healthy lifestyle. Trusted by many for purity and effectiveness.",
     "stock": 198,
     "image": "https://placeimg.com/69/365/any",
-    "tags": [
-      "modern",
-      "fashion",
-      "grocery"
-    ],
+    "tags": ["modern", "fashion", "grocery"],
     "ratings": 1.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "69f8449c-99f4-4ab0-82ad-01c46e16ea0f",
         "rating": 5,
         "comment": "Not as expected.",
         "date": "2024-09-17"
       },
       {
+        "user": " John Doe",
         "userId": "aa807694-cd07-49be-8755-0008e4e66463",
         "rating": 1,
         "comment": "Could be better.",
         "date": "2024-09-11"
       },
       {
+        "user": " John Doe",
         "userId": "bfd1360b-238f-498b-b099-f9cf50e6b613",
         "rating": 5,
         "comment": "Fast delivery and good quality.",
@@ -2002,26 +1945,25 @@
     "description": "Blood Pressure Monitor offers premium quality and outstanding reliability. Carefully designed to support your active, healthy lifestyle. Trusted by many for purity and effectiveness.",
     "stock": 69,
     "image": "https://placeimg.com/66/246/any",
-    "tags": [
-      "classic",
-      "home",
-      "fashion"
-    ],
+    "tags": ["classic", "home", "fashion"],
     "ratings": 4.3,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "b07cf8da-0223-43e5-9428-aa994f5c59e8",
         "rating": 1,
         "comment": "Disappointed with this purchase.",
         "date": "2024-12-30"
       },
       {
+        "user": " John Doe",
         "userId": "08404380-dbd8-46fb-b01b-dc2e0f46636b",
         "rating": 1,
         "comment": "Great value for the price.",
         "date": "2024-11-10"
       },
       {
+        "user": " John Doe",
         "userId": "dfb099e4-b419-4b3b-97a1-4d94e1b788c8",
         "rating": 3,
         "comment": "Not as expected.",
@@ -2037,26 +1979,25 @@
     "description": "Gloves offers premium quality and outstanding reliability. Carefully designed to support your active, healthy lifestyle. Trusted by many for purity and effectiveness.",
     "stock": 71,
     "image": "https://placeimg.com/97/321/any",
-    "tags": [
-      "beauty",
-      "modern",
-      "health"
-    ],
+    "tags": ["beauty", "modern", "health"],
     "ratings": 4.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "e477986c-90d2-4507-ac6a-9830b3df4b26",
         "rating": 5,
         "comment": "Exceeded expectations.",
         "date": "2024-08-05"
       },
       {
+        "user": " John Doe",
         "userId": "87c67e76-ad74-44da-97ff-1885359fbebf",
         "rating": 5,
         "comment": "Could be better.",
         "date": "2024-08-03"
       },
       {
+        "user": " John Doe",
         "userId": "36485f8b-2556-4738-be1a-100f69fb0408",
         "rating": 5,
         "comment": "Could be better.",
@@ -2072,26 +2013,25 @@
     "description": "Sleep Aid offers premium quality and outstanding reliability. Carefully designed to support your active, healthy lifestyle. Trusted by many for purity and effectiveness.",
     "stock": 14,
     "image": "https://placeimg.com/82/275/any",
-    "tags": [
-      "modern",
-      "fashion",
-      "auto"
-    ],
+    "tags": ["modern", "fashion", "auto"],
     "ratings": 2.0,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "dee9aeb3-0c46-44de-bf7d-8c4e6b77ad13",
         "rating": 1,
         "comment": "Exceeded expectations.",
         "date": "2024-09-02"
       },
       {
+        "user": " John Doe",
         "userId": "92899419-0959-4c54-9066-9db53cd988ee",
         "rating": 2,
         "comment": "Very satisfied.",
         "date": "2024-04-18"
       },
       {
+        "user": " John Doe",
         "userId": "a478ade5-d4d7-4c2c-9e46-a7d424ee36e8",
         "rating": 2,
         "comment": "Very satisfied.",
@@ -2107,26 +2047,25 @@
     "description": "Mouse offers premium quality and outstanding reliability. Optimized for productivity and efficiency, blending sleek design with top performance. Ideal for both home and work environments.",
     "stock": 147,
     "image": "https://placeimg.com/61/561/any",
-    "tags": [
-      "grocery",
-      "fashion",
-      "home"
-    ],
+    "tags": ["grocery", "fashion", "home"],
     "ratings": 1.0,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "69e60bcc-ee3e-463c-828d-67224fdb2f6a",
         "rating": 2,
         "comment": "Fast delivery and good quality.",
         "date": "2024-12-23"
       },
       {
+        "user": " John Doe",
         "userId": "836206b8-f8ea-4d57-9cb1-f1936bbc8332",
         "rating": 3,
         "comment": "Could be better.",
         "date": "2024-06-10"
       },
       {
+        "user": " John Doe",
         "userId": "6a1aa187-8d37-4155-b83c-68630f320b58",
         "rating": 5,
         "comment": "Would buy again.",
@@ -2142,26 +2081,25 @@
     "description": "Keyboard offers premium quality and outstanding reliability. Optimized for productivity and efficiency, blending sleek design with top performance. Ideal for both home and work environments.",
     "stock": 112,
     "image": "https://placeimg.com/71/483/any",
-    "tags": [
-      "health",
-      "value",
-      "auto"
-    ],
+    "tags": ["health", "value", "auto"],
     "ratings": 1.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "51d755df-ce82-4ae9-b913-a2f401feed3d",
         "rating": 2,
         "comment": "Amazing product!",
         "date": "2024-01-30"
       },
       {
+        "user": " John Doe",
         "userId": "49da09f1-0c99-4e78-a414-3bd317784425",
         "rating": 2,
         "comment": "Very satisfied.",
         "date": "2024-02-21"
       },
       {
+        "user": " John Doe",
         "userId": "69ead294-1efc-4353-b5ef-725955ae4672",
         "rating": 2,
         "comment": "Not as expected.",
@@ -2177,26 +2115,25 @@
     "description": "Monitor offers premium quality and outstanding reliability. Optimized for productivity and efficiency, blending sleek design with top performance. Ideal for both home and work environments.",
     "stock": 19,
     "image": "https://placeimg.com/91/367/any",
-    "tags": [
-      "tech",
-      "value",
-      "grocery"
-    ],
+    "tags": ["tech", "value", "grocery"],
     "ratings": 2.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "73011c2d-959e-49d4-824c-3ed0749d7931",
         "rating": 5,
         "comment": "Disappointed with this purchase.",
         "date": "2024-08-22"
       },
       {
+        "user": " John Doe",
         "userId": "90c7839c-1c54-4534-bf13-21fc522de850",
         "rating": 1,
         "comment": "Could be better.",
         "date": "2025-02-09"
       },
       {
+        "user": " John Doe",
         "userId": "829fc7dd-4416-4360-a216-98be446a6fab",
         "rating": 2,
         "comment": "Would buy again.",
@@ -2212,26 +2149,25 @@
     "description": "Desk Chair offers premium quality and outstanding reliability. Optimized for productivity and efficiency, blending sleek design with top performance. Ideal for both home and work environments.",
     "stock": 160,
     "image": "https://placeimg.com/89/471/any",
-    "tags": [
-      "modern",
-      "stationery",
-      "new"
-    ],
+    "tags": ["modern", "stationery", "new"],
     "ratings": 1.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "2ca56283-93fe-4cc9-8918-631040d22c4f",
         "rating": 4,
         "comment": "Great value for the price.",
         "date": "2024-01-23"
       },
       {
+        "user": " John Doe",
         "userId": "54192865-66fb-4856-9e3f-ade6df0bc75a",
         "rating": 1,
         "comment": "Quality could improve.",
         "date": "2024-12-07"
       },
       {
+        "user": " John Doe",
         "userId": "3d9e6792-ffbd-435f-ab3f-3999e8dbd8c7",
         "rating": 5,
         "comment": "Could be better.",
@@ -2247,26 +2183,25 @@
     "description": "Webcam offers premium quality and outstanding reliability. Optimized for productivity and efficiency, blending sleek design with top performance. Ideal for both home and work environments.",
     "stock": 132,
     "image": "https://placeimg.com/75/364/any",
-    "tags": [
-      "new",
-      "auto",
-      "home"
-    ],
+    "tags": ["new", "auto", "home"],
     "ratings": 3.3,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "3114c843-d78c-43f0-bc3a-be2312d31df5",
         "rating": 4,
         "comment": "Fast delivery and good quality.",
         "date": "2024-11-19"
       },
       {
+        "user": " John Doe",
         "userId": "515ae7e6-9550-4666-9527-55abe6a06f05",
         "rating": 5,
         "comment": "Great value for the price.",
         "date": "2024-07-13"
       },
       {
+        "user": " John Doe",
         "userId": "f3b57168-a446-4b68-8436-5de4d212f654",
         "rating": 3,
         "comment": "Very satisfied.",
@@ -2282,26 +2217,25 @@
     "description": "Laptop Stand offers premium quality and outstanding reliability. Optimized for productivity and efficiency, blending sleek design with top performance. Ideal for both home and work environments.",
     "stock": 14,
     "image": "https://placeimg.com/78/440/any",
-    "tags": [
-      "auto",
-      "new",
-      "health"
-    ],
+    "tags": ["auto", "new", "health"],
     "ratings": 1.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "817bb810-b29e-446e-94ad-e50e85c0e3f9",
         "rating": 4,
         "comment": "Would buy again.",
         "date": "2024-05-03"
       },
       {
+        "user": " John Doe",
         "userId": "2f082f6d-6192-4f76-a0f6-849a8b625f24",
         "rating": 5,
         "comment": "Exceeded expectations.",
         "date": "2024-08-07"
       },
       {
+        "user": " John Doe",
         "userId": "74374007-0d59-4b76-a125-4d6ad29a7cb3",
         "rating": 1,
         "comment": "Exceeded expectations.",
@@ -2317,26 +2251,25 @@
     "description": "USB Hub offers premium quality and outstanding reliability. Optimized for productivity and efficiency, blending sleek design with top performance. Ideal for both home and work environments.",
     "stock": 163,
     "image": "https://placeimg.com/81/660/any",
-    "tags": [
-      "modern",
-      "office",
-      "kids"
-    ],
+    "tags": ["modern", "office", "kids"],
     "ratings": 3.9,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "3387e6dd-c485-43ce-91d3-2af30ce18202",
         "rating": 4,
         "comment": "Amazing product!",
         "date": "2024-07-05"
       },
       {
+        "user": " John Doe",
         "userId": "de0f3974-5fe8-4552-aeab-afc47db5f603",
         "rating": 5,
         "comment": "Could be better.",
         "date": "2024-02-15"
       },
       {
+        "user": " John Doe",
         "userId": "e1ff4d86-6d80-464d-aa0f-009028d5a428",
         "rating": 5,
         "comment": "Could be better.",
@@ -2352,26 +2285,25 @@
     "description": "External HDD offers premium quality and outstanding reliability. Optimized for productivity and efficiency, blending sleek design with top performance. Ideal for both home and work environments.",
     "stock": 40,
     "image": "https://placeimg.com/97/458/any",
-    "tags": [
-      "auto",
-      "grocery",
-      "home"
-    ],
+    "tags": ["auto", "grocery", "home"],
     "ratings": 3.1,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "7bde00de-d64b-456b-b94e-bc9a91b19b49",
         "rating": 1,
         "comment": "Disappointed with this purchase.",
         "date": "2024-06-05"
       },
       {
+        "user": " John Doe",
         "userId": "fe6ea0c9-e581-4ba7-9a4d-6b4ebce3e04e",
         "rating": 5,
         "comment": "Disappointed with this purchase.",
         "date": "2024-11-17"
       },
       {
+        "user": " John Doe",
         "userId": "fed04f14-987c-4a5d-b790-fbf0e6cd7cc0",
         "rating": 4,
         "comment": "Exceeded expectations.",
@@ -2387,26 +2319,25 @@
     "description": "Printer offers premium quality and outstanding reliability. Optimized for productivity and efficiency, blending sleek design with top performance. Ideal for both home and work environments.",
     "stock": 128,
     "image": "https://placeimg.com/64/270/any",
-    "tags": [
-      "stationery",
-      "grocery",
-      "beauty"
-    ],
+    "tags": ["stationery", "grocery", "beauty"],
     "ratings": 3.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "e9dc984e-cd93-40ff-9659-e79e1e98445f",
         "rating": 5,
         "comment": "Would buy again.",
         "date": "2024-11-07"
       },
       {
+        "user": " John Doe",
         "userId": "97181e3b-eb01-4121-b5a9-453e396dc1d8",
         "rating": 4,
         "comment": "Amazing product!",
         "date": "2024-08-27"
       },
       {
+        "user": " John Doe",
         "userId": "f3e2477e-1fad-4fc0-9346-931b332470f1",
         "rating": 1,
         "comment": "Could be better.",
@@ -2422,26 +2353,25 @@
     "description": "Scanner offers premium quality and outstanding reliability. Optimized for productivity and efficiency, blending sleek design with top performance. Ideal for both home and work environments.",
     "stock": 64,
     "image": "https://placeimg.com/46/619/any",
-    "tags": [
-      "grocery",
-      "health",
-      "classic"
-    ],
+    "tags": ["grocery", "health", "classic"],
     "ratings": 4.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "25ea9cd0-0b18-482d-9efb-e22a45596292",
         "rating": 1,
         "comment": "Very satisfied.",
         "date": "2024-01-31"
       },
       {
+        "user": " John Doe",
         "userId": "926e4e4b-42ce-45f4-9832-d3bd2e346c93",
         "rating": 4,
         "comment": "Amazing product!",
         "date": "2024-01-05"
       },
       {
+        "user": " John Doe",
         "userId": "bb75fa4d-77e9-4a97-be2d-71eb2975f09f",
         "rating": 2,
         "comment": "Quality could improve.",
@@ -2457,26 +2387,25 @@
     "description": "Toy Car offers premium quality and outstanding reliability. Safe, durable, and designed for endless fun and learning. Perfect for developing young minds and imaginations.",
     "stock": 51,
     "image": "https://placeimg.com/72/493/any",
-    "tags": [
-      "health",
-      "trendy",
-      "value"
-    ],
+    "tags": ["health", "trendy", "value"],
     "ratings": 1.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "1c85bfa7-a54e-4a11-8035-5e0550015bba",
         "rating": 1,
         "comment": "Amazing product!",
         "date": "2025-01-28"
       },
       {
+        "user": " John Doe",
         "userId": "405e1ac7-6170-4b53-bd18-90b98c8b6a0d",
         "rating": 5,
         "comment": "Quality could improve.",
         "date": "2024-08-02"
       },
       {
+        "user": " John Doe",
         "userId": "758006dc-41a7-4531-92f2-3f5441767f05",
         "rating": 5,
         "comment": "Amazing product!",
@@ -2492,26 +2421,25 @@
     "description": "Stuffed Animal offers premium quality and outstanding reliability. Safe, durable, and designed for endless fun and learning. Perfect for developing young minds and imaginations.",
     "stock": 167,
     "image": "https://placeimg.com/60/409/any",
-    "tags": [
-      "home",
-      "auto",
-      "modern"
-    ],
+    "tags": ["home", "auto", "modern"],
     "ratings": 3.9,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "d515759e-7ea9-45dd-ba10-b58341bc07b9",
         "rating": 2,
         "comment": "Quality could improve.",
         "date": "2024-01-26"
       },
       {
+        "user": " John Doe",
         "userId": "4e1f3f08-4a39-4e08-a717-d21d1ab75bd8",
         "rating": 2,
         "comment": "Disappointed with this purchase.",
         "date": "2024-09-02"
       },
       {
+        "user": " John Doe",
         "userId": "a06e2d16-78e6-4bb1-8a5b-35b27407f794",
         "rating": 2,
         "comment": "Disappointed with this purchase.",
@@ -2527,26 +2455,25 @@
     "description": "Puzzle offers premium quality and outstanding reliability. Safe, durable, and designed for endless fun and learning. Perfect for developing young minds and imaginations.",
     "stock": 90,
     "image": "https://placeimg.com/54/422/any",
-    "tags": [
-      "auto",
-      "value",
-      "kids"
-    ],
+    "tags": ["auto", "value", "kids"],
     "ratings": 4.0,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "bf4cdfbb-a9f6-438b-909a-dcee78372f72",
         "rating": 5,
         "comment": "Not as expected.",
         "date": "2024-12-13"
       },
       {
+        "user": " John Doe",
         "userId": "d75a639c-2de0-4719-8ae1-e8f7b83d1039",
         "rating": 5,
         "comment": "Great value for the price.",
         "date": "2024-03-09"
       },
       {
+        "user": " John Doe",
         "userId": "cdbbeaa8-6072-4464-b311-dbe800f0054c",
         "rating": 3,
         "comment": "Very satisfied.",
@@ -2562,26 +2489,25 @@
     "description": "Board Game offers premium quality and outstanding reliability. Safe, durable, and designed for endless fun and learning. Perfect for developing young minds and imaginations.",
     "stock": 53,
     "image": "https://placeimg.com/40/628/any",
-    "tags": [
-      "trendy",
-      "value",
-      "auto"
-    ],
+    "tags": ["trendy", "value", "auto"],
     "ratings": 4.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "7f0513d6-f143-4531-a78b-4a8f3c5b0fbd",
         "rating": 2,
         "comment": "Amazing product!",
         "date": "2025-01-22"
       },
       {
+        "user": " John Doe",
         "userId": "4d03b3d7-469c-4025-ab7c-af4f0144db30",
         "rating": 2,
         "comment": "Fast delivery and good quality.",
         "date": "2024-02-05"
       },
       {
+        "user": " John Doe",
         "userId": "f01546b1-ff04-41c5-804a-a77ef6bb2b99",
         "rating": 4,
         "comment": "Would buy again.",
@@ -2597,26 +2523,25 @@
     "description": "Crayons offers premium quality and outstanding reliability. Safe, durable, and designed for endless fun and learning. Perfect for developing young minds and imaginations.",
     "stock": 53,
     "image": "https://placeimg.com/71/610/any",
-    "tags": [
-      "new",
-      "value",
-      "health"
-    ],
+    "tags": ["new", "value", "health"],
     "ratings": 3.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "bf5dd359-355d-43f8-b8f1-da4c9416e18a",
         "rating": 1,
         "comment": "Disappointed with this purchase.",
         "date": "2024-09-01"
       },
       {
+        "user": " John Doe",
         "userId": "1f5bda81-aada-4a37-b09f-a8da1f5bd911",
         "rating": 1,
         "comment": "Not as expected.",
         "date": "2024-02-06"
       },
       {
+        "user": " John Doe",
         "userId": "43c18b28-3d5d-4f04-8ce4-6a1a3259fe40",
         "rating": 1,
         "comment": "Great value for the price.",
@@ -2632,26 +2557,25 @@
     "description": "Coloring Book offers premium quality and outstanding reliability. Safe, durable, and designed for endless fun and learning. Perfect for developing young minds and imaginations.",
     "stock": 73,
     "image": "https://placeimg.com/71/206/any",
-    "tags": [
-      "stationery",
-      "new",
-      "office"
-    ],
+    "tags": ["stationery", "new", "office"],
     "ratings": 1.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "75656f11-0f9d-4490-ab70-85737144e566",
         "rating": 4,
         "comment": "Very satisfied.",
         "date": "2025-03-02"
       },
       {
+        "user": " John Doe",
         "userId": "a33ce036-f331-41e8-a229-adc56c8fc809",
         "rating": 2,
         "comment": "Not as expected.",
         "date": "2024-06-30"
       },
       {
+        "user": " John Doe",
         "userId": "27944d0a-4f60-4aaf-92f2-b63f10b0180e",
         "rating": 5,
         "comment": "Not as expected.",
@@ -2667,26 +2591,25 @@
     "description": "Building Blocks offers premium quality and outstanding reliability. Safe, durable, and designed for endless fun and learning. Perfect for developing young minds and imaginations.",
     "stock": 175,
     "image": "https://placeimg.com/55/547/any",
-    "tags": [
-      "health",
-      "new",
-      "value"
-    ],
+    "tags": ["health", "new", "value"],
     "ratings": 3.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "fd1f2b0a-a8f1-43cc-a73a-6c04f953021e",
         "rating": 1,
         "comment": "Great value for the price.",
         "date": "2024-04-12"
       },
       {
+        "user": " John Doe",
         "userId": "f192474e-c705-4f97-99fb-8a8f0851b230",
         "rating": 4,
         "comment": "Quality could improve.",
         "date": "2024-05-18"
       },
       {
+        "user": " John Doe",
         "userId": "0842dc3a-4a03-4d56-8ab5-6c2c0e7109f6",
         "rating": 4,
         "comment": "Exceeded expectations.",
@@ -2702,26 +2625,25 @@
     "description": "Baby Bottle offers premium quality and outstanding reliability. Safe, durable, and designed for endless fun and learning. Perfect for developing young minds and imaginations.",
     "stock": 72,
     "image": "https://placeimg.com/97/272/any",
-    "tags": [
-      "stationery",
-      "grocery",
-      "fashion"
-    ],
+    "tags": ["stationery", "grocery", "fashion"],
     "ratings": 4.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "4b36c9c7-ef2c-4b11-a7a6-6d8e390a93b8",
         "rating": 3,
         "comment": "Great value for the price.",
         "date": "2024-01-19"
       },
       {
+        "user": " John Doe",
         "userId": "e58b821e-5f1e-4966-8702-2807d0fa42aa",
         "rating": 4,
         "comment": "Amazing product!",
         "date": "2024-09-30"
       },
       {
+        "user": " John Doe",
         "userId": "fa28c8b9-5821-4ba9-8636-b95da654da8d",
         "rating": 2,
         "comment": "Not as expected.",
@@ -2737,26 +2659,25 @@
     "description": "Stroller offers premium quality and outstanding reliability. Safe, durable, and designed for endless fun and learning. Perfect for developing young minds and imaginations.",
     "stock": 165,
     "image": "https://placeimg.com/91/339/any",
-    "tags": [
-      "beauty",
-      "trendy",
-      "kids"
-    ],
+    "tags": ["beauty", "trendy", "kids"],
     "ratings": 1.8,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "5cd63a74-4230-4df4-9718-5c2937abc0dd",
         "rating": 5,
         "comment": "Quality could improve.",
         "date": "2025-04-01"
       },
       {
+        "user": " John Doe",
         "userId": "800c9b0c-9f3d-4617-ac1e-91072115b3c9",
         "rating": 2,
         "comment": "Amazing product!",
         "date": "2024-07-09"
       },
       {
+        "user": " John Doe",
         "userId": "c72825fd-19d7-46bf-8840-ad837b549cde",
         "rating": 2,
         "comment": "Amazing product!",
@@ -2772,26 +2693,25 @@
     "description": "Diapers offers premium quality and outstanding reliability. Safe, durable, and designed for endless fun and learning. Perfect for developing young minds and imaginations.",
     "stock": 10,
     "image": "https://placeimg.com/85/333/any",
-    "tags": [
-      "grocery",
-      "classic",
-      "new"
-    ],
+    "tags": ["grocery", "classic", "new"],
     "ratings": 2.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "3f4a4f80-6f67-4ca5-92e6-5ca628f9d861",
         "rating": 5,
         "comment": "Would buy again.",
         "date": "2024-10-01"
       },
       {
+        "user": " John Doe",
         "userId": "8282a602-ed42-4d3e-ba75-4a5dd0536277",
         "rating": 1,
         "comment": "Disappointed with this purchase.",
         "date": "2024-09-13"
       },
       {
+        "user": " John Doe",
         "userId": "9283cf93-2efc-4313-bdbe-cb0a1086fac0",
         "rating": 2,
         "comment": "Fast delivery and good quality.",
@@ -2807,26 +2727,25 @@
     "description": "Car Wax offers premium quality and outstanding reliability. Engineered for durability and high performance under tough conditions. A must-have for car enthusiasts and DIY experts.",
     "stock": 43,
     "image": "https://placeimg.com/49/386/any",
-    "tags": [
-      "modern",
-      "fashion",
-      "home"
-    ],
+    "tags": ["modern", "fashion", "home"],
     "ratings": 1.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "072e1a43-39e9-4537-8674-61c54ad89f14",
         "rating": 1,
         "comment": "Great value for the price.",
         "date": "2025-02-17"
       },
       {
+        "user": " John Doe",
         "userId": "0b75fbcd-7aba-4957-a415-3a8b9a9f80b6",
         "rating": 5,
         "comment": "Could be better.",
         "date": "2024-05-31"
       },
       {
+        "user": " John Doe",
         "userId": "5a2b8887-8323-4a90-b7bc-d2a647a80d50",
         "rating": 2,
         "comment": "Quality could improve.",
@@ -2842,26 +2761,25 @@
     "description": "Tire Inflator offers premium quality and outstanding reliability. Engineered for durability and high performance under tough conditions. A must-have for car enthusiasts and DIY experts.",
     "stock": 14,
     "image": "https://placeimg.com/74/235/any",
-    "tags": [
-      "health",
-      "modern",
-      "office"
-    ],
+    "tags": ["health", "modern", "office"],
     "ratings": 5.0,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "0f48311c-2e76-4694-b2e5-4c01db7daf41",
         "rating": 4,
         "comment": "Fast delivery and good quality.",
         "date": "2024-09-27"
       },
       {
+        "user": " John Doe",
         "userId": "57fd9377-643c-4c4c-a6c6-97bf97556ff4",
         "rating": 1,
         "comment": "Not as expected.",
         "date": "2024-05-12"
       },
       {
+        "user": " John Doe",
         "userId": "6b264f6b-3b26-4f86-bd32-4b34837e3bab",
         "rating": 2,
         "comment": "Exceeded expectations.",
@@ -2877,26 +2795,25 @@
     "description": "Wrench Set offers premium quality and outstanding reliability. Engineered for durability and high performance under tough conditions. A must-have for car enthusiasts and DIY experts.",
     "stock": 161,
     "image": "https://placeimg.com/86/294/any",
-    "tags": [
-      "office",
-      "health",
-      "auto"
-    ],
+    "tags": ["office", "health", "auto"],
     "ratings": 3.8,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "21d4ad40-dfbc-4657-a9c4-4eda4af28c8b",
         "rating": 5,
         "comment": "Could be better.",
         "date": "2024-04-02"
       },
       {
+        "user": " John Doe",
         "userId": "012a210c-b5e1-42b8-820f-98060ce96bdb",
         "rating": 1,
         "comment": "Could be better.",
         "date": "2024-01-31"
       },
       {
+        "user": " John Doe",
         "userId": "e1945509-2324-4890-aedc-e564c2ed422d",
         "rating": 5,
         "comment": "Exceeded expectations.",
@@ -2912,26 +2829,25 @@
     "description": "Battery Charger offers premium quality and outstanding reliability. Engineered for durability and high performance under tough conditions. A must-have for car enthusiasts and DIY experts.",
     "stock": 111,
     "image": "https://placeimg.com/62/575/any",
-    "tags": [
-      "fashion",
-      "tech",
-      "grocery"
-    ],
+    "tags": ["fashion", "tech", "grocery"],
     "ratings": 3.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "1afcb5b3-d89e-4fd5-9983-aa1fc7dbf2a4",
         "rating": 1,
         "comment": "Very satisfied.",
         "date": "2024-03-06"
       },
       {
+        "user": " John Doe",
         "userId": "7b9ef6f6-60e7-4156-a2b6-f6561289aff4",
         "rating": 2,
         "comment": "Very satisfied.",
         "date": "2025-02-07"
       },
       {
+        "user": " John Doe",
         "userId": "fef21a94-db34-49ae-92ba-6a06cfd37650",
         "rating": 3,
         "comment": "Very satisfied.",
@@ -2947,26 +2863,25 @@
     "description": "Car Vacuum offers premium quality and outstanding reliability. Engineered for durability and high performance under tough conditions. A must-have for car enthusiasts and DIY experts.",
     "stock": 133,
     "image": "https://placeimg.com/73/618/any",
-    "tags": [
-      "stationery",
-      "modern",
-      "auto"
-    ],
+    "tags": ["stationery", "modern", "auto"],
     "ratings": 1.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "f0619ab3-a367-4c19-847b-39532136298f",
         "rating": 3,
         "comment": "Not as expected.",
         "date": "2024-08-29"
       },
       {
+        "user": " John Doe",
         "userId": "d2c2de72-8d40-4052-860e-b2ee7443cd6e",
         "rating": 4,
         "comment": "Could be better.",
         "date": "2025-03-27"
       },
       {
+        "user": " John Doe",
         "userId": "6f4aa185-8cf3-45c9-b8e3-72472840a44f",
         "rating": 2,
         "comment": "Fast delivery and good quality.",
@@ -2982,26 +2897,25 @@
     "description": "Oil Filter offers premium quality and outstanding reliability. Engineered for durability and high performance under tough conditions. A must-have for car enthusiasts and DIY experts.",
     "stock": 196,
     "image": "https://placeimg.com/71/250/any",
-    "tags": [
-      "modern",
-      "fashion",
-      "trendy"
-    ],
+    "tags": ["modern", "fashion", "trendy"],
     "ratings": 4.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "284a01cf-9cf8-4cfd-bce7-24e0a2155fd9",
         "rating": 1,
         "comment": "Would buy again.",
         "date": "2024-10-15"
       },
       {
+        "user": " John Doe",
         "userId": "dd2559d6-bc91-4367-a417-676b2f1cc406",
         "rating": 3,
         "comment": "Exceeded expectations.",
         "date": "2024-07-24"
       },
       {
+        "user": " John Doe",
         "userId": "e58833f8-c19a-43bb-88f7-c046e1ab7f57",
         "rating": 2,
         "comment": "Could be better.",
@@ -3017,26 +2931,25 @@
     "description": "Spark Plug offers premium quality and outstanding reliability. Engineered for durability and high performance under tough conditions. A must-have for car enthusiasts and DIY experts.",
     "stock": 155,
     "image": "https://placeimg.com/48/237/any",
-    "tags": [
-      "trendy",
-      "value",
-      "grocery"
-    ],
+    "tags": ["trendy", "value", "grocery"],
     "ratings": 3.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "88da9162-ef75-4bf0-9e8d-b3bf44962d20",
         "rating": 1,
         "comment": "Would buy again.",
         "date": "2024-05-22"
       },
       {
+        "user": " John Doe",
         "userId": "21995387-4c67-45c2-a643-e24792950488",
         "rating": 4,
         "comment": "Exceeded expectations.",
         "date": "2024-09-03"
       },
       {
+        "user": " John Doe",
         "userId": "2ece2d00-6029-4b9a-9158-5c336e1168d3",
         "rating": 5,
         "comment": "Exceeded expectations.",
@@ -3052,26 +2965,25 @@
     "description": "Screwdriver Set offers premium quality and outstanding reliability. Engineered for durability and high performance under tough conditions. A must-have for car enthusiasts and DIY experts.",
     "stock": 78,
     "image": "https://placeimg.com/49/241/any",
-    "tags": [
-      "grocery",
-      "office",
-      "new"
-    ],
+    "tags": ["grocery", "office", "new"],
     "ratings": 2.8,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "137e1073-7742-4ef7-93d8-58241c9191ee",
         "rating": 1,
         "comment": "Quality could improve.",
         "date": "2024-04-02"
       },
       {
+        "user": " John Doe",
         "userId": "f67e2fd0-6c4f-4f2e-8a77-d436ab31c940",
         "rating": 3,
         "comment": "Disappointed with this purchase.",
         "date": "2024-01-08"
       },
       {
+        "user": " John Doe",
         "userId": "d19ce446-502b-414d-b5d9-919012eefc33",
         "rating": 1,
         "comment": "Could be better.",
@@ -3087,26 +2999,25 @@
     "description": "Motor Oil offers premium quality and outstanding reliability. Engineered for durability and high performance under tough conditions. A must-have for car enthusiasts and DIY experts.",
     "stock": 147,
     "image": "https://placeimg.com/84/467/any",
-    "tags": [
-      "tech",
-      "office",
-      "classic"
-    ],
+    "tags": ["tech", "office", "classic"],
     "ratings": 3.5,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "27b9aeb0-130e-428d-a2ff-cb73917bf8a8",
         "rating": 4,
         "comment": "Quality could improve.",
         "date": "2024-09-11"
       },
       {
+        "user": " John Doe",
         "userId": "995b86ea-b839-4484-9746-9695ec91b1d0",
         "rating": 4,
         "comment": "Great value for the price.",
         "date": "2024-03-06"
       },
       {
+        "user": " John Doe",
         "userId": "45caff0c-ed65-415e-93e9-d43de5374b0f",
         "rating": 2,
         "comment": "Would buy again.",
@@ -3122,26 +3033,25 @@
     "description": "Jump Starter offers premium quality and outstanding reliability. Engineered for durability and high performance under tough conditions. A must-have for car enthusiasts and DIY experts.",
     "stock": 182,
     "image": "https://placeimg.com/55/542/any",
-    "tags": [
-      "tech",
-      "health",
-      "classic"
-    ],
+    "tags": ["tech", "health", "classic"],
     "ratings": 4.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "b7f584c5-a3af-4a09-b509-9c1efa5b3a6a",
         "rating": 1,
         "comment": "Fast delivery and good quality.",
         "date": "2024-11-25"
       },
       {
+        "user": " John Doe",
         "userId": "3d3f1265-8088-4ade-9e20-6d57c756c24e",
         "rating": 1,
         "comment": "Not as expected.",
         "date": "2025-01-19"
       },
       {
+        "user": " John Doe",
         "userId": "32aa560d-f9c1-40f6-afc3-d4321544a7b6",
         "rating": 2,
         "comment": "Disappointed with this purchase.",
@@ -3157,26 +3067,25 @@
     "description": "Fiction Novel offers premium quality and outstanding reliability. Designed to inspire creativity and organize your thoughts effortlessly. High-quality materials for long-lasting use.",
     "stock": 106,
     "image": "https://placeimg.com/90/493/any",
-    "tags": [
-      "trendy",
-      "stationery",
-      "home"
-    ],
+    "tags": ["trendy", "stationery", "home"],
     "ratings": 3.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "2ac91991-9c3e-4190-8587-4e4a3684af90",
         "rating": 4,
         "comment": "Very satisfied.",
         "date": "2024-09-14"
       },
       {
+        "user": " John Doe",
         "userId": "f3b7b4ea-b28e-4fce-b272-586385890762",
         "rating": 3,
         "comment": "Disappointed with this purchase.",
         "date": "2024-08-12"
       },
       {
+        "user": " John Doe",
         "userId": "a7f5e0e8-91c0-4f33-a916-03cd749b77b5",
         "rating": 2,
         "comment": "Disappointed with this purchase.",
@@ -3192,26 +3101,25 @@
     "description": "Notebook offers premium quality and outstanding reliability. Designed to inspire creativity and organize your thoughts effortlessly. High-quality materials for long-lasting use.",
     "stock": 101,
     "image": "https://placeimg.com/98/623/any",
-    "tags": [
-      "health",
-      "modern",
-      "value"
-    ],
+    "tags": ["health", "modern", "value"],
     "ratings": 1.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "a9350808-0f9b-4fa5-ad92-b6d2d23f786d",
         "rating": 3,
         "comment": "Quality could improve.",
         "date": "2024-03-22"
       },
       {
+        "user": " John Doe",
         "userId": "239f3c3e-149d-4de0-8569-3905c7c0713a",
         "rating": 1,
         "comment": "Not as expected.",
         "date": "2024-12-08"
       },
       {
+        "user": " John Doe",
         "userId": "c6449065-9361-4464-943c-35046b40fecd",
         "rating": 4,
         "comment": "Would buy again.",
@@ -3227,26 +3135,25 @@
     "description": "Pen Set offers premium quality and outstanding reliability. Designed to inspire creativity and organize your thoughts effortlessly. High-quality materials for long-lasting use.",
     "stock": 71,
     "image": "https://placeimg.com/69/684/any",
-    "tags": [
-      "trendy",
-      "classic",
-      "kids"
-    ],
+    "tags": ["trendy", "classic", "kids"],
     "ratings": 2.9,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "a4778225-436b-41e3-ae25-2f33e9ec5ba3",
         "rating": 2,
         "comment": "Great value for the price.",
         "date": "2024-11-08"
       },
       {
+        "user": " John Doe",
         "userId": "6353c137-387f-41ca-b4f4-8db5f2e78f10",
         "rating": 4,
         "comment": "Disappointed with this purchase.",
         "date": "2024-10-25"
       },
       {
+        "user": " John Doe",
         "userId": "42d119b2-17a8-46a4-90c2-40f7063d164c",
         "rating": 3,
         "comment": "Great value for the price.",
@@ -3262,26 +3169,25 @@
     "description": "Sketch Pad offers premium quality and outstanding reliability. Designed to inspire creativity and organize your thoughts effortlessly. High-quality materials for long-lasting use.",
     "stock": 107,
     "image": "https://placeimg.com/68/610/any",
-    "tags": [
-      "health",
-      "trendy",
-      "beauty"
-    ],
+    "tags": ["health", "trendy", "beauty"],
     "ratings": 1.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "bd9dc399-e73f-400a-be04-f59d335ab73c",
         "rating": 3,
         "comment": "Exceeded expectations.",
         "date": "2024-01-21"
       },
       {
+        "user": " John Doe",
         "userId": "b9f5aa68-492c-4495-aa13-48688956db52",
         "rating": 3,
         "comment": "Quality could improve.",
         "date": "2024-01-28"
       },
       {
+        "user": " John Doe",
         "userId": "b761b6d0-9e55-4428-a59f-4a21df0f8939",
         "rating": 1,
         "comment": "Amazing product!",
@@ -3297,26 +3203,25 @@
     "description": "Textbook offers premium quality and outstanding reliability. Designed to inspire creativity and organize your thoughts effortlessly. High-quality materials for long-lasting use.",
     "stock": 53,
     "image": "https://placeimg.com/57/559/any",
-    "tags": [
-      "modern",
-      "auto",
-      "value"
-    ],
+    "tags": ["modern", "auto", "value"],
     "ratings": 2.6,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "babfe426-23f5-40b9-8441-abc32c96806e",
         "rating": 5,
         "comment": "Disappointed with this purchase.",
         "date": "2025-03-12"
       },
       {
+        "user": " John Doe",
         "userId": "76f928f8-20e2-4714-ae83-e64f8ceda304",
         "rating": 3,
         "comment": "Disappointed with this purchase.",
         "date": "2025-01-26"
       },
       {
+        "user": " John Doe",
         "userId": "0a38254d-2d43-4c50-82bc-1d0f6498942a",
         "rating": 5,
         "comment": "Great value for the price.",
@@ -3332,26 +3237,25 @@
     "description": "Journal offers premium quality and outstanding reliability. Designed to inspire creativity and organize your thoughts effortlessly. High-quality materials for long-lasting use.",
     "stock": 164,
     "image": "https://placeimg.com/86/568/any",
-    "tags": [
-      "office",
-      "fashion",
-      "beauty"
-    ],
+    "tags": ["office", "fashion", "beauty"],
     "ratings": 3.8,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "dfd1f749-a838-4f52-b7c3-14c45aa38db1",
         "rating": 4,
         "comment": "Great value for the price.",
         "date": "2024-09-08"
       },
       {
+        "user": " John Doe",
         "userId": "fdd270ab-955f-4fec-8f9a-aa1d4a111705",
         "rating": 1,
         "comment": "Disappointed with this purchase.",
         "date": "2024-02-19"
       },
       {
+        "user": " John Doe",
         "userId": "989a292a-c097-43e8-9e40-04c3b2080295",
         "rating": 4,
         "comment": "Disappointed with this purchase.",
@@ -3367,26 +3271,25 @@
     "description": "Highlighter offers premium quality and outstanding reliability. Designed to inspire creativity and organize your thoughts effortlessly. High-quality materials for long-lasting use.",
     "stock": 56,
     "image": "https://placeimg.com/55/641/any",
-    "tags": [
-      "stationery",
-      "classic",
-      "fashion"
-    ],
+    "tags": ["stationery", "classic", "fashion"],
     "ratings": 4.9,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "d2208379-c35d-4dba-99ac-0cc8629f8335",
         "rating": 1,
         "comment": "Fast delivery and good quality.",
         "date": "2024-12-04"
       },
       {
+        "user": " John Doe",
         "userId": "7095c109-2abd-4568-a105-3c1d1bdaf566",
         "rating": 1,
         "comment": "Could be better.",
         "date": "2025-03-12"
       },
       {
+        "user": " John Doe",
         "userId": "07cb757c-ff26-469a-89aa-f42e5a2240f7",
         "rating": 3,
         "comment": "Quality could improve.",
@@ -3402,26 +3305,25 @@
     "description": "Eraser offers premium quality and outstanding reliability. Designed to inspire creativity and organize your thoughts effortlessly. High-quality materials for long-lasting use.",
     "stock": 98,
     "image": "https://placeimg.com/81/208/any",
-    "tags": [
-      "office",
-      "grocery",
-      "auto"
-    ],
+    "tags": ["office", "grocery", "auto"],
     "ratings": 1.4,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "ff3c1ab9-c8a0-4929-995e-2a15f4d062ca",
         "rating": 3,
         "comment": "Not as expected.",
         "date": "2024-05-10"
       },
       {
+        "user": " John Doe",
         "userId": "937d0286-05ee-48ce-b754-5b8da007bd62",
         "rating": 5,
         "comment": "Quality could improve.",
         "date": "2024-07-30"
       },
       {
+        "user": " John Doe",
         "userId": "909acd9b-1b45-44fa-9246-4a6ff1bc6d21",
         "rating": 4,
         "comment": "Exceeded expectations.",
@@ -3437,26 +3339,25 @@
     "description": "Bookmark offers premium quality and outstanding reliability. Designed to inspire creativity and organize your thoughts effortlessly. High-quality materials for long-lasting use.",
     "stock": 36,
     "image": "https://placeimg.com/60/244/any",
-    "tags": [
-      "fashion",
-      "value",
-      "tech"
-    ],
+    "tags": ["fashion", "value", "tech"],
     "ratings": 4.7,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "62194e3d-9b67-4df8-ac6d-9561c9e63420",
         "rating": 1,
         "comment": "Exceeded expectations.",
         "date": "2025-01-04"
       },
       {
+        "user": " John Doe",
         "userId": "4788818c-e3c3-4fb8-87e7-62ac41d46309",
         "rating": 4,
         "comment": "Amazing product!",
         "date": "2024-01-02"
       },
       {
+        "user": " John Doe",
         "userId": "5da2803f-9183-4177-9a67-14ef6ef6f27c",
         "rating": 5,
         "comment": "Quality could improve.",
@@ -3472,26 +3373,25 @@
     "description": "Sticky Notes offers premium quality and outstanding reliability. Designed to inspire creativity and organize your thoughts effortlessly. High-quality materials for long-lasting use.",
     "stock": 87,
     "image": "https://placeimg.com/76/429/any",
-    "tags": [
-      "tech",
-      "new",
-      "classic"
-    ],
+    "tags": ["tech", "new", "classic"],
     "ratings": 4.3,
     "reviews": [
       {
+        "user": " John Doe",
         "userId": "42f8faaf-6875-4b64-999c-b853c8e6cc46",
         "rating": 5,
         "comment": "Would buy again.",
         "date": "2025-02-02"
       },
       {
+        "user": " John Doe",
         "userId": "4c0949fe-5884-4735-8418-41dd28f85f4c",
         "rating": 4,
         "comment": "Disappointed with this purchase.",
         "date": "2024-05-02"
       },
       {
+        "user": " John Doe",
         "userId": "1adff288-b7a9-44cb-b4e6-076d65bdf776",
         "rating": 2,
         "comment": "Amazing product!",
