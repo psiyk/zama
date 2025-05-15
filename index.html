@@ -9,6 +9,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    \
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+      integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="" />
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -41,16 +50,36 @@
     </header>
     <nav class="cat-btns">
       <button id="cat-all" data-category="all">All Products</button>
-      <button id="cat-elec" data-category="Electronics & Gadgets">Electronics & Gadgets</button>
-      <button id="cat-fash" data-category="Fashion & Apparel">Fashion & Apparel</button>
-      <button id="cat-home" data-category="Home & Kitchen">Home & Kitchen</button>
-      <button id="cat-beauty" data-category="Beauty & Personal Care">Beauty & Personal Care</button>
-      <button id="cat-groc" data-category="Groceries & Essentials">Groceries & Essentials</button>
-      <button id="cat-health" data-category="Health & Wellness">Health & Wellness</button>
-      <button id="cat-office" data-category="Computers & Office">Computers & Office</button>
-      <button id="cat-kids" data-category="Toys, Kids & Baby">Toys, Kids & Baby</button>
-      <button id="cat-auto" data-category="Automobile & Tools">Automobile & Tools</button>
-      <button id="cat-books" data-category="Books & Stationery">Books & Stationery</button>
+      <button id="cat-elec" data-category="Electronics & Gadgets">
+        Electronics & Gadgets
+      </button>
+      <button id="cat-fash" data-category="Fashion & Apparel">
+        Fashion & Apparel
+      </button>
+      <button id="cat-home" data-category="Home & Kitchen">
+        Home & Kitchen
+      </button>
+      <button id="cat-beauty" data-category="Beauty & Personal Care">
+        Beauty & Personal Care
+      </button>
+      <button id="cat-groc" data-category="Groceries & Essentials">
+        Groceries & Essentials
+      </button>
+      <button id="cat-health" data-category="Health & Wellness">
+        Health & Wellness
+      </button>
+      <button id="cat-office" data-category="Computers & Office">
+        Computers & Office
+      </button>
+      <button id="cat-kids" data-category="Toys, Kids & Baby">
+        Toys, Kids & Baby
+      </button>
+      <button id="cat-auto" data-category="Automobile & Tools">
+        Automobile & Tools
+      </button>
+      <button id="cat-books" data-category="Books & Stationery">
+        Books & Stationery
+      </button>
     </nav>
     <section class="cart">
       <div class="cart-title">
@@ -139,7 +168,8 @@
         </div>
       </section>
       <section class="products">
-        <h3 id="categoryHeading">All Products</h3> <!-- Category heading -->
+        <h3 id="categoryHeading">All Products</h3>
+        <!-- Category heading -->
         <div class="product-section section-wrapper product-grid"></div>
       </section>
       <section id="productModal" class="modal hidden">
@@ -175,7 +205,8 @@
                   <div class="stars">
                     <i class="fas far fa-star"></i
                     ><i class="fas far fa-star"></i>
-                    <i class="fas far fa-star"></i><i class="fas far fa-star"></i>
+                    <i class="fas far fa-star"></i
+                    ><i class="fas far fa-star"></i>
                     <i class="fas far fa-star"></i>
                   </div>
                 </div>
@@ -183,62 +214,155 @@
               <div class="btns">
                 <button type="button" id="addToCartBtn">Add to Cart</button>
                 <button type="button" id="buyNowBtn">Buy Now</button>
+              </div>
+              <h4>Reviews</h4>
+              <ul class="reviews">
+                <li>
+                  <div class="reviewer">
+                    <img src="images/failed.png" alt="Reviewer" />
+                    <p>Reviewer Name</p>
+                  </div>
+                  <p class="review-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae, cumque.
+                  </p>
+                  <div class="ratings"></div>
+                </li>
+                <li>
+                  <div class="reviewer">
+                    <img src="images/failed.png" alt="Reviewer" />
+                    <p>Reviewer Name</p>
+                  </div>
+                  <p class="review-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae, cumque.
+                  </p>
+                  <div class="ratings"></div>
+                </li>
+                <li>
+                  <div class="reviewer">
+                    <img src="images/failed.png" alt="Reviewer" />
+                    <p>Reviewer Name</p>
+                  </div>
+                  <p class="review-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae, cumque.
+                  </p>
+                  <div class="ratings"></div>
+                </li>
+              </ul>
             </div>
-            <h4>Reviews</h4>
-            <ul class="reviews">
-              <li>
-                <div class="reviewer">
-                  <img src="images/failed.png" alt="Reviewer" />
-                  <p>Reviewer Name</p>
-                </div>
-                <p class="review-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae, cumque.
-                  
-                </p>
-                <div class="ratings"></div>
-              </li>
-              <li>
-                <div class="reviewer">
-                  <img src="images/failed.png" alt="Reviewer" />
-                  <p>Reviewer Name</p>
-                </div>
-                <p class="review-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae, cumque.
-                  
-                </p>
-                <div class="ratings"></div>
-              </li>
-              <li>
-                <div class="reviewer">
-                  <img src="images/failed.png" alt="Reviewer" />
-                  <p>Reviewer Name</p>
-                </div>
-                <p class="review-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae, cumque.
-                  
-                </p>
-                <div class="ratings"></div>
-              </li>
-            </ul>
           </div>
         </div>
       </section>
       <section class="banner">
         <div class="section-wrapper">
           <div class="banner-text">
-            <h3>Special Offer</h3>
-            <p>Get 50% off on your first purchase!</p>
+            <h3>LIMITED TIME SPECIAL OFFER!</h3>
+            <p>
+              <b>Get <span class="slash"> 0 </span>50% off</b> on your first
+              purchase!
+            </p>
+            <p class="highlighted">
+              <b>Don't miss out</b> — enjoy half off your first order when you
+              shop with us. Limited time only!
+            </p>
           </div>
           <div class="banner-btns">
-            <button class="cta-btn">Shop Now</button>
-            <button class="cta-btn">Learn More</button>
+            <button class="cta-btn" type="button">Shop Now</button>
+            <button class="cta-btn" type="button">Learn More</button>
           </div>
         </div>
-
       </section>
     </main>
+    <footer>
+      <div class="brand-logo">
+        <h4>zama-<span class="store">stores</span></h4>
+        <!-- <p></p> -->
+        <p class="highlighted">
+          Your one-stop <span class="styled">shop</span> for all your needs!
+        </p>
+        <a
+          href="https://maps.app.goo.gl/LsQcUJSDVMsrWA2u9"
+          target="_blank"
+          rel="noopener"
+          class="address"
+          >Lekki, Lagos Nigeria</a
+        >
+        <div class="socials">
+          <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" title="X fka Twitter"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><h5>Navigation</h5></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li><h5>Categories</h5></li>
+
+          <li><button data-category="all">All Products</button></li>
+          <li>
+            <button data-category="Electronics & Gadgets">
+              Electronics & Gadgets
+            </button>
+          </li>
+          <li>
+            <button data-category="Fashion & Apparel">Fashion & Apparel</button>
+          </li>
+          <li>
+            <button data-category="Home & Kitchen">Home & Kitchen</button>
+          </li>
+          <li>
+            <button data-category="Beauty & Personal Care">
+              Beauty & Personal Care
+            </button>
+          </li>
+          <li>
+            <button data-category="Groceries & Essentials">
+              Groceries & Essentials
+            </button>
+          </li>
+          <li>
+            <button data-category="Health & Wellness">Health & Wellness</button>
+          </li>
+          <li>
+            <button data-category="Computers & Office">
+              Computers & Office
+            </button>
+          </li>
+          <li>
+            <button data-category="Toys, Kids & Baby">Toys, Kids & Baby</button>
+          </li>
+          <li>
+            <button data-category="Automobile & Tools">
+              Automobile & Tools
+            </button>
+          </li>
+          <li>
+            <button data-category="Books & Stationery">
+              Books & Stationery
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li>
+            <h5>Scan:</h5>
+          </li>
+          <li><img src="images/qrcode/frame.png" alt="QR Code" /></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
