@@ -172,6 +172,7 @@ header form {
   border: var(--bd2) var(--bg-tertiary);
   padding-inline: var(--sp4) var(--sp2);
   border-radius: var(--bd-radius-3);
+  display: none;
 }
 form:focus-within {
   /* outline: var(--bd); */
@@ -978,8 +979,10 @@ footer {
   background-color: var(--bg-dark-primary);
   color: var(--txt-light);
   display: flex;
-  align-items: stretch;
+  align-items: start;
+  justify-content: center;
   gap: var(--sp5);
+  flex-wrap: wrap;
   @media screen and (max-width: 500px) {
     flex-direction: column;
   }
@@ -1023,7 +1026,7 @@ footer ul {
   gap: var(--sp2);
   margin-block: var(--sp4);
   max-width: fit-content;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .socials a {
   display: grid;
@@ -1062,8 +1065,27 @@ footer button {
   }
 }
 footer nav img {
-  width: min(20rem, 70%);
+  width: 100%;
 }
 footer > * {
-  border: var(--bd);
+  /* border: var(--bd); */
+}
+.qr-code {
+  max-width: min(20rem, 70%);
+  margin: var(--sp4) 0;
+}
+footer .brand-logo {
+  flex-grow: 1;
+}
+footer nav img {
+  cursor: pointer;
+  mix-blend-mode: multiply;
+  transition: border-radius var(--tran);
+  border-radius: 0;
+}
+footer nav img:hover,
+footer nav img:focus {
+  border-radius: var(--bd-radius-1);
+  /* filter: brightness(0.8); */
+  mix-blend-mode: normal;
 }

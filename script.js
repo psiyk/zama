@@ -5,7 +5,9 @@ const cartContainer = document.querySelector("ul.cart-section");
 const cartBtn = document.querySelectorAll(".cartBtn");
 const productWrapper = document.querySelector(".product-grid.product-section");
 const categoryHeading = document.getElementById("categoryHeading");
+const qrcode = document.querySelector(".qr-code img");
 
+qrcode.setAttribute("tabindex", "0");
 const headerHeight = header.offsetHeight;
 catnav.style.top = `${headerHeight}px`;
 
