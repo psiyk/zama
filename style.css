@@ -246,15 +246,15 @@ nav.cat-btns {
 button[id^="cat-"] {
   scroll-snap-align: start;
   padding: var(--gap-2);
-  /* min-width: rem; */
+
   min-width: 15rem;
   border-radius: var(--gap-1);
   border: none;
   border-bottom: var(--bd2) var(--txt-highlight);
 
-  font-weight: 500;
+  font-weight: 600;
   transition: background-color 0.3s;
-  /* background-color: var(--bg-secondary); */
+  color: var(--txt-primary);
   background-color: transparent;
 }
 
@@ -262,6 +262,7 @@ button[id^="cat-"]:first-child {
   margin-left: var(--vp-2);
 }
 button[id^="cat-"]:hover {
+  color: var(--txt-secondary);
   background-color: var(--bg-tertiary);
 }
 button[id^="cat-"]:active {
