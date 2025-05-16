@@ -276,3 +276,89 @@ window.addEventListener("click", (e) => {
 });
 // Start the program
 loadProducts();
+
+// Menu toggle logic
+const menuSection = document.querySelector(".menu");
+const menuBtn = document.querySelector(".menuBtn");
+const closeMenuBtn = document.querySelector(".closeMenuBtn");
+const displayCatBtn = document.getElementById("displayCatBtn");
+const catList = document.querySelector(".cats");
+// const categoryHeading = document.getElementById("categoryHeading");
+
+// 1. Open Menu
+if (menuBtn) {
+  menuBtn.addEventListener("click", () => {
+    menuSection.classList.add("active");
+    document.body.classList.add("blurred");
+  });
+}
+
+// 2. Close Menu
+if (closeMenuBtn) {
+  closeMenuBtn.addEventListener("click", () => {
+    menuSection.classList.remove("active");
+    document.body.classList.remove("blurred");
+  });
+}
+
+// 3. Toggle category dropdown inside menu
+if (displayCatBtn) {
+  displayCatBtn.addEventListener("click", () => {
+    catList.classList.toggle("active");
+  });
+}
+
+// 4. Category filter from menu
+const menuCatBtns = document.querySelectorAll(".cats button");
+
+menuCatBtns.forEach((btn) => {
+  btn.addEventListener("click", async () => {
+    const selectedCategory = btn.dataset.category;
+    const displayName = btn.textContent.trim();
+
+    // Clear product grid
+    productWrapper.innerHTML = "";
+
+    // Filter products
+    const filteredProducts =
+      selectedCategory === "all"
+        ? allProducts
+        : allProducts.filter((p) => p.category === selectedCategory);
+
+    // Render
+    for (const product of filteredProducts) {
+      const html = await createProductCard(product);
+      productWrapper.insertAdjacentHTML("beforeend", html);
+    }
+
+    // Update heading
+    if (categoryHeading) {
+      categoryHeading.textContent =
+        selectedCategory === "all" ? "All Products" : displayName;
+    }
+
+    // Rebind buttons
+    bindAddToCartButtons(filteredProducts);
+    bindViewButtons(filteredProducts);
+
+    // Close menu after selection (optional UX)
+    menuSection.classList.remove("active");
+    document.body.classList.remove("blurred");
+  });
+});
+// Toggle 'open' class on submenu uls within their li
+const menuToggleButtons = document.querySelectorAll(".menu li.nav1 > button");
+
+menuToggleButtons.forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    const parentLi = btn.closest("li");
+    const submenu = parentLi.querySelector("ul");
+
+    if (submenu) {
+      console.log(parentLi);
+      submenu.classList.toggle("open");
+    } else {
+      console.log("nOT fOUND");
+    }
+  });
+});

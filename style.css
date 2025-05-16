@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 :root {
+  interpolate-size: allow-keywords;
   --font-1: "Playfair Display", sans-serif;
   --font-3: "Plus Jakarta Sans", sans-serif;
   /* --font-3: "DM sans", sans-serif; */
@@ -217,6 +218,12 @@ header .btns button {
   border: none;
   padding: var(--sp2) var(--sp4);
   font-size: 1.25rem;
+  border-radius: var(--bd-radius-2);
+  transition: var(--tran);
+}
+button.userBtn {
+  color: var(--txt-muted) !important;
+  pointer-events: none;
 }
 header nav {
   gap: var(--gap-1);
@@ -731,12 +738,11 @@ section h4 {
   background-size: contain;
 }
 .modal-details .modal-img {
-  border: 1px solid #000;
   max-width: 30rem;
   width: 100%;
   min-width: 30rem;
   /* height: 100%; */
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   bottom: 0;
   /* background: black; */
@@ -766,7 +772,7 @@ section h4 {
   color: var(--txt-primary);
   padding: var(--sp2) var(--sp4);
   /* border-radius: var(--bd-radius-1); */
-  background-color: transparent;
+  background-color: var(--bg-primary);
   border: var(--bd2);
   cursor: pointer;
 }
@@ -776,7 +782,12 @@ section h4 {
   object-fit: cover;
   margin-inline: auto;
   display: block;
+  min-height: 20rem;
+  font-family: var(--font-1);
+  font-style: italic;
+  background-color: var(--bg-tertiary);
 }
+
 .modal-content h3 {
   font-size: var(--f-unit-5);
   font-weight: bold;
@@ -1128,12 +1139,16 @@ p.copyright {
 section.menu {
   display: none;
   display: block;
-  translate: 0;
   color: var(--txt-primary);
   overflow: auto;
-  border-left: 1px solid #000;
+  /* border-left: 1px solid #000; */
+  transition: translate var(--tran);
+}
+section.menu:active {
+  translate: 0;
 }
 .closeMenuBtn {
+  border: none;
 }
 .menu-title {
   display: flex;
@@ -1155,9 +1170,10 @@ section.menu {
   width: 100%;
   text-align: left;
   border-radius: var(--bd-radius-1);
-  font-weight: bold;
+  font-weight: 600;
   color: var(--txt-primary);
   padding: var(--sp4);
+  /* border: 1px solid #000; */
 }
 .menu-section button {
   background-color: transparent;
@@ -1180,18 +1196,34 @@ section.menu {
   display: grid;
   gap: var(--sp1);
   padding-left: var(--sp4);
-  display: none;
+}
+.menu-section li.nav1 > .nav2 {
+  /* display: none; */
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transition: var(--tran);
   /* width: calc(100% - var(--sp4)) !important; */
 }
 .menu-section p {
   color: var(--txt-secondary);
+  margin-left: -1rem;
 }
 .menu-section i {
-  display: inline-block;
   margin-left: var(--sp2);
+}
+.menu-section i:not(li ul li i) {
+  display: inline-block;
   rotate: -90deg;
   transition: rotate var(--tran), color var(--tran);
 }
 .menu-section li.active > nav2 {
   display: block;
+}
+.menu ul.nav2.open {
+  height: max-content;
+  overflow: hidden;
+  visibility: visible;
+  opacity: 1;
 }
