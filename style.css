@@ -254,7 +254,7 @@ button[id^="cat-"] {
 
   font-weight: 600;
   transition: background-color 0.3s;
-  color: var(--txt-primary);
+  color: var(--accent-taupe);
   background-color: transparent;
 }
 
@@ -262,7 +262,7 @@ button[id^="cat-"]:first-child {
   margin-left: var(--vp-2);
 }
 button[id^="cat-"]:hover {
-  color: var(--txt-secondary);
+  color: var(--txt-primary);
   background-color: var(--bg-tertiary);
 }
 button[id^="cat-"]:active {
@@ -318,25 +318,34 @@ h2 i {
 }
 .hero .cta-btns button,
 .hero .cta-btns a {
-  padding: var(--sp4) var(--sp9);
+  --outline-color: rgba(0, 0, 0, 0.1);
+  border: var(--bd) var(--outline-color);
+  padding: var(--sp4) var(--sp8);
+  border-radius: var(--bd-radius-4);
+  min-width: 10rem;
   text-align: center;
-  width: min(50%, 13.5rem);
-  font-size: var(--f-unit-4);
-  font-weight: 500;
-  border-radius: 2px;
-  border: var(--bd2);
-  background-color: var(--bg-secondary);
-  background-size: 300%;
-  background-position: center;
-  color: var(--txt-black);
-  transition: ease-in-out 0.3s;
-
+  box-shadow: 0px 1px 3px 0px var(--outline-color),
+    0px 1px 2px -1px var(--outline-color);
+  &:first-child {
+    --outline-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--bg-dark-primary);
+    color: var(--txt-light);
+    font-weight: 500;
+  }
+  &:last-child {
+    color: var(--txt-secondary);
+    font-weight: 600;
+  }
   &:hover,
   &:focus-within {
     translate: 0 -0.25rem;
     outline: none;
+    &:last-child {
+      color: var(--txt-primary);
+    }
   }
 }
+
 .hero .cta-btns a {
   color: var(--txt-black);
   background-color: var(--bg-primary);
@@ -986,6 +995,7 @@ p.highlighted {
 .banner-btns {
   gap: var(--sp4);
 }
+
 .banner-btns button.cta-btn {
   --outline-color: rgba(0, 0, 0, 0.1);
   border: var(--bd) var(--outline-color);
@@ -1105,9 +1115,6 @@ footer button {
 }
 footer nav img {
   width: 100%;
-}
-footer > * {
-  /* border: var(--bd); */
 }
 .qr-code {
   max-width: min(20rem, 70%);
