@@ -1042,10 +1042,6 @@ footer .highlighted {
   font-size: var(--sp4);
   /* letter-spacing: 0.5px; */
 }
-footer .brand-logo,
-footer ul {
-  /* border: var(--bd); */
-}
 footer .brand-logo > a {
   padding-inline: 0;
   color: var(--txt-light-tertiary);
