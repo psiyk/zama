@@ -317,7 +317,8 @@ h2 i {
   gap: var(--sp2);
 }
 .hero .cta-btns button,
-.hero .cta-btns a {
+.hero .cta-btns a,
+.about-page header .btn-1 {
   --outline-color: rgba(0, 0, 0, 0.1);
   border: var(--bd) var(--outline-color);
   padding: var(--sp4) var(--sp8);
@@ -346,7 +347,8 @@ h2 i {
   }
 }
 
-.hero .cta-btns a {
+.hero .cta-btns a,
+.about-page header button.btn-1 {
   color: var(--txt-black);
   background-color: var(--bg-primary);
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.05),
@@ -1229,4 +1231,30 @@ section.menu:active {
   overflow: hidden;
   visibility: visible;
   opacity: 1;
+}
+.about-page {
+  header nav ul {
+    display: flex;
+  }
+  header nav ul li a {
+    font-weight: 500;
+    color: var(--txt-secondary);
+    transition: color var(--tran), translate var(--tran);
+  }
+  header a:hover,
+  header a:focus {
+    translate: 0 -0.25rem;
+    color: var(--txt-primary);
+  }
+}
+.about-page header button.btn-1 {
+  /* color: var(--txt-light); */
+  --outline-color: var(--bg-tertiary);
+  background-color: var(--bg-primary) !important;
+  color: var(--txt-secondary);
+  font-weight: 600;
+  border: var(--bd) var(--bg-tertiary);
+}
+.not-shop {
+  max-width: 40rem;
 }
