@@ -9,7 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    \
+    <script
+      src="https://kit.fontawesome.com/5e4f2e6103.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
@@ -152,6 +155,99 @@
           <p>1000.00</p>
         </div>
       </div>
+    </section>
+    <section class="menu">
+      <div class="menu-title">
+        <h3>Menu</h3>
+        <button type="button" class="closeMenuBtn">Close</button>
+      </div>
+      <ul class="menu-section">
+        <li><a href="#home">Home</a></li>
+        <li>
+          <button id="displayCatBtn" class="menuCatBtn">
+            Categories <i class="fas fa-caret-down"></i>
+          </button>
+          <ul class="cats nav2">
+            <li><button data-category="all">All Products</button></li>
+            <li>
+              <button data-category="Electronics & Gadgets">
+                Electronics & Gadgets
+              </button>
+            </li>
+            <li>
+              <button data-category="Fashion & Apparel">
+                Fashion & Apparel
+              </button>
+            </li>
+            <li>
+              <button data-category="Home & Kitchen">Home & Kitchen</button>
+            </li>
+            <li>
+              <button data-category="Beauty & Personal Care">
+                Beauty & Personal Care
+              </button>
+            </li>
+            <li>
+              <button data-category="Groceries & Essentials">
+                Groceries & Essentials
+              </button>
+            </li>
+            <li>
+              <button data-category="Health & Wellness">
+                Health & Wellness
+              </button>
+            </li>
+            <li>
+              <button data-category="Computers & Office">
+                Computers & Office
+              </button>
+            </li>
+            <li>
+              <button data-category="Toys, Kids & Baby">
+                Toys, Kids & Baby
+              </button>
+            </li>
+            <li>
+              <button data-category="Automobile & Tools">
+                Automobile & Tools
+              </button>
+            </li>
+            <li>
+              <button data-category="Books & Stationery">
+                Books & Stationery
+              </button>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li class="active">
+          <button type="button" id="contactNavBtn">
+            Contact <i class="fas fa-caret-down"></i>
+          </button>
+          <ul class="contact-options nav2">
+            <li>
+              <a href="#">Email <i class="far fa-envelope-open"></i></a>
+            </li>
+            <li>
+              <a href="#">Phone <i class="fas fa-phone-flip"></i></a>
+            </li>
+            <li>
+              <p>Socials</p>
+              <ul class="nav2">
+                <li>
+                  <a href="#">Facebook <i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#">Twitter <i class="fab fa-x-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#">Instagram <i class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </section>
     <main>
       <section class="hero">
@@ -361,6 +457,7 @@
           <li><img src="images/qrcode/frame.png" alt="QR Code" /></li>
         </ul>
       </nav>
+      <p class="copyright">&copy; 2023 zama. All rights reserved.</p>
     </footer>
   </body>
 </html>
