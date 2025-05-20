@@ -335,7 +335,7 @@ h2 i {
 }
 .hero .cta-btns button,
 .hero .cta-btns a,
-.about-page header .btn-1,
+.not-shop header .btn-1,
 form button.btn-1 {
   --outline-color: rgba(0, 0, 0, 0.1);
   border: var(--bd) var(--outline-color);
@@ -1256,7 +1256,7 @@ section.menu:active {
   /* border-bottom-right-radius: var(--sp4);
   border-bottom-left-radius: var(--sp4); */
 }
-.about-page {
+.not-shop {
   header nav ul {
     display: flex;
   }
@@ -1271,7 +1271,7 @@ section.menu:active {
     color: var(--txt-primary);
   }
 }
-.about-page header button.btn-1 {
+.not-shop header button.btn-1 {
   /* color: var(--txt-light); */
   --outline-color: var(--bg-tertiary);
   background-color: var(--bg-primary) !important;
